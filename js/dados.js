@@ -15,10 +15,11 @@ async function buscar(caminho) {
 
 export async function carregarDados({ forcar = false } = {}) {
   if (cache && !forcar) return cache;
-  const [catalogo, precos, giftcards] = await Promise.all([
+  const [catalogo, precos, giftcards, cupons] = await Promise.all([
     buscar('dados/catalogo.json'),
     buscar('dados/precos.json').catch(() => ({ jogos: {}, extras: {}, promocoesSteam: [] })),
-    buscar('dados/giftcards.json').catch(() => ({ cartoes: [] }))
+    buscar('dados/giftcards.json').catch(() => ({ cartoes: [] })),
+    buscar('dados/cupons.json').catch(() => ({ cupons: [] }))
   ]);
 
   const doCatalogo = catalogo.jogos.map((base) => montarJogo(base, precos.jogos?.[base.id] ?? {}));
@@ -45,6 +46,7 @@ export async function carregarDados({ forcar = false } = {}) {
     promocoes,
     todos,
     cartoes,
+    cupons: cupons.cupons ?? [],
     atualizadoEm: precos.atualizadoEm ? new Date(precos.atualizadoEm) : null,
     fontes: (precos.fontes ?? ['steam']).map((f) => ({ steam: 'Steam', isthereanydeal: 'IsThereAnyDeal' })[f] ?? f),
     exemplo: precos.fonte !== 'robo'

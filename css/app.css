@@ -140,7 +140,7 @@ button { font: inherit; color: inherit; }
 .info { display: grid; gap: 6px; min-width: 0; }
 .info .nome { font-weight: 600; line-height: 1.25; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.chip { font-size: .72rem; padding: 2px 8px; border-radius: 999px; background: var(--superficie-2); color: var(--suave); border: 1px solid var(--borda); }
+.chip { white-space: nowrap; font-size: .72rem; padding: 2px 8px; border-radius: 999px; background: var(--superficie-2); color: var(--suave); border: 1px solid var(--borda); }
 .chip.suave { background: transparent; }
 .preco-resumo { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
 .preco-resumo strong { font-size: 1.1rem; color: var(--verde); }
@@ -216,7 +216,7 @@ button { font: inherit; color: inherit; }
 }
 .barra[hidden] { display: none; }
 .barra a {
-  flex: 0 1 140px; display: grid; place-content: center; justify-items: center;
+  flex: 0 1 110px; display: grid; place-content: center; justify-items: center;
   font-size: .75rem; color: var(--suave); gap: 2px;
 }
 .barra .ico { font-size: 1.3rem; line-height: 1; }
@@ -358,3 +358,64 @@ button { font: inherit; color: inherit; }
 .promocoes small { grid-column: 1 / -1; color: var(--suave); font-size: .74rem; }
 .promocoes b { color: var(--verde); }
 .vermelho { color: var(--vermelho); }
+
+/* =========================== Onda 3 · XP+ =========================== */
+:root { --xp: #ffc94d; }
+.marca-xp { font-weight: 900; letter-spacing: -.02em; color: var(--texto); }
+.marca-xp b { color: var(--xp); }
+.marca-xp.grande { font-size: 2.6rem; line-height: 1; }
+.barra .ico-xp { font-size: .78rem; font-weight: 900; letter-spacing: -.02em; line-height: 1.3rem; }
+.barra a.ativo .ico-xp { color: var(--xp); }
+.titulo-secao .troca { font-weight: 400; color: var(--suave); font-size: .78rem; margin-left: 6px; }
+
+.cartao-xp {
+  display: grid; gap: 6px; margin-top: 12px; padding: 14px;
+  background: linear-gradient(135deg, #ffc94d1c, var(--superficie));
+  border: 1px solid #ffc94d66; border-radius: var(--raio);
+}
+.cartao-xp .xp-titulo { font-weight: 700; display: flex; align-items: center; gap: 8px; }
+.cartao-xp small { color: var(--suave); font-size: .78rem; }
+.cartao-xp.chamada .botao { justify-self: start; margin-top: 4px; background: var(--xp); border-color: var(--xp); color: #2b1d00; }
+.cartao-xp.inicio { margin: 14px 0 0; }
+.cartao-xp.inicio p:last-child { color: var(--suave); font-size: .9rem; }
+.preco-xp { color: var(--xp); font-size: .78rem; font-weight: 600; }
+.oferta .preco-xp { grid-column: 1 / -1; margin-top: -2px; padding-top: 8px; border-top: 1px dashed #ffc94d44; }
+.item-jogo.xp { border-color: #ffc94d55; }
+.item-jogo.xp s { color: var(--suave); font-size: .8rem; }
+
+.xp-topo { text-align: center; display: grid; gap: 6px; justify-items: center; margin-bottom: 16px; }
+.cartao-plano {
+  display: grid; gap: 12px; padding: 18px;
+  background: linear-gradient(160deg, #ffc94d22, var(--superficie) 60%);
+  border: 1px solid #ffc94d77; border-radius: var(--raio);
+}
+.preco-plano { text-align: center; color: var(--suave); }
+.preco-plano strong { font-size: 2rem; color: var(--texto); }
+.beneficios { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.beneficios li { display: grid; grid-template-columns: 28px 1fr; gap: 10px; align-items: center; }
+.cartao-plano .botao.principal { background: var(--xp); border-color: var(--xp); color: #2b1d00; }
+.aviso-mvp { color: var(--suave); font-size: .76rem; text-align: center; line-height: 1.35; margin-top: 10px; }
+
+.cupons { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.cupom {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  background: var(--superficie); border: 1px dashed #ffc94d66; border-radius: 12px; padding: 12px;
+}
+.cupom div { display: grid; gap: 2px; min-width: 0; }
+.cupom small { color: var(--suave); font-size: .76rem; }
+.cupom em { color: var(--xp); font-style: normal; }
+.codigo {
+  flex: none; font: 700 .85rem ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .04em;
+  padding: 8px 10px; border-radius: 10px; cursor: pointer;
+  background: #ffc94d1f; color: var(--xp); border: 1px solid #ffc94d77;
+}
+.codigo.bloqueado { cursor: default; color: var(--suave); background: var(--superficie-2); border-color: var(--borda); }
+
+.cartao-xp-conta {
+  display: flex; align-items: center; gap: 12px; margin-top: 12px; padding: 14px;
+  background: var(--superficie); border: 1px solid #ffc94d55; border-radius: var(--raio);
+}
+.cartao-xp-conta > span:nth-child(2) { display: grid; flex: 1; }
+.cartao-xp-conta small { color: var(--suave); }
+.cartao-xp-conta .marca-xp { font-size: 1.3rem; }
+.cartao-xp-conta .seta { font-size: 1.6rem; color: var(--xp); }

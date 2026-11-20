@@ -1,0 +1,37 @@
+{
+  "_comoEditar": "Cupons exclusivos do XP+. 'loja' usa o id do app (steam, nuuvem, epic, gog, gmg, fanatical, mercadolivre, amazon...). 'percentual' vai de 0 a 1 (0.10 = 10%). 'validade' no formato AAAA-MM-DD. Enquanto 'exemplo' for true, o app mostra o cupom como simulado (parceria ainda não fechada com a loja). Quando o grupo tiver um cupom real, troque o código e mude 'exemplo' para false.",
+  "cupons": [
+    {
+      "codigo": "XP10NUUVEM",
+      "loja": "nuuvem",
+      "percentual": 0.10,
+      "descricao": "10% em jogos de PC na Nuuvem",
+      "validade": "2026-12-31",
+      "exemplo": true
+    },
+    {
+      "codigo": "XP7GMG",
+      "loja": "gmg",
+      "percentual": 0.07,
+      "descricao": "7% em jogos na Green Man Gaming",
+      "validade": "2026-12-31",
+      "exemplo": true
+    },
+    {
+      "codigo": "XPML6",
+      "loja": "mercadolivre",
+      "percentual": 0.06,
+      "descricao": "6% em games no Mercado Livre",
+      "validade": "2026-12-31",
+      "exemplo": true
+    },
+    {
+      "codigo": "XP5AMAZON",
+      "loja": "amazon",
+      "percentual": 0.05,
+      "descricao": "5% em jogos de console na Amazon",
+      "validade": "2026-12-31",
+      "exemplo": true
+    }
+  ]
+}

@@ -85,6 +85,16 @@ export function usuarioAtual() {
   return email ? ler(CHAVE_USUARIOS, {})[email] ?? null : null;
 }
 
+/** Altera dados do usuário logado (ex.: assinatura) e devolve o usuário atualizado. */
+export function atualizarUsuario(mudancas) {
+  const email = ler(CHAVE_SESSAO, null);
+  const usuarios = ler(CHAVE_USUARIOS, {});
+  if (!email || !usuarios[email]) return null;
+  usuarios[email] = { ...usuarios[email], ...mudancas };
+  gravar(CHAVE_USUARIOS, usuarios);
+  return usuarios[email];
+}
+
 /** Cria a conta de demonstração usada na apresentação, se ainda não existir. */
 export async function garantirUsuarioDemo() {
   const usuarios = ler(CHAVE_USUARIOS, {});

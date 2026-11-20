@@ -14,7 +14,7 @@ Conta de demonstração: `demo@xpbarato.com` / `123456`
 |---|---|---|
 | 1 | Tela de login · Links para as promoções · Comparativo entre lojas | ✅ pronta |
 | 2 | Buscador de jogos · Gráfico de histórico de preço · Selo de gift card | ✅ pronta |
-| 3 | Assinatura: descontos diários · Assinatura: cupons exclusivos | em breve |
+| 3 | Assinatura: descontos diários · Assinatura: cupons exclusivos | ✅ pronta (simulada no MVP) |
 | 4 | Cashback na primeira compra · Notificações de promoções | em breve |
 
 ## Como os preços ficam atualizados (o robô)
@@ -40,6 +40,18 @@ Abra [`dados/giftcards.json`](dados/giftcards.json), confira o preço do cartão
 troque o `preco` e coloque a data em `conferidoEm` (ex.: `"2026-11-25"`). O app mostra o selo quando comprar o
 gift card e usar o crédito na loja oficial deixa o jogo pelo menos R$ 5 mais barato.
 
+## Assinatura XP+ (Onda 3)
+
+Mesmas regras do `AssinaturaService` do protótipo Java: plano único de **R$ 9,90/mês**, **3 ofertas do dia** com
++5% de desconto (sorteadas pela data, iguais para todos e trocadas à meia-noite) e **cupons exclusivos** por loja.
+Preço para assinante = preço da loja × (1 − 5% se for oferta do dia) × (1 − cupom da loja).
+
+No MVP **nada é cobrado** e os descontos e cupons aparecem como **simulados**, porque as parcerias com as lojas ainda
+não existem. Cada assinatura é registrada como evento (`assinou-xp`) para a métrica do Canvas.
+
+Os cupons ficam em [`dados/cupons.json`](dados/cupons.json). Quando houver um cupom real, troque o código e mude
+`exemplo` para `false`.
+
 ## Como adicionar um jogo
 
 Edite `dados/catalogo.json`, copie um bloco e troque os dados. O `steamAppId` é o número do link da Steam
@@ -51,7 +63,8 @@ Edite `dados/catalogo.json`, copie um bloco e troque os dados. O `steamAppId` é
 index.html, css/, js/       o app (HTML, CSS e JavaScript, sem servidor)
   js/auth.js                login e cadastro (senha guardada como SHA-256 + salt, no próprio aparelho)
   js/dados.js               junta catálogo + preços do robô; busca, selo de gift card e veredito
-  js/grafico.js             gráfico de histórico de preço (SVG)
+  js/grafico.js             gráfico de histórico de preço (SVG interativo)
+  js/assinatura.js          XP+: ofertas do dia, cupons e preço para assinante
   js/lojas.js               lojas e links de busca
   js/metricas.js            eventos do piloto (cliques nas lojas, cadastros)
 manifest.webmanifest, sw.js deixam o app instalável e funcionando sem internet

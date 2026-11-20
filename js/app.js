@@ -10,6 +10,7 @@ import {
 import { graficoDePreco, ativarGrafico } from './grafico.js';
 import { LOJAS, PLATAFORMAS, linkDeBusca, nomeDaLoja } from './lojas.js';
 import { registrarEvento } from './metricas.js';
+import * as xp from './assinatura.js';
 
 const app = document.getElementById('app');
 const barra = document.getElementById('barra');
@@ -177,6 +178,7 @@ async function telaInicio() {
     <a class="campo-busca falso" href="#/buscar"><span aria-hidden="true">⌕</span>Buscar</a>
     ${status}
     ${instalar}
+    ${cartaoXpInicio(dados)}
     ${vitrine('Promoções do dia na Steam', dados.promocoes)}
     ${vitrine('Mais vendidos na Steam', maisVendidos)}
     <h2 class="titulo-secao">Jogos monitorados</h2>
@@ -263,6 +265,10 @@ async function telaJogo(id) {
     return;
   }
   registrarEvento('ver-jogo', { titulo: jogo.nome });
+  const assinante = xp.ehAssinante();
+  const idsDoDia = new Set(xp.ofertasDoDia(dados).map((j) => j.id));
+  const ofertaDoDia = idsDoDia.has(jogo.id);
+  const melhorXp = xp.melhorPrecoXp(dados, jogo, idsDoDia);
 
   const comPreco = jogo.ofertas;
   const lojasComPreco = new Set(comPreco.map((o) => o.loja));
@@ -280,6 +286,7 @@ async function telaJogo(id) {
         <span>${o.desconto > 0 ? `<em class="desconto">-${o.desconto}%</em>` : ''}<strong>${formatarPreco(o.preco)}</strong></span>
       </div>
       <a class="botao ir" href="${esc(o.url || linkDeBusca(o.loja, jogo.nome))}" target="_blank" rel="noopener" data-loja="${esc(o.loja)}">Ir à loja</a>
+      ${assinante ? linhaXp(xp.precoXp(dados, jogo, o, idsDoDia)) : ''}
     </li>`;
 
   const linhaSemPreco = (lojaId) => `
@@ -327,6 +334,7 @@ async function telaJogo(id) {
                <ul class="ofertas">${comPreco.slice(LOJAS_VISIVEIS).map((o, i) => linhaComPreco(o, i + LOJAS_VISIVEIS)).join('')}</ul>
              </details>` : ''}`
         : `<p class="meta">Ainda não monitoramos o preço deste jogo. Confira direto nas lojas:</p>`}
+      ${blocoXp(jogo, { assinante, ofertaDoDia, melhorXp })}
       ${blocoSelo}
       <div id="historico"></div>
       ${semPreco.length ? `
@@ -422,6 +430,146 @@ async function mostrarHistorico(jogo) {
   desenhar();
 }
 
+// ------------------------------------------------------------------ XP+ (Onda 3)
+
+const AVISO_MVP = 'MVP em teste: nenhuma cobrança é feita e os descontos e cupons são simulados até o XP Barato fechar parcerias com as lojas.';
+
+/** Texto "XP+ R$ 71,22 · cupom XP10NUUVEM" embaixo do preço, para assinantes. */
+function linhaXp(info) {
+  if (!info) return '';
+  const motivos = [info.doDia ? 'oferta do dia' : null, info.cupom ? `cupom ${info.cupom.codigo}` : null].filter(Boolean).join(' + ');
+  return `<small class="preco-xp">XP+ ${formatarPreco(info.preco)} · ${esc(motivos)}</small>`;
+}
+
+function blocoXp(jogo, { assinante, ofertaDoDia, melhorXp }) {
+  if (assinante) {
+    return ofertaDoDia
+      ? `<section class="cartao-xp"><p class="xp-titulo"><span class="marca-xp">XP<b>+</b></span> Oferta do dia</p>
+           <p>Hoje este jogo tem <strong>+5% de desconto</strong> para assinantes${melhorXp ? `: sai por <strong class="verde">${formatarPreco(melhorXp.preco)}</strong> na ${esc(nomeDaLoja(melhorXp.oferta))}` : ''}.</p>
+           <small>Troca em ${esc(xp.tempoAteTrocar())}. Desconto simulado no MVP.</small></section>`
+      : '';
+  }
+  if (!melhorXp) return '';
+  return `
+    <a class="cartao-xp chamada" href="#/xp">
+      <p class="xp-titulo"><span class="marca-xp">XP<b>+</b></span> Com XP+ sai mais barato</p>
+      <p>Assinantes pagam <strong class="verde">${formatarPreco(melhorXp.preco)}</strong> na ${esc(nomeDaLoja(melhorXp.oferta))}
+        (economia de ${formatarPreco(melhorXp.economia)})${melhorXp.doDia ? ', porque hoje ele é oferta do dia' : ''}.</p>
+      <span class="botao principal">Conhecer o XP+ · ${formatarPreco(xp.PRECO_MENSAL)}/mês</span>
+    </a>`;
+}
+
+function cartaoXpInicio(dados) {
+  const doDia = xp.ofertasDoDia(dados);
+  if (!doDia.length) return '';
+  const ids = new Set(doDia.map((j) => j.id));
+  if (!xp.ehAssinante()) {
+    return `
+      <a class="cartao-xp chamada inicio" href="#/xp">
+        <p class="xp-titulo"><span class="marca-xp">XP<b>+</b></span> Pague ainda menos</p>
+        <p>3 ofertas por dia com +5% de desconto e cupons exclusivos por ${formatarPreco(xp.PRECO_MENSAL)}/mês.</p>
+      </a>`;
+  }
+  return `
+    <h2 class="titulo-secao"><span class="marca-xp">XP<b>+</b></span> Ofertas do dia <small class="troca">trocam em ${esc(xp.tempoAteTrocar())}</small></h2>
+    <ul class="lista-jogos">${doDia.map((j) => itemOfertaDoDia(dados, j, ids)).join('')}</ul>`;
+}
+
+function itemOfertaDoDia(dados, j, ids) {
+  const melhor = xp.melhorPrecoXp(dados, j, ids);
+  return `
+    <li><a class="item-jogo xp" href="#/jogo/${esc(j.id)}">
+      ${capa(j)}
+      <div class="info">
+        <span class="nome">${esc(j.nome)}</span>
+        <div class="preco-resumo"><s>${formatarPreco(j.melhorOferta.preco)}</s>
+          <strong class="verde">${formatarPreco(melhor?.preco ?? j.melhorOferta.preco)}</strong>
+          <small>na ${esc(nomeDaLoja(melhor?.oferta ?? j.melhorOferta))}</small></div>
+      </div>
+    </a></li>`;
+}
+
+async function telaXp() {
+  const dados = await carregarDados();
+  const usuario = auth.usuarioAtual();
+  const assinante = xp.ehAssinante(usuario);
+  const doDia = xp.ofertasDoDia(dados);
+  const ids = new Set(doDia.map((j) => j.id));
+  const cupons = xp.cuponsValidos(dados);
+
+  const listaCupons = cupons.map((c) => `
+    <li class="cupom">
+      <div>
+        <strong>${esc(c.descricao)}</strong>
+        <small>${esc(LOJAS[c.loja]?.nome ?? c.loja)} · válido até ${esc(formatarDiaCurto(c.validade))}${c.exemplo ? ' · <em>simulado</em>' : ''}</small>
+      </div>
+      ${assinante
+        ? `<button class="codigo" data-copiar="${esc(c.codigo)}" aria-label="Copiar o código ${esc(c.codigo)}">${esc(c.codigo)} <span aria-hidden="true">⧉</span></button>`
+        : `<span class="codigo bloqueado" aria-label="Disponível para assinantes">•••••• 🔒</span>`}
+    </li>`).join('');
+
+  app.innerHTML = `
+    <header class="topo xp-topo">
+      <p class="ola">${assinante ? `Assinante desde ${esc(formatarDiaCurto(usuario.assinanteDesde))}` : 'Assinatura'}</p>
+      <h1><span class="marca-xp grande">XP<b>+</b></span></h1>
+      <p class="meta">Para quem quer pagar o mínimo possível nos jogos.</p>
+    </header>
+    ${assinante ? '' : `
+      <section class="cartao-plano">
+        <p class="preco-plano"><strong>${formatarPreco(xp.PRECO_MENSAL)}</strong> por mês</p>
+        <ul class="beneficios">
+          <li><span aria-hidden="true">🎮</span><span>3 ofertas por dia com <strong>+5% de desconto</strong></span></li>
+          <li><span aria-hidden="true">🏷️</span><span><strong>Cupons exclusivos</strong> nas lojas parceiras</span></li>
+          <li><span aria-hidden="true">💸</span><span>Cashback na primeira compra <span class="chip">em breve</span></span></li>
+        </ul>
+        <button class="botao principal largo" data-assinar>Assinar o XP+</button>
+        <p class="aviso-mvp">${AVISO_MVP}</p>
+      </section>`}
+    <h2 class="titulo-secao">Ofertas do dia <small class="troca">trocam em ${esc(xp.tempoAteTrocar())}</small></h2>
+    <ul class="lista-jogos">${doDia.map((j) => itemOfertaDoDia(dados, j, ids)).join('')}</ul>
+    <h2 class="titulo-secao">Cupons exclusivos</h2>
+    <ul class="cupons">${listaCupons || '<li class="meta">Nenhum cupom válido no momento.</li>'}</ul>
+    ${assinante ? `
+      <p class="aviso-mvp">${AVISO_MVP}</p>
+      <button class="botao secundario largo" data-cancelar>Cancelar assinatura</button>` : ''}`;
+
+  app.querySelector('[data-assinar]')?.addEventListener('click', () => {
+    xp.assinar();
+    mostrarAviso('Bem-vindo ao XP+! 🎉');
+    telaXp();
+  });
+  app.querySelector('[data-cancelar]')?.addEventListener('click', () => {
+    if (!confirmarCancelamento()) return;
+    xp.cancelar();
+    mostrarAviso('Assinatura cancelada.');
+    telaXp();
+  });
+  app.querySelectorAll('[data-copiar]').forEach((b) => b.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(b.dataset.copiar);
+      mostrarAviso(`Código ${b.dataset.copiar} copiado`);
+    } catch {
+      mostrarAviso(`Código: ${b.dataset.copiar}`);
+    }
+    registrarEvento('copiou-cupom', { titulo: b.dataset.copiar });
+  }));
+}
+
+/** Segundo toque confirma o cancelamento (sem caixa de diálogo do navegador). */
+function confirmarCancelamento() {
+  const botao = app.querySelector('[data-cancelar]');
+  if (botao.dataset.confirmar) return true;
+  botao.dataset.confirmar = '1';
+  botao.textContent = 'Toque de novo para confirmar';
+  setTimeout(() => {
+    if (botao.isConnected) {
+      delete botao.dataset.confirmar;
+      botao.textContent = 'Cancelar assinatura';
+    }
+  }, 4000);
+  return false;
+}
+
 // ------------------------------------------------------------------ conta
 
 function telaConta() {
@@ -432,10 +580,17 @@ function telaConta() {
       <div class="avatar" style="--h:${corDoNome(usuario.nome)}">${esc(iniciais(usuario.nome))}</div>
       <div><strong>${esc(usuario.nome)}</strong><small>${esc(usuario.email)}</small></div>
     </section>
+    <a class="cartao-xp-conta" href="#/xp">
+      <span class="marca-xp">XP<b>+</b></span>
+      <span>${xp.ehAssinante(usuario)
+        ? `<strong>Assinante XP+</strong><small>desde ${esc(formatarDiaCurto(usuario.assinanteDesde))}</small>`
+        : `<strong>Conheça o XP+</strong><small>ofertas do dia e cupons exclusivos</small>`}</span>
+      <span class="seta" aria-hidden="true">›</span>
+    </a>
     ${pedidoDeInstalacao && !estaInstalado() ? '<button class="botao principal largo" data-instalar>Instalar o app no celular</button>' : ''}
     ${estaInstalado() ? '<p class="meta centro">App instalado neste aparelho ✔</p>' : ''}
     <button class="botao secundario largo" data-sair>Sair</button>
-    <p class="rodape-login">XP Barato · MVP Onda 2<br>Trabalho de APS · protótipo acadêmico</p>`;
+    <p class="rodape-login">XP Barato · MVP Onda 3<br>Trabalho de APS · protótipo acadêmico</p>`;
   app.querySelector('[data-sair]').addEventListener('click', () => {
     auth.sair();
     location.hash = '#/login';
@@ -461,13 +616,14 @@ async function rotear() {
   window.scrollTo(0, 0);
   barra.hidden = rota === 'login';
   const aba = rota === 'jogo' ? (barra.dataset.ultima ?? 'inicio') : rota;
-  if (['inicio', 'buscar', 'conta'].includes(rota)) barra.dataset.ultima = rota;
+  if (['inicio', 'buscar', 'xp', 'conta'].includes(rota)) barra.dataset.ultima = rota;
   barra.querySelectorAll('a').forEach((a) => a.classList.toggle('ativo', a.dataset.aba === aba));
 
   try {
     if (rota === 'login') await telaLogin();
     else if (rota === 'jogo') await telaJogo(decodeURIComponent(parametro ?? ''));
     else if (rota === 'buscar') await telaBuscar();
+    else if (rota === 'xp') await telaXp();
     else if (rota === 'conta') telaConta();
     else await telaInicio();
   } catch (erro) {

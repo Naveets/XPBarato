@@ -4,12 +4,13 @@
 // Quando uma versão nova do app é publicada, as telas abertas recarregam sozinhas.
 // Ao mudar o app, aumente a VERSAO.
 
-const VERSAO = 'xpbarato-onda2-v6';
+const VERSAO = 'xpbarato-onda3-v1';
 const ARQUIVOS_DO_APP = [
   './',
   './index.html',
   './css/app.css',
   './js/app.js',
+  './js/assinatura.js',
   './js/auth.js',
   './js/dados.js',
   './js/grafico.js',
