@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T18:30:58.801Z",
+  "atualizadoEm": "2026-11-20T18:34:23.329Z",
   "fonte": "robo",
   "fontes": [
     "steam",
@@ -51,7 +51,7 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "blizzard",
+          "loja": "battlenet",
           "lojaNome": "Blizzard",
           "preco": 199.9,
           "precoOriginal": 199.9,
@@ -69,7 +69,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-2997-7131-b8b9-7c8af4825fa8"
     },
     "elden-ring": {
@@ -109,7 +109,7 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-us",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
           "preco": 321.16,
           "precoOriginal": 356.86,
@@ -163,7 +163,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-590c-728b-ac35-38bcff85f086"
     },
     "hogwarts-legacy": {
@@ -250,7 +250,7 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-us",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
           "preco": 34.32,
           "precoOriginal": 356.86,
@@ -274,33 +274,6 @@
           "precoOriginal": 356.86,
           "desconto": 90,
           "url": "https://itad.link/019f13d5-1257-71bf-b78f-86bc2340527e/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-de",
-          "lojaNome": "GamesPlanet DE",
-          "preco": 37.36,
-          "precoOriginal": 391.85,
-          "desconto": 90,
-          "url": "https://itad.link/018d9386-759a-73d4-80de-6b945987070b/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-fr",
-          "lojaNome": "GamesPlanet FR",
-          "preco": 37.36,
-          "precoOriginal": 391.85,
-          "desconto": 90,
-          "url": "https://itad.link/018d9386-759b-72ad-8ee0-19724765f035/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-uk",
-          "lojaNome": "GamesPlanet UK",
-          "preco": 37.8,
-          "precoOriginal": 389.65,
-          "desconto": 90,
-          "url": "https://itad.link/018d9386-759a-73d4-80de-6b94586499ba/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -339,7 +312,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-6144-7057-ad1c-0e99a3a71797"
     },
     "red-dead-redemption-2": {
@@ -397,7 +370,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-3a3b-7210-bd2d-0d1dfb1d84c0"
     },
     "god-of-war-ragnarok": {
@@ -483,30 +456,12 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-uk",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet UK",
           "preco": 241.55,
           "precoOriginal": 389.65,
           "desconto": 38,
           "url": "https://itad.link/018fcdca-7dfb-7351-a91f-b6f8dd099591/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-de",
-          "lojaNome": "GamesPlanet DE",
-          "preco": 244.16,
-          "precoOriginal": 391.85,
-          "desconto": 38,
-          "url": "https://itad.link/018ff4c5-d431-7365-9969-7c145c641c79/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-fr",
-          "lojaNome": "GamesPlanet FR",
-          "preco": 244.16,
-          "precoOriginal": 391.85,
-          "desconto": 38,
-          "url": "https://itad.link/018ff4c5-b68e-72ca-a36a-7b367a49aa2b/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -528,7 +483,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-6bca-706d-9e69-8316170c379b"
     },
     "forza-horizon-5": {
@@ -571,7 +526,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-51cf-71a2-8359-bde443177de4"
     },
     "zelda-tears-of-the-kingdom": {
@@ -620,7 +575,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d9584-24d6-7010-b82b-df1f0b154cc7"
     },
     "hades-ii": {
@@ -661,7 +616,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-6ee3-738a-b578-ddd7e9a0d24d"
     },
     "stardew-valley": {
@@ -702,7 +657,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937e-f835-710c-b95b-928e277b187e"
     },
     "ea-sports-fc-26": {
@@ -733,7 +688,7 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "ea-store",
+          "loja": "ea",
           "lojaNome": "EA Store",
           "preco": 125,
           "precoOriginal": 125,
@@ -751,7 +706,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019813f7-6d79-70fa-aae9-bae99fd48dd1"
     },
     "monster-hunter-wilds": {
@@ -810,7 +765,7 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-us",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
           "preco": 214.09,
           "precoOriginal": 237.88,
@@ -825,24 +780,6 @@
           "precoOriginal": 237.88,
           "desconto": 8,
           "url": "https://itad.link/01944c6c-8501-7207-88d5-79cfb2f199d1/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-fr",
-          "lojaNome": "GamesPlanet FR",
-          "preco": 235.08,
-          "precoOriginal": 261.21,
-          "desconto": 10,
-          "url": "https://itad.link/01922d13-bda2-7016-992f-66955f484e6d/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-de",
-          "lojaNome": "GamesPlanet DE",
-          "preco": 235.08,
-          "precoOriginal": 261.21,
-          "desconto": 10,
-          "url": "https://itad.link/01922d13-d759-72ac-a8c3-d38d93ce9a14/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -871,18 +808,9 @@
           "desconto": 0,
           "url": "https://itad.link/01929a91-cba4-73f1-a045-6264e8b31456/?app=a2bv1b",
           "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-uk",
-          "lojaNome": "GamesPlanet UK",
-          "preco": 245.45,
-          "precoOriginal": 272.73,
-          "desconto": 10,
-          "url": "https://itad.link/01922d13-b154-7234-ad4a-edc1f36c1a4f/?app=a2bv1b",
-          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-7a06-7082-ae40-6a37d855cb32"
     },
     "persona-5-royal": {
@@ -930,7 +858,7 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-us",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
           "preco": 102.26,
           "precoOriginal": 356.86,
@@ -957,7 +885,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-4adb-73a6-a9e5-94ff62f6265b"
     },
     "hollow-knight-silksong": {
@@ -1016,7 +944,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-1e67-708d-989d-b38bde2520fb"
     },
     "grand-theft-auto-v": {
@@ -1058,39 +986,12 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-us",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
           "preco": 83.22,
           "precoOriginal": 178.4,
           "desconto": 53,
           "url": "https://itad.link/018d9386-6e3b-73a3-b41e-eba319a2b155/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-fr",
-          "lojaNome": "GamesPlanet FR",
-          "preco": 91.38,
-          "precoOriginal": 195.89,
-          "desconto": 53,
-          "url": "https://itad.link/018d9386-6e3b-73a3-b41e-eba318e6955c/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-de",
-          "lojaNome": "GamesPlanet DE",
-          "preco": 91.38,
-          "precoOriginal": 195.89,
-          "desconto": 53,
-          "url": "https://itad.link/018d9386-6e3b-73a3-b41e-eba3187c33e1/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-uk",
-          "lojaNome": "GamesPlanet UK",
-          "preco": 109.05,
-          "precoOriginal": 233.76,
-          "desconto": 53,
-          "url": "https://itad.link/018d9386-6e3b-73a3-b41e-eba317938d23/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -1120,7 +1021,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019548b5-653e-7101-ae11-8f0bfbd15ee6"
     }
   },
@@ -1138,7 +1039,7 @@
       "origem": [
         "mais-vendidos"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1149,7 +1050,7 @@
           "fonte": "steam"
         },
         {
-          "loja": "ea-store",
+          "loja": "ea",
           "lojaNome": "EA Store",
           "preco": 149.5,
           "precoOriginal": 299,
@@ -1176,7 +1077,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019f8fc2-975c-734e-92e6-7d99a6c5996a"
     },
     "steam-1593500": {
@@ -1194,7 +1095,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "nuuvem",
@@ -1268,21 +1169,12 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-us",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
           "preco": 111.3,
           "precoOriginal": 297.37,
           "desconto": 63,
           "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-uk",
-          "lojaNome": "GamesPlanet UK",
-          "preco": 116.84,
-          "precoOriginal": 311.7,
-          "desconto": 63,
-          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e6872ef7e9/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -1292,24 +1184,6 @@
           "precoOriginal": 297.37,
           "desconto": 60,
           "url": "https://itad.link/018d9584-f037-7016-8564-8d3de3d757d7/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-de",
-          "lojaNome": "GamesPlanet DE",
-          "preco": 122.21,
-          "precoOriginal": 326.53,
-          "desconto": 63,
-          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e688479c7e/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-fr",
-          "lojaNome": "GamesPlanet FR",
-          "preco": 122.21,
-          "precoOriginal": 326.53,
-          "desconto": 63,
-          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e6874f53ec/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -1331,7 +1205,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-4964-7357-a557-f04dac608915"
     },
     "steam-2215430": {
@@ -1348,7 +1222,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "nuuvem",
@@ -1413,7 +1287,7 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-us",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
           "preco": 166.26,
           "precoOriginal": 356.86,
@@ -1440,33 +1314,6 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-uk",
-          "lojaNome": "GamesPlanet UK",
-          "preco": 181.85,
-          "precoOriginal": 389.65,
-          "desconto": 53,
-          "url": "https://itad.link/018e65d6-39e1-73d6-9549-f2e88a08fdd6/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-de",
-          "lojaNome": "GamesPlanet DE",
-          "preco": 182.57,
-          "precoOriginal": 391.85,
-          "desconto": 53,
-          "url": "https://itad.link/018e65d6-52e5-7186-bfe8-9929d74336ec/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-fr",
-          "lojaNome": "GamesPlanet FR",
-          "preco": 182.57,
-          "precoOriginal": 391.85,
-          "desconto": 53,
-          "url": "https://itad.link/018e65d6-4696-7094-bd11-0bd432c58c44/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
           "loja": "gamesload",
           "lojaNome": "Gamesload",
           "preco": 249.9,
@@ -1485,7 +1332,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018e147e-9b32-7025-90af-981a785efddf"
     },
     "steam-1426210": {
@@ -1502,7 +1349,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1513,7 +1360,7 @@
           "fonte": "steam"
         },
         {
-          "loja": "ea-store",
+          "loja": "ea",
           "lojaNome": "EA Store",
           "preco": 39.8,
           "precoOriginal": 199,
@@ -1531,7 +1378,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-4a27-72c8-9837-8ec5e5e92932"
     },
     "steam-1817070": {
@@ -1549,7 +1396,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "nuuvem",
@@ -1614,7 +1461,7 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-us",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
           "preco": 133.19,
           "precoOriginal": 356.86,
@@ -1641,33 +1488,6 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-uk",
-          "lojaNome": "GamesPlanet UK",
-          "preco": 145.84,
-          "precoOriginal": 389.65,
-          "desconto": 63,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-2325091ef880/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-de",
-          "lojaNome": "GamesPlanet DE",
-          "preco": 146.38,
-          "precoOriginal": 391.85,
-          "desconto": 63,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-23250a2fb7d9/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-fr",
-          "lojaNome": "GamesPlanet FR",
-          "preco": 146.38,
-          "precoOriginal": 391.85,
-          "desconto": 63,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-2325096ff3fd/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
           "loja": "gamesload",
           "lojaNome": "Gamesload",
           "preco": 249.9,
@@ -1686,7 +1506,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-6136-71e4-a7d4-088a2e8f58ad"
     },
     "steam-2531310": {
@@ -1703,7 +1523,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "nuuvem",
@@ -1759,7 +1579,7 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-uk",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet UK",
           "preco": 194.79,
           "precoOriginal": 311.7,
@@ -1786,24 +1606,6 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-de",
-          "lojaNome": "GamesPlanet DE",
-          "preco": 202.43,
-          "precoOriginal": 326.53,
-          "desconto": 38,
-          "url": "https://itad.link/01948e7a-4758-70fa-ba97-b00da82afa86/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-fr",
-          "lojaNome": "GamesPlanet FR",
-          "preco": 202.43,
-          "precoOriginal": 326.53,
-          "desconto": 38,
-          "url": "https://itad.link/01948e7a-320f-7355-b800-b2f454d33932/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
           "loja": "fanatical",
           "lojaNome": "Fanatical",
           "preco": 297.37,
@@ -1813,7 +1615,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-7b20-72f6-a2de-dc2ff64bae95"
     },
     "steam-1259420": {
@@ -1830,7 +1632,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "nuuvem",
@@ -1904,7 +1706,7 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet-us",
+          "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
           "preco": 73.88,
           "precoOriginal": 237.88,
@@ -1928,33 +1730,6 @@
           "precoOriginal": 237.88,
           "desconto": 67,
           "url": "https://itad.link/018d9584-8592-715b-af11-7d8a0082d605/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-de",
-          "lojaNome": "GamesPlanet DE",
-          "preco": 81.19,
-          "precoOriginal": 261.21,
-          "desconto": 69,
-          "url": "https://itad.link/018d9386-491d-721d-ac80-a061fa3c31d9/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-fr",
-          "lojaNome": "GamesPlanet FR",
-          "preco": 81.19,
-          "precoOriginal": 261.21,
-          "desconto": 69,
-          "url": "https://itad.link/018d9386-491d-721d-ac80-a061f96ef95c/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet-uk",
-          "lojaNome": "GamesPlanet UK",
-          "preco": 84.96,
-          "precoOriginal": 272.73,
-          "desconto": 69,
-          "url": "https://itad.link/018d9386-491d-721d-ac80-a061f8c49049/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -1985,7 +1760,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-4ca6-7067-aee5-c1ed89a268f4"
     },
     "steam-5037200": {
@@ -2003,7 +1778,7 @@
       "origem": [
         "mais-vendidos"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2014,7 +1789,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a006e7-621f-71bb-9424-6b820c70a164"
     },
     "steam-4924900": {
@@ -2031,7 +1806,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2042,7 +1817,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a15efa-4978-7399-b3ca-b73727e780f1"
     },
     "steam-5130880": {
@@ -2057,7 +1832,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2068,7 +1843,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a048b9-b0ba-7070-a696-d96f9752c875"
     },
     "steam-4811080": {
@@ -2086,7 +1861,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2097,7 +1872,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019e9ce9-ae50-7256-a2a4-7a98b7190245"
     },
     "steam-5485770": {
@@ -2115,7 +1890,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2126,7 +1901,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a1acde-853c-73a2-9200-703f782b35f7"
     },
     "steam-5371870": {
@@ -2145,7 +1920,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2156,7 +1931,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a1139b-babb-710b-82c7-1c8e5c4e6303"
     },
     "steam-5524170": {
@@ -2172,7 +1947,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2183,7 +1958,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a18fe6-d313-71c1-9011-1e00fc1f9211"
     },
     "steam-2521670": {
@@ -2198,7 +1973,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2209,7 +1984,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-75aa-723a-84dc-81071dd21ad3"
     },
     "steam-3652920": {
@@ -2226,7 +2001,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2237,7 +2012,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019769de-b6b9-7181-b9f7-06e28431f046"
     },
     "steam-4714230": {
@@ -2255,7 +2030,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2266,7 +2041,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019e8dbb-505f-717b-aef4-542affe45f0c"
     },
     "steam-5398560": {
@@ -2282,7 +2057,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2293,7 +2068,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a1440c-5e85-72a2-b45a-402f67c48e0a"
     },
     "steam-5198430": {
@@ -2308,7 +2083,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2319,7 +2094,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a125cb-06b2-72c9-87c3-031ee7a6b3fe"
     },
     "steam-4535880": {
@@ -2336,7 +2111,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2347,7 +2122,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019dc362-bfc4-7009-91fb-46603a2ccaff"
     },
     "steam-5277000": {
@@ -2363,7 +2138,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2374,7 +2149,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a0c8d3-d13a-70a9-a78e-8cbecd57349c"
     },
     "steam-5388330": {
@@ -2392,7 +2167,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2403,7 +2178,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a15a41-d810-70bf-98e4-185b840a9f9d"
     },
     "steam-4967770": {
@@ -2421,7 +2196,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2432,7 +2207,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a0a3f9-780f-721b-8319-3effe116f326"
     },
     "steam-4847660": {
@@ -2449,7 +2224,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2460,7 +2235,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019f3663-9b5a-721d-98fb-fb978924ea16"
     },
     "steam-3164010": {
@@ -2477,7 +2252,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2488,7 +2263,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019f4c1d-51e5-71d4-8bf3-2ed068cac509"
     },
     "steam-5146090": {
@@ -2505,7 +2280,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2516,7 +2291,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a07b78-fead-72c4-8ce7-669fed441a75"
     },
     "steam-2440690": {
@@ -2533,7 +2308,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2544,7 +2319,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018e6822-a44d-71ea-b698-a761d110b6f9"
     },
     "steam-4525890": {
@@ -2561,7 +2336,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2572,7 +2347,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019d283f-35f6-73eb-a0d7-880349e5d2aa"
     },
     "steam-4425610": {
@@ -2587,7 +2362,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2598,7 +2373,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019c8193-016a-72a8-887f-f11d6e50ad2c"
     },
     "steam-5428930": {
@@ -2614,7 +2389,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2625,7 +2400,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a17077-2e94-733b-a18e-767a5a3108c3"
     },
     "steam-5482020": {
@@ -2642,7 +2417,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2653,7 +2428,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a1656a-5f9b-736b-870d-af70dbc25944"
     },
     "steam-4537030": {
@@ -2670,7 +2445,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2681,7 +2456,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019d1b43-c6d8-7329-b2ec-68c0a8a6a556"
     },
     "steam-4504940": {
@@ -2697,7 +2472,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2708,7 +2483,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019d222f-6391-7030-a870-04d217f10a61"
     },
     "steam-5398740": {
@@ -2725,7 +2500,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2736,7 +2511,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a134a7-2564-729d-827f-999adca96cfc"
     },
     "steam-4697880": {
@@ -2753,7 +2528,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2764,7 +2539,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-463f-73d5-b536-e1f029ca7223"
     },
     "steam-2909400": {
@@ -2781,7 +2556,7 @@
       "origem": [
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "nuuvem",
@@ -2819,7 +2594,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "0190378e-1a64-720e-8971-4595157e24f3"
     },
     "steam-1462040": {
@@ -2836,7 +2611,7 @@
       "origem": [
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "nuuvem",
@@ -2883,7 +2658,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-5b12-7380-a77e-8754efb603d0"
     },
     "steam-2406770": {
@@ -2903,7 +2678,7 @@
       "origem": [
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "vistoEm": "2026-11-20T18:34:23.329Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -2914,7 +2689,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "018d937f-6ff1-733e-8c1d-7de69d1fd2b9"
     },
     "steam-5074300": {
@@ -2943,7 +2718,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a154e4-a77f-71c6-ba9d-fc4f9f45470d"
     },
     "steam-4834780": {
@@ -2978,7 +2753,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019f5c5e-7925-7207-9199-ee7a505194f1"
     },
     "steam-4834810": {
@@ -3013,7 +2788,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "0191c71b-13c5-73a4-a52e-35a41f36daa9"
     },
     "steam-4834790": {
@@ -3039,7 +2814,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a03517-677d-71b0-8d44-9d7e7195cc8d"
     },
     "steam-4314350": {
@@ -3067,7 +2842,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019be413-3e50-7179-bfda-e7ea65bc5586"
     },
     "steam-4362370": {
@@ -3094,7 +2869,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "019d26b0-f2ad-7103-9aec-2d892ccae5b5"
     },
     "steam-5509730": {
@@ -3124,7 +2899,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "atualizadoEm": "2026-11-20T18:34:23.329Z",
       "itadId": "01a1a36d-ce18-7173-8fb7-e507515f51c1"
     }
   },
