@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T17:31:42.565Z",
+  "atualizadoEm": "2026-11-20T17:33:46.255Z",
   "fonte": "robo",
   "fontes": [
     "steam"
@@ -23,7 +23,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "elden-ring": {
       "nomeSteam": "ELDEN RING",
@@ -44,7 +44,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "hogwarts-legacy": {
       "nomeSteam": "Hogwarts Legacy",
@@ -66,7 +66,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "red-dead-redemption-2": {
       "nomeSteam": "Red Dead Redemption 2",
@@ -87,7 +87,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "god-of-war-ragnarok": {
       "nomeSteam": "God of War Ragnarök",
@@ -109,7 +109,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "forza-horizon-5": {
       "nomeSteam": "Forza Horizon 5",
@@ -133,7 +133,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "zelda-tears-of-the-kingdom": {
       "ofertas": [],
@@ -163,7 +163,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "hades-ii": {
       "nomeSteam": "Hades II",
@@ -185,7 +185,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "stardew-valley": {
       "nomeSteam": "Stardew Valley",
@@ -207,7 +207,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "ea-sports-fc-26": {
       "nomeSteam": "EA SPORTS FC™ 26",
@@ -228,7 +228,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "monster-hunter-wilds": {
       "nomeSteam": "Monster Hunter Wilds",
@@ -250,7 +250,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "persona-5-royal": {
       "nomeSteam": "Persona 5 Royal",
@@ -270,7 +270,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "hollow-knight-silksong": {
       "nomeSteam": "Hollow Knight: Silksong",
@@ -292,19 +292,29 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     },
     "grand-theft-auto-v": {
-      "nomeSteam": "Grand Theft Auto V Legacy",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
-      "lancamento": "13/abr./2015",
-      "descricaoSteam": "Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).",
+      "nomeSteam": "Grand Theft Auto V Enhanced",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
+      "lancamento": "4/mar./2025",
+      "descricaoSteam": "Aproveite os fenômenos do entretenimento Grand Theft Auto V e Grand Theft Auto Online melhorados para uma nova geração, com gráficos deslumbrantes, tempos de carregamento mais rápidos, áudio 3D e mais, além de conteúdo exclusivo para jogadores do GTA Online.",
       "generos": [
         "Ação",
-        "Aventura"
+        "Aventura",
+        "Corrida"
       ],
-      "ofertas": [],
-      "atualizadoEm": "2026-11-20T17:31:42.565Z"
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 149.9,
+          "precoOriginal": 149.9,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/3240220/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T17:33:46.255Z"
     }
   },
   "promocoesSteam": [
