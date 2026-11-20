@@ -72,7 +72,7 @@ function montarJogo(base, salvo) {
     generos: [base.genero, ...(salvo.generos ?? [])].filter(Boolean),
     descricao: base.descricao || salvo.descricaoSteam,
     lancamento: salvo.lancamento ? lancamentoLegivel(salvo.lancamento) : formatarDataIso(base.lancamento),
-    capa: salvo.capa ?? null,
+    capa: salvo.capa ?? base.capa ?? null, // jogos fora da Steam usam a capa do catálogo
     ofertas,
     melhorOferta: ofertas[0] ?? null,
     lojas: lojasDoJogo(base.plataformas),

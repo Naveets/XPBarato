@@ -1,5 +1,5 @@
 {
-  "_comoEditar": "Lista de jogos monitorados pelo XP Barato. Para adicionar um jogo, copie um bloco e troque os dados. steamAppId é o número que aparece no link da Steam (store.steampowered.com/app/NUMERO). Use null para jogos que não estão na Steam. plataformas: PC, PS, XB, SW.",
+  "_comoEditar": "Lista de jogos monitorados pelo XP Barato. Para adicionar um jogo, copie um bloco e troque os dados. steamAppId é o número que aparece no link da Steam (store.steampowered.com/app/NUMERO). Use null para jogos que não estão na Steam e, nesse caso, coloque em capa o link da imagem do jogo (ex.: a imagem da página na loja da Nintendo). plataformas: PC, PS, XB, SW.",
   "jogos": [
     {
       "id": "cyberpunk-2077",
@@ -53,6 +53,7 @@
       "id": "zelda-tears-of-the-kingdom",
       "nome": "The Legend of Zelda: Tears of the Kingdom",
       "steamAppId": null,
+      "capa": "https://img-eshop.cdn.nintendo.net/i/9222b2b244072d28af4586c4e33663e2c65527b593edff956367361ec1263989.jpg?w=640",
       "plataformas": ["SW"],
       "genero": "Aventura",
       "lancamento": "2023-05-12",
@@ -62,6 +63,7 @@
       "id": "super-mario-party-jamboree",
       "nome": "Super Mario Party Jamboree",
       "steamAppId": null,
+      "capa": "https://img-eshop.cdn.nintendo.net/i/138dc18b8776e09e5fab41346f6f148bf9b13ce7065e7ecc3f6c36a226459d06.jpg?w=640",
       "plataformas": ["SW"],
       "genero": "Família",
       "lancamento": "2024-10-17",
