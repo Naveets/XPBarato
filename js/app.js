@@ -449,7 +449,17 @@ window.addEventListener('beforeinstallprompt', (ev) => {
 window.addEventListener('appinstalled', () => mostrarAviso('XP Barato instalado!'));
 
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  window.addEventListener('load', async () => {
+    try {
+      const registro = await navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' });
+      // App instalado costuma ficar aberto em segundo plano: ao voltar para ele, procura versão nova.
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') registro.update().catch(() => {});
+      });
+    } catch {
+      // sem service worker o app funciona igual, só não fica disponível sem internet
+    }
+  });
 }
 
 window.addEventListener('hashchange', rotear);
