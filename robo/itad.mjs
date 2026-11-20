@@ -61,6 +61,11 @@ export function criarCliente(chave, { log = console.log } = {}) {
         ultimoErro = new Error(`${caminho}: HTTP ${resposta.status}`);
         continue; // tenta a próxima versão
       }
+      if (resposta.status === 401 || resposta.status === 403) {
+        const erro = new Error('a chave da API foi recusada (HTTP ' + resposta.status + '). Confira o segredo ITAD_API_KEY.');
+        erro.chaveInvalida = true;
+        throw erro;
+      }
       if (!resposta.ok) {
         const texto = await resposta.text().catch(() => '');
         throw new Error(`${caminho}: HTTP ${resposta.status} ${texto.slice(0, 160)}`);
@@ -86,6 +91,7 @@ export function criarCliente(chave, { log = console.log } = {}) {
       for (const id of appIds) mapa.set(id, json?.[`app/${id}`] ?? null);
       return mapa;
     } catch (erro) {
+      if (erro.chaveInvalida) throw erro; // não adianta tentar um por um
       log(`  IsThereAnyDeal: lookup em lote falhou (${erro.message}); tentando um por um`);
     }
     for (const id of appIds) {
