@@ -9,6 +9,7 @@
 
 import * as auth from './auth.js';
 import { registrarEvento } from './metricas.js';
+import { nomeDaLoja } from './lojas.js';
 
 export const PRECO_MENSAL = 9.9;
 export const OFERTAS_POR_DIA = 3;
@@ -104,4 +105,76 @@ export function tempoAteTrocar(agora = new Date()) {
   const h = Math.floor(minutos / 60);
   const m = minutos % 60;
   return h ? `${h} h ${String(m).padStart(2, '0')} min` : `${m} min`;
+}
+
+// ------------------------------------------------------------------ cashback (Onda 4)
+// Regra do protótipo Java: assinante XP+ ganha 10% da primeira compra feita por um link
+// do app, até R$ 30. Num app real a loja/afiliado confirmaria a compra; no MVP o próprio
+// usuário confirma quando volta da loja. Saldo simulado.
+
+export const PERCENTUAL_CASHBACK = 0.10;
+export const LIMITE_CASHBACK = 30;
+const CHAVE_PENDENTE = 'xpb.compraPendente';
+const VALIDADE_PENDENTE_MS = 48 * 60 * 60 * 1000;
+
+export const calcularCashback = (valor) => arredondar(Math.min(valor * PERCENTUAL_CASHBACK, LIMITE_CASHBACK));
+
+export function cashbackDisponivel(usuario = auth.usuarioAtual()) {
+  return ehAssinante(usuario) && !usuario?.cashbackUtilizado;
+}
+
+/** Guarda a compra que o usuário pode ter feito ao tocar em "Ir à loja". */
+export function registrarIdaALoja(jogo, oferta, preco) {
+  if (!cashbackDisponivel()) return;
+  try {
+    localStorage.setItem(CHAVE_PENDENTE, JSON.stringify({
+      email: auth.usuarioAtual().email,
+      jogoId: jogo.id,
+      nome: jogo.nome,
+      loja: oferta.loja,
+      lojaNome: oferta.lojaNome ?? null,
+      preco,
+      em: Date.now()
+    }));
+  } catch {
+    // sem localStorage: segue sem cashback
+  }
+}
+
+export function compraPendente() {
+  try {
+    const p = JSON.parse(localStorage.getItem(CHAVE_PENDENTE));
+    if (!p) return null;
+    const valida = p.email === auth.usuarioAtual()?.email && Date.now() - p.em < VALIDADE_PENDENTE_MS && cashbackDisponivel();
+    if (!valida) {
+      localStorage.removeItem(CHAVE_PENDENTE);
+      return null;
+    }
+    return { ...p, cashback: calcularCashback(p.preco) };
+  } catch {
+    return null;
+  }
+}
+
+export function descartarCompra() {
+  try {
+    localStorage.removeItem(CHAVE_PENDENTE);
+  } catch {
+    // ignora
+  }
+}
+
+/** Confirma a compra pendente e credita o cashback. Devolve o valor creditado. */
+export function confirmarCompra() {
+  const p = compraPendente();
+  descartarCompra();
+  if (!p) return null;
+  const usuario = auth.usuarioAtual();
+  auth.atualizarUsuario({
+    cashbackUtilizado: true,
+    saldoCashback: arredondar((usuario.saldoCashback ?? 0) + p.cashback),
+    cashbackHistorico: [...(usuario.cashbackHistorico ?? []), { jogo: p.nome, loja: nomeDaLoja(p), valor: p.cashback, preco: p.preco, data: hojeEmBrasilia() }]
+  });
+  registrarEvento('cashback', { titulo: `${p.nome} (${p.cashback})` });
+  return p.cashback;
 }

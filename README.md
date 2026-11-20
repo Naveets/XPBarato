@@ -15,7 +15,7 @@ Conta de demonstração: `demo@xpbarato.com` / `123456`
 | 1 | Tela de login · Links para as promoções · Comparativo entre lojas | ✅ pronta |
 | 2 | Buscador de jogos · Gráfico de histórico de preço · Selo de gift card | ✅ pronta |
 | 3 | Assinatura: descontos diários · Assinatura: cupons exclusivos | ✅ pronta (simulada no MVP) |
-| 4 | Cashback na primeira compra · Notificações de promoções | em breve |
+| 4 | Cashback na primeira compra · Notificações de promoções | ✅ pronta |
 
 ## Como os preços ficam atualizados (o robô)
 
@@ -52,6 +52,19 @@ não existem. Cada assinatura é registrada como evento (`assinou-xp`) para a m�
 Os cupons ficam em [`dados/cupons.json`](dados/cupons.json). Quando houver um cupom real, troque o código e mude
 `exemplo` para `false`.
 
+## Notificações de promoções e cashback (Onda 4)
+
+**Alertas de preço:** no jogo, toque em **🔔 Avisar quando baixar** (qualquer queda ou um preço-alvo). Sem servidor,
+o app confere os preços do robô sempre que é aberto ou volta do segundo plano e, se baixou, mostra uma
+**notificação do sistema**. Com o app instalado no Android, o Chrome também confere algumas vezes por dia em segundo
+plano (*Periodic Background Sync*; o navegador decide a frequência). A tela **Alertas** (sino no início ou na Conta)
+tem o botão **Testar notificação**, útil na apresentação.
+
+**Cashback (XP+):** 10% da primeira compra feita por um link do app, até R$ 30 (regra do protótipo Java). Como a loja
+não avisa o app sobre a compra, ao voltar da loja o app pergunta **"Você comprou?"**. Saldo simulado no MVP.
+
+Contas, assinatura, alertas e cashback ficam salvos **no aparelho** (não há servidor), então cada celular tem os seus.
+
 ## Como adicionar um jogo
 
 Edite `dados/catalogo.json`, copie um bloco e troque os dados. O `steamAppId` é o número do link da Steam
@@ -64,7 +77,8 @@ index.html, css/, js/       o app (HTML, CSS e JavaScript, sem servidor)
   js/auth.js                login e cadastro (senha guardada como SHA-256 + salt, no próprio aparelho)
   js/dados.js               junta catálogo + preços do robô; busca, selo de gift card e veredito
   js/grafico.js             gráfico de histórico de preço (SVG interativo)
-  js/assinatura.js          XP+: ofertas do dia, cupons e preço para assinante
+  js/assinatura.js          XP+: ofertas do dia, cupons, preço para assinante e cashback
+  js/alertas.js             alertas de preço e notificações
   js/lojas.js               lojas e links de busca
   js/metricas.js            eventos do piloto (cliques nas lojas, cadastros)
 manifest.webmanifest, sw.js deixam o app instalável e funcionando sem internet

@@ -419,3 +419,75 @@ button { font: inherit; color: inherit; }
 .cartao-xp-conta small { color: var(--suave); }
 .cartao-xp-conta .marca-xp { font-size: 1.3rem; }
 .cartao-xp-conta .seta { font-size: 1.6rem; color: var(--xp); }
+
+/* =========================== Onda 4 =========================== */
+.topo.com-acao { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.botao-sino {
+  position: relative; flex: none; width: 44px; height: 44px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 1.2rem;
+  background: var(--superficie); border: 1px solid var(--borda);
+}
+.contador {
+  position: absolute; top: -4px; right: -4px; min-width: 18px; height: 18px; padding: 0 5px;
+  border-radius: 999px; background: var(--destaque); color: #00222a; font-size: .7rem; font-weight: 800;
+  display: grid; place-items: center;
+}
+button.link { background: none; border: 0; color: var(--destaque); font-weight: 600; cursor: pointer; padding: 6px; }
+
+/* ---------- alerta no jogo ---------- */
+.alerta-ativo {
+  display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 4px;
+  padding: 8px 12px; border-radius: 12px; font-size: .88rem;
+  background: #00e5ff14; border: 1px solid #00e5ff55;
+}
+.criar-alerta { margin-top: 4px; }
+.criar-alerta summary { list-style: none; width: 100%; }
+.criar-alerta summary::-webkit-details-marker { display: none; }
+.painel-alerta {
+  display: grid; gap: 10px; margin-top: 8px; padding: 14px;
+  background: var(--superficie); border: 1px solid var(--borda); border-radius: var(--raio);
+}
+.painel-alerta label { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.painel-alerta input[type=radio] { accent-color: var(--destaque); width: 18px; height: 18px; }
+.campo-alvo { display: inline-flex; align-items: center; gap: 4px; }
+.campo-alvo input {
+  width: 96px; height: 36px; padding: 0 8px; border-radius: 8px; font-size: 1rem;
+  background: var(--superficie-2); color: var(--texto); border: 1px solid var(--borda);
+}
+.painel-alerta small { color: var(--suave); font-size: .76rem; }
+
+/* ---------- tela de alertas ---------- */
+.item-alerta { display: grid; gap: 4px; }
+.item-alerta .link { justify-self: end; margin-top: -6px; font-size: .82rem; }
+.item-alerta small.meta { font-size: .74rem; }
+.sino-grande { font-size: 1.3rem; }
+.cartao-xp-conta.alertas { border-color: #00e5ff44; }
+.cartao-xp-conta.alertas .seta { color: var(--destaque); }
+
+/* ---------- cashback ---------- */
+.dica-cashback {
+  margin-top: 10px; padding: 10px 12px; border-radius: 12px; font-size: .85rem;
+  background: #3fd07f12; border: 1px solid #3fd07f55;
+}
+.cartao-cashback {
+  display: flex; gap: 12px; align-items: center; margin-top: 12px; padding: 14px;
+  background: linear-gradient(135deg, #3fd07f18, var(--superficie)); border: 1px solid #3fd07f55; border-radius: var(--raio);
+}
+.cartao-cashback div { display: grid; gap: 2px; }
+.cartao-cashback small { color: var(--suave); font-size: .78rem; }
+.ico-cashback { font-size: 1.6rem; }
+
+/* ---------- folha "Você comprou?" ---------- */
+.folha {
+  position: fixed; inset: 0; z-index: 30; display: grid; align-items: end;
+  background: #0009; animation: aparecer .2s ease-out;
+}
+.folha-conteudo {
+  width: 100%; max-width: 480px; margin: 0 auto; display: grid; gap: 10px;
+  padding: 20px 18px calc(20px + env(safe-area-inset-bottom));
+  background: var(--superficie); border-top: 1px solid var(--borda); border-radius: 20px 20px 0 0;
+}
+.folha-titulo { font-size: 1.1rem; font-weight: 700; }
+.folha-conteudo small { color: var(--suave); font-size: .76rem; }
+.folha-botoes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 6px; }
+@keyframes aparecer { from { opacity: 0; } to { opacity: 1; } }

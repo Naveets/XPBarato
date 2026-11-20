@@ -11,6 +11,7 @@ import { graficoDePreco, ativarGrafico } from './grafico.js';
 import { LOJAS, PLATAFORMAS, linkDeBusca, nomeDaLoja } from './lojas.js';
 import { registrarEvento } from './metricas.js';
 import * as xp from './assinatura.js';
+import * as alertas from './alertas.js';
 
 const app = document.getElementById('app');
 const barra = document.getElementById('barra');
@@ -110,6 +111,7 @@ async function telaLogin({ modo = 'entrar' } = {}) {
     try {
       const usuario = await acao();
       registrarEvento(cadastro ? 'cadastro' : 'login');
+      alertas.sincronizar();
       mostrarAviso(`Bem-vindo, ${usuario.nome.split(' ')[0]}!`);
       location.hash = '#/inicio';
     } catch (e) {
@@ -169,11 +171,12 @@ async function telaInicio() {
     : '');
 
   app.innerHTML = `
-    <header class="topo">
+    <header class="topo com-acao">
       <div>
         <p class="ola">Olá, ${esc(usuario.nome.split(' ')[0])}</p>
         <h1>Qual jogo você quer pagar menos?</h1>
       </div>
+      <a class="botao-sino" href="#/alertas" aria-label="Alertas de preço">🔔${alertas.listar().length ? `<span class="contador">${alertas.listar().length}</span>` : ''}</a>
     </header>
     <a class="campo-busca falso" href="#/buscar"><span aria-hidden="true">⌕</span>Buscar</a>
     ${status}
@@ -321,6 +324,7 @@ async function telaJogo(id) {
     <section class="detalhe">
       <h1>${esc(jogo.nome)}</h1>
       <p class="chips">${chipsPlataforma(jogo.plataformas)}${jogo.genero ? `<span class="chip suave">${esc(jogo.genero)}</span>` : ''}</p>
+      ${jogo.melhorOferta ? `<div id="alerta-jogo"></div>` : ''}
       ${jogo.descricao ? `<p class="descricao">${esc(jogo.descricao)}</p>` : ''}
       ${jogo.lancamento ? `<p class="meta">Lançamento: ${esc(jogo.lancamento)}</p>` : ''}
       ${jogo.terminaEm ? `<p class="meta destaque-texto">Promoção da Steam ${esc(tempoRestante(jogo.terminaEm))}</p>` : ''}
@@ -335,6 +339,9 @@ async function telaJogo(id) {
              </details>` : ''}`
         : `<p class="meta">Ainda não monitoramos o preço deste jogo. Confira direto nas lojas:</p>`}
       ${blocoXp(jogo, { assinante, ofertaDoDia, melhorXp })}
+      ${xp.cashbackDisponivel() && jogo.melhorOferta ? `
+        <p class="dica-cashback">💸 Sua primeira compra por um link do app dá <strong>10% de cashback</strong> (até R$ 30).
+          Comprando na ${esc(nomeDaLoja((melhorXp?.oferta) ?? jogo.melhorOferta))}, são <strong>${formatarPreco(xp.calcularCashback((melhorXp ?? jogo.melhorOferta).preco))}</strong>. Simulado no MVP.</p>` : ''}
       ${blocoSelo}
       <div id="historico"></div>
       ${semPreco.length ? `
@@ -352,7 +359,12 @@ async function telaJogo(id) {
     }
   });
   app.querySelectorAll('a.ir').forEach((a) =>
-    a.addEventListener('click', () => registrarEvento('clique-loja', { titulo: `${jogo.nome} → ${a.dataset.loja}` })));
+    a.addEventListener('click', () => {
+      registrarEvento('clique-loja', { titulo: `${jogo.nome} → ${a.dataset.loja}` });
+      const oferta = jogo.ofertas.find((o) => o.loja === a.dataset.loja);
+      if (oferta) xp.registrarIdaALoja(jogo, oferta, xp.precoXp(dados, jogo, oferta, idsDoDia)?.preco ?? oferta.preco);
+    }));
+  if (jogo.melhorOferta) mostrarBotaoAlerta(jogo);
 
   if (comPreco.length) mostrarHistorico(jogo);
 }
@@ -520,11 +532,12 @@ async function telaXp() {
         <ul class="beneficios">
           <li><span aria-hidden="true">🎮</span><span>3 ofertas por dia com <strong>+5% de desconto</strong></span></li>
           <li><span aria-hidden="true">🏷️</span><span><strong>Cupons exclusivos</strong> nas lojas parceiras</span></li>
-          <li><span aria-hidden="true">💸</span><span>Cashback na primeira compra <span class="chip">em breve</span></span></li>
+          <li><span aria-hidden="true">💸</span><span><strong>10% de cashback</strong> na primeira compra (até R$ 30)</span></li>
         </ul>
         <button class="botao principal largo" data-assinar>Assinar o XP+</button>
         <p class="aviso-mvp">${AVISO_MVP}</p>
       </section>`}
+    ${assinante ? cartaoCashback(usuario) : ''}
     <h2 class="titulo-secao">Ofertas do dia <small class="troca">trocam em ${esc(xp.tempoAteTrocar())}</small></h2>
     <ul class="lista-jogos">${doDia.map((j) => itemOfertaDoDia(dados, j, ids)).join('')}</ul>
     <h2 class="titulo-secao">Cupons exclusivos</h2>
@@ -570,6 +583,183 @@ function confirmarCancelamento() {
   return false;
 }
 
+// ------------------------------------------------------------------ cashback (Onda 4)
+
+function cartaoCashback(usuario) {
+  const saldo = usuario.saldoCashback ?? 0;
+  const ultimo = usuario.cashbackHistorico?.at(-1);
+  return `
+    <section class="cartao-cashback">
+      <span class="ico-cashback" aria-hidden="true">💸</span>
+      <div>${usuario.cashbackUtilizado
+        ? `<strong>Saldo de cashback: ${formatarPreco(saldo)}</strong>
+           <small>${ultimo ? `${esc(ultimo.jogo)} · ${esc(ultimo.loja)} · ${esc(formatarDiaCurto(ultimo.data))}` : ''} · simulado no MVP</small>`
+        : `<strong>Cashback disponível</strong>
+           <small>10% da sua primeira compra por um link do app, até R$ 30 (simulado no MVP).</small>`}</div>
+    </section>`;
+}
+
+/** Ao voltar da loja: "Você comprou?" para liberar o cashback da primeira compra. */
+function perguntarCompra() {
+  const p = xp.compraPendente();
+  const existente = document.getElementById('folha');
+  if (!p || existente) return;
+  const folha = document.createElement('div');
+  folha.id = 'folha';
+  folha.className = 'folha';
+  folha.setAttribute('role', 'dialog');
+  folha.setAttribute('aria-label', 'Confirmar compra');
+  folha.innerHTML = `
+    <div class="folha-conteudo">
+      <p class="folha-titulo">💸 Você comprou ${esc(p.nome)}?</p>
+      <p>Se você comprou na <strong>${esc(nomeDaLoja(p))}</strong> por ${formatarPreco(p.preco)}, confirme para ganhar
+         <strong class="verde">${formatarPreco(p.cashback)}</strong> de cashback da primeira compra XP+.</p>
+      <small>No MVP a loja não avisa o app sobre a compra, por isso perguntamos. Cashback simulado.</small>
+      <div class="folha-botoes">
+        <button class="botao secundario" data-nao>Não comprei</button>
+        <button class="botao principal" data-sim>Sim, comprei</button>
+      </div>
+    </div>`;
+  document.body.appendChild(folha);
+  folha.querySelector('[data-nao]').addEventListener('click', () => {
+    xp.descartarCompra();
+    folha.remove();
+  });
+  folha.querySelector('[data-sim]').addEventListener('click', () => {
+    const valor = xp.confirmarCompra();
+    folha.remove();
+    if (valor) mostrarAviso(`Você ganhou ${formatarPreco(valor)} de cashback! 🎉`);
+    if (['xp', 'conta'].includes(location.hash.split('/')[1])) rotear();
+  });
+}
+
+// ------------------------------------------------------------------ alertas de preço (Onda 4)
+
+let ultimaVerificacao = 0;
+
+/** Depois de abrir qualquer tela: confere alertas (no máximo 1x por minuto) e compra pendente. */
+async function aposAbrir() {
+  perguntarCompra();
+  if (Date.now() - ultimaVerificacao < 60000) return;
+  ultimaVerificacao = Date.now();
+  try {
+    const disparados = await alertas.verificar(await carregarDados());
+    if (disparados.length) {
+      const d = disparados[0];
+      mostrarAviso(`🔔 ${d.jogo.nome} baixou para ${formatarPreco(d.jogo.melhorOferta.preco)}`);
+    }
+  } catch {
+    // alertas nunca podem quebrar o app
+  }
+}
+
+document.addEventListener('visibilitychange', async () => {
+  if (document.visibilityState !== 'visible' || !auth.usuarioAtual()) return;
+  ultimaVerificacao = 0;
+  await carregarDados({ forcar: true }).catch(() => {});
+  aposAbrir();
+});
+
+function mostrarBotaoAlerta(jogo) {
+  const alvo = document.getElementById('alerta-jogo');
+  if (!alvo) return;
+  const atual = alertas.seguindo(jogo.id);
+  if (atual) {
+    alvo.innerHTML = `
+      <div class="alerta-ativo">
+        <span>🔔 <strong>Alerta ativo</strong> · ${atual.alvo ? `quando chegar a ${formatarPreco(atual.alvo)}` : 'qualquer queda de preço'}</span>
+        <button class="link" data-remover>Remover</button>
+      </div>`;
+    alvo.querySelector('[data-remover]').addEventListener('click', async () => {
+      await alertas.deixarDeSeguir(jogo.id);
+      mostrarAviso('Alerta removido');
+      mostrarBotaoAlerta(jogo);
+    });
+    return;
+  }
+  const sugestao = Math.floor(jogo.melhorOferta.preco * 0.8);
+  alvo.innerHTML = `
+    <details class="criar-alerta">
+      <summary class="botao secundario">🔔 Avisar quando baixar</summary>
+      <form class="painel-alerta">
+        <label><input type="radio" name="tipo" value="queda" checked> Qualquer queda de preço</label>
+        <label><input type="radio" name="tipo" value="alvo"> Quando chegar a
+          <span class="campo-alvo">R$ <input name="alvo" type="number" inputmode="decimal" min="1" step="0.01" value="${sugestao}" aria-label="Preço-alvo em reais"></span></label>
+        <button class="botao principal" type="submit">Ativar alerta</button>
+        <small>${alertas.permissao() === 'denied'
+          ? 'As notificações estão bloqueadas neste navegador; o aviso aparece dentro do app.'
+          : 'Vamos pedir permissão para mostrar notificações no celular.'}</small>
+      </form>
+    </details>`;
+  const form = alvo.querySelector('form');
+  form.alvo.addEventListener('focus', () => (form.tipo.value = 'alvo'));
+  form.addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    const valor = form.tipo.value === 'alvo' ? Number(form.alvo.value) : null;
+    if (form.tipo.value === 'alvo' && !(valor > 0)) return;
+    await alertas.seguir(jogo, valor);
+    const permissao = await alertas.pedirPermissao();
+    mostrarAviso(permissao === 'granted' ? '🔔 Alerta ativado' : '🔔 Alerta ativado (aviso dentro do app)');
+    mostrarBotaoAlerta(jogo);
+  });
+}
+
+async function telaAlertas() {
+  const dados = await carregarDados();
+  const lista = alertas.listar();
+  const permissao = alertas.permissao();
+  const estado = {
+    granted: '<span class="verde">ativadas</span>',
+    denied: '<span class="vermelho">bloqueadas</span> (libere nas configurações do navegador)',
+    default: 'ainda não ativadas',
+    unsupported: 'não suportadas neste navegador'
+  }[permissao];
+
+  app.innerHTML = `
+    <header class="topo"><h1>Alertas de preço</h1>
+      <p class="meta">Siga um jogo e avisamos quando o preço baixar.</p></header>
+    <section class="cartao-historico">
+      <p>Notificações no celular: ${estado}</p>
+      ${permissao === 'default' ? '<button class="botao principal" data-permitir>Ativar notificações</button>' : ''}
+      ${permissao === 'granted' ? '<button class="botao secundario" data-testar>Testar notificação</button>' : ''}
+      <small class="meta">O app confere os preços do robô sempre que é aberto. Com o app instalado no Android,
+        o Chrome também confere algumas vezes por dia em segundo plano.</small>
+    </section>
+    <h2 class="titulo-secao">Jogos que você segue</h2>
+    ${lista.length ? `<ul class="lista-jogos">${lista.map((a) => {
+      const j = dados.todos.find((x) => x.id === a.jogoId);
+      if (!j) return '';
+      return `
+        <li class="item-alerta">
+          <a class="item-jogo" href="#/jogo/${esc(j.id)}">
+            ${capa(j)}
+            <div class="info">
+              <span class="nome">${esc(j.nome)}</span>
+              ${precoResumo(j)}
+              <small class="meta">${a.alvo ? `Aviso em ${formatarPreco(a.alvo)}` : 'Aviso em qualquer queda'}${a.avisadoEm ? ` · último aviso ${esc(quando(new Date(a.avisadoEm)))}` : ''}</small>
+            </div>
+          </a>
+          <button class="link" data-remover="${esc(j.id)}" aria-label="Parar de seguir ${esc(j.nome)}">Remover</button>
+        </li>`;
+    }).join('')}</ul>`
+    : `<p class="vazio-busca">Você ainda não segue nenhum jogo.<br><small>Abra um jogo e toque em 🔔 Avisar quando baixar.</small></p>`}`;
+
+  app.querySelector('[data-permitir]')?.addEventListener('click', async () => {
+    await alertas.pedirPermissao();
+    telaAlertas();
+  });
+  app.querySelector('[data-testar]')?.addEventListener('click', async () => {
+    const seguido = lista.map((a) => dados.todos.find((x) => x.id === a.jogoId)).find((j) => j?.melhorOferta);
+    const jogo = seguido ?? dados.promocoes[0] ?? dados.jogos.find((j) => j.melhorOferta);
+    await alertas.testar(jogo);
+    mostrarAviso('Notificação enviada: confira a barra do celular');
+  });
+  app.querySelectorAll('[data-remover]').forEach((b) => b.addEventListener('click', async () => {
+    await alertas.deixarDeSeguir(b.dataset.remover);
+    telaAlertas();
+  }));
+}
+
 // ------------------------------------------------------------------ conta
 
 function telaConta() {
@@ -587,12 +777,21 @@ function telaConta() {
         : `<strong>Conheça o XP+</strong><small>ofertas do dia e cupons exclusivos</small>`}</span>
       <span class="seta" aria-hidden="true">›</span>
     </a>
+    ${xp.ehAssinante(usuario) ? cartaoCashback(usuario) : ''}
+    <a class="cartao-xp-conta alertas" href="#/alertas">
+      <span class="sino-grande" aria-hidden="true">🔔</span>
+      <span><strong>Alertas de preço</strong><small>${alertas.listar().length
+        ? `seguindo ${alertas.listar().length} jogo${alertas.listar().length > 1 ? 's' : ''}`
+        : 'avisamos quando um jogo baixar'}</small></span>
+      <span class="seta" aria-hidden="true">›</span>
+    </a>
     ${pedidoDeInstalacao && !estaInstalado() ? '<button class="botao principal largo" data-instalar>Instalar o app no celular</button>' : ''}
     ${estaInstalado() ? '<p class="meta centro">App instalado neste aparelho ✔</p>' : ''}
     <button class="botao secundario largo" data-sair>Sair</button>
-    <p class="rodape-login">XP Barato · MVP Onda 3<br>Trabalho de APS · protótipo acadêmico</p>`;
+    <p class="rodape-login">XP Barato · MVP Onda 4<br>Trabalho de APS · protótipo acadêmico</p>`;
   app.querySelector('[data-sair]').addEventListener('click', () => {
     auth.sair();
+    alertas.sincronizar(); // o segundo plano passa a não ter alertas de ninguém
     location.hash = '#/login';
   });
   app.querySelector('[data-instalar]')?.addEventListener('click', instalarApp);
@@ -624,8 +823,10 @@ async function rotear() {
     else if (rota === 'jogo') await telaJogo(decodeURIComponent(parametro ?? ''));
     else if (rota === 'buscar') await telaBuscar();
     else if (rota === 'xp') await telaXp();
+    else if (rota === 'alertas') await telaAlertas();
     else if (rota === 'conta') telaConta();
     else await telaInicio();
+    if (rota !== 'login') aposAbrir();
   } catch (erro) {
     console.error(erro);
     app.innerHTML = `<div class="vazio"><p>Não foi possível carregar os preços agora.</p>
@@ -673,3 +874,4 @@ if ('serviceWorker' in navigator) {
 window.addEventListener('hashchange', rotear);
 await auth.garantirUsuarioDemo();
 rotear();
+if (alertas.permissao() === 'granted') alertas.registrarSegundoPlano();
