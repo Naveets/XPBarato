@@ -1,9 +1,8 @@
 {
-  "atualizadoEm": "2026-11-20T18:20:11.918Z",
+  "atualizadoEm": "2026-11-20T18:23:00.720Z",
   "fonte": "robo",
   "fontes": [
-    "steam",
-    "isthereanydeal"
+    "steam"
   ],
   "jogos": {
     "cyberpunk-2077": {
@@ -24,7 +23,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "elden-ring": {
       "nomeSteam": "ELDEN RING",
@@ -45,7 +44,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "hogwarts-legacy": {
       "nomeSteam": "Hogwarts Legacy",
@@ -67,7 +66,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "red-dead-redemption-2": {
       "nomeSteam": "Red Dead Redemption 2",
@@ -88,7 +87,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "god-of-war-ragnarok": {
       "nomeSteam": "God of War Ragnarök",
@@ -110,7 +109,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "forza-horizon-5": {
       "nomeSteam": "Forza Horizon 5",
@@ -134,7 +133,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "zelda-tears-of-the-kingdom": {
       "ofertas": [],
@@ -164,7 +163,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "hades-ii": {
       "nomeSteam": "Hades II",
@@ -186,7 +185,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "stardew-valley": {
       "nomeSteam": "Stardew Valley",
@@ -208,7 +207,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "ea-sports-fc-26": {
       "nomeSteam": "EA SPORTS FC™ 26",
@@ -229,7 +228,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "monster-hunter-wilds": {
       "nomeSteam": "Monster Hunter Wilds",
@@ -251,7 +250,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "persona-5-royal": {
       "nomeSteam": "Persona 5 Royal",
@@ -271,7 +270,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "hollow-knight-silksong": {
       "nomeSteam": "Hollow Knight: Silksong",
@@ -293,7 +292,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "grand-theft-auto-v": {
       "nomeSteam": "Grand Theft Auto V Enhanced",
@@ -315,7 +314,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     }
   },
   "extras": {
@@ -332,7 +331,7 @@
       "origem": [
         "mais-vendidos"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -343,7 +342,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-1593500": {
       "appId": 1593500,
@@ -360,7 +359,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -371,7 +370,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-2215430": {
       "appId": 2215430,
@@ -387,7 +386,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -398,7 +397,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-1817070": {
       "appId": 1817070,
@@ -415,7 +414,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -426,7 +425,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-1426210": {
       "appId": 1426210,
@@ -442,7 +441,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -453,7 +452,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-2531310": {
       "appId": 2531310,
@@ -469,7 +468,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -480,7 +479,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-1259420": {
       "appId": 1259420,
@@ -496,7 +495,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -507,7 +506,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5037200": {
       "appId": 5037200,
@@ -524,7 +523,7 @@
       "origem": [
         "mais-vendidos"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -535,7 +534,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4924900": {
       "appId": 4924900,
@@ -551,7 +550,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -562,7 +561,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5130880": {
       "appId": 5130880,
@@ -576,7 +575,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -587,7 +586,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4811080": {
       "appId": 4811080,
@@ -604,7 +603,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -615,7 +614,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5485770": {
       "appId": 5485770,
@@ -632,7 +631,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -643,7 +642,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5371870": {
       "appId": 5371870,
@@ -661,7 +660,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -672,7 +671,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5524170": {
       "appId": 5524170,
@@ -687,7 +686,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -698,7 +697,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-2521670": {
       "appId": 2521670,
@@ -712,7 +711,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -723,7 +722,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-3652920": {
       "appId": 3652920,
@@ -739,7 +738,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -750,7 +749,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4714230": {
       "appId": 4714230,
@@ -767,7 +766,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -778,7 +777,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5398560": {
       "appId": 5398560,
@@ -793,7 +792,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -804,7 +803,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5198430": {
       "appId": 5198430,
@@ -818,7 +817,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -829,7 +828,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4535880": {
       "appId": 4535880,
@@ -845,7 +844,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -856,7 +855,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5277000": {
       "appId": 5277000,
@@ -871,7 +870,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -882,7 +881,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5388330": {
       "appId": 5388330,
@@ -899,7 +898,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -910,7 +909,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4967770": {
       "appId": 4967770,
@@ -927,7 +926,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -938,7 +937,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4847660": {
       "appId": 4847660,
@@ -954,7 +953,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -965,7 +964,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-3164010": {
       "appId": 3164010,
@@ -981,7 +980,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -992,7 +991,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5146090": {
       "appId": 5146090,
@@ -1008,7 +1007,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1019,7 +1018,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-2440690": {
       "appId": 2440690,
@@ -1035,7 +1034,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1046,7 +1045,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4525890": {
       "appId": 4525890,
@@ -1062,7 +1061,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1073,7 +1072,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4425610": {
       "appId": 4425610,
@@ -1087,7 +1086,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1098,7 +1097,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5428930": {
       "appId": 5428930,
@@ -1113,7 +1112,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1124,7 +1123,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5482020": {
       "appId": 5482020,
@@ -1140,7 +1139,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1151,7 +1150,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4537030": {
       "appId": 4537030,
@@ -1167,7 +1166,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1178,7 +1177,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4504940": {
       "appId": 4504940,
@@ -1193,7 +1192,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1204,7 +1203,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5398740": {
       "appId": 5398740,
@@ -1220,7 +1219,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1231,7 +1230,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4697880": {
       "appId": 4697880,
@@ -1247,7 +1246,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1258,7 +1257,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-2909400": {
       "appId": 2909400,
@@ -1274,7 +1273,7 @@
       "origem": [
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1285,7 +1284,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-1462040": {
       "appId": 1462040,
@@ -1301,7 +1300,7 @@
       "origem": [
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1312,7 +1311,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-2406770": {
       "appId": 2406770,
@@ -1331,7 +1330,7 @@
       "origem": [
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "vistoEm": "2026-11-20T18:23:00.720Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1342,7 +1341,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5074300": {
       "appId": 5074300,
@@ -1370,7 +1369,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4834780": {
       "appId": 4834780,
@@ -1395,7 +1394,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4834810": {
       "appId": 4834810,
@@ -1420,7 +1419,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4834790": {
       "appId": 4834790,
@@ -1445,7 +1444,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4314350": {
       "appId": 4314350,
@@ -1472,7 +1471,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-4362370": {
       "appId": 4362370,
@@ -1498,7 +1497,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     },
     "steam-5509730": {
       "appId": 5509730,
@@ -1527,7 +1526,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+      "atualizadoEm": "2026-11-20T18:23:00.720Z"
     }
   },
   "promocoesSteam": [
@@ -1632,5 +1631,7 @@
       "url": "https://store.steampowered.com/app/2322010/"
     }
   ],
-  "erros": []
+  "erros": [
+    "IsThereAnyDeal: a chave da API foi recusada (HTTP 403). Confira o segredo ITAD_API_KEY."
+  ]
 }
