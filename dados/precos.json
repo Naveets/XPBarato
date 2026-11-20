@@ -1,8 +1,9 @@
 {
-  "atualizadoEm": "2026-11-20T17:59:39.441Z",
+  "atualizadoEm": "2026-11-20T18:20:11.918Z",
   "fonte": "robo",
   "fontes": [
-    "steam"
+    "steam",
+    "isthereanydeal"
   ],
   "jogos": {
     "cyberpunk-2077": {
@@ -23,7 +24,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "elden-ring": {
       "nomeSteam": "ELDEN RING",
@@ -44,7 +45,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "hogwarts-legacy": {
       "nomeSteam": "Hogwarts Legacy",
@@ -66,7 +67,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "red-dead-redemption-2": {
       "nomeSteam": "Red Dead Redemption 2",
@@ -87,7 +88,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "god-of-war-ragnarok": {
       "nomeSteam": "God of War Ragnarök",
@@ -109,7 +110,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "forza-horizon-5": {
       "nomeSteam": "Forza Horizon 5",
@@ -126,14 +127,14 @@
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 249,
+          "preco": 99.6,
           "precoOriginal": 249,
-          "desconto": 0,
+          "desconto": 60,
           "url": "https://store.steampowered.com/app/1551360/",
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "zelda-tears-of-the-kingdom": {
       "ofertas": [],
@@ -163,7 +164,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "hades-ii": {
       "nomeSteam": "Hades II",
@@ -185,7 +186,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "stardew-valley": {
       "nomeSteam": "Stardew Valley",
@@ -207,7 +208,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "ea-sports-fc-26": {
       "nomeSteam": "EA SPORTS FC™ 26",
@@ -228,7 +229,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "monster-hunter-wilds": {
       "nomeSteam": "Monster Hunter Wilds",
@@ -250,7 +251,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "persona-5-royal": {
       "nomeSteam": "Persona 5 Royal",
@@ -270,7 +271,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "hollow-knight-silksong": {
       "nomeSteam": "Hollow Knight: Silksong",
@@ -292,7 +293,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "grand-theft-auto-v": {
       "nomeSteam": "Grand Theft Auto V Enhanced",
@@ -314,7 +315,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     }
   },
   "extras": {
@@ -331,7 +332,7 @@
       "origem": [
         "mais-vendidos"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -342,7 +343,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-1593500": {
       "appId": 1593500,
@@ -359,7 +360,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -370,7 +371,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-2215430": {
       "appId": 2215430,
@@ -386,7 +387,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -397,7 +398,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-1817070": {
       "appId": 1817070,
@@ -414,7 +415,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -425,7 +426,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-1426210": {
       "appId": 1426210,
@@ -441,7 +442,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -452,7 +453,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-2531310": {
       "appId": 2531310,
@@ -468,7 +469,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -479,7 +480,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-1259420": {
       "appId": 1259420,
@@ -495,7 +496,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -506,7 +507,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5037200": {
       "appId": 5037200,
@@ -523,7 +524,7 @@
       "origem": [
         "mais-vendidos"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -534,7 +535,144 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+    },
+    "steam-4924900": {
+      "appId": 4924900,
+      "nome": "TURBOCARDS",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924900/b8107a2246d965fbde467a27ec02922dc6d25cf7/header.jpg?t=1795197619",
+      "lancamento": "20/nov./2026",
+      "descricaoSteam": "Klondike, Spider e FreeCell para PC e consoles portáteis. Jogue com mouse, teclado ou controle — do seu jeito, onde quiser. Quatro conjuntos de skins, modificadores e desafio diário com distribuições verificadas. Windows, macOS, Linux e SteamOS.",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 14.17,
+          "precoOriginal": 15.75,
+          "desconto": 10,
+          "url": "https://store.steampowered.com/app/4924900/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+    },
+    "steam-5130880": {
+      "appId": 5130880,
+      "nome": "Digbound",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130880/14120ac91494875ee987482124c432dd2d9c4e19/header.jpg?t=1795197587",
+      "lancamento": "20/nov./2026",
+      "descricaoSteam": "Digbound é um jogo curto e relaxante de mineração em primeira pessoa. Cave pela terra, descubra minérios valiosos, venda o que encontrar e melhore seus equipamentos para alcançar profundidades cada vez maiores.",
+      "generos": [
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 18.79,
+          "precoOriginal": 23.49,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/5130880/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+    },
+    "steam-4811080": {
+      "appId": 4811080,
+      "nome": "No Visitors Allowed",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4811080/ab006dbf06247bc3e6701e9ef3b7d912826eee37/header.jpg?t=1795197055",
+      "lancamento": "20/nov./2026",
+      "descricaoSteam": "Um jogo de terror psicológico minimalista inspirado em The Exit 8, no qual os jogadores devem escapar de um corredor de hospital abandonado da era pós-soviética que se repete em loop, detectando anomalias.",
+      "generos": [
+        "Aventura",
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 13.5,
+          "precoOriginal": 15,
+          "desconto": 10,
+          "url": "https://store.steampowered.com/app/4811080/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+    },
+    "steam-5485770": {
+      "appId": 5485770,
+      "nome": "Meowinks Tidy or Else",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5485770/2d3cafb75e6e572ceff3b18a1e17d9f1a4bc4b52/header.jpg?t=1795196540",
+      "lancamento": "20/nov./2026",
+      "descricaoSteam": "Meowinks Tidy or Else é um simulador de organização noturna onde você deve arrumar mais de 5.000 brinquedos! Melhore seu personagem e deixe a loja pronta para amanhã. Só ignore as coisas estranhas que acontecem quando ninguém está olhando... Ele está observando você!",
+      "generos": [
+        "Ação",
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 27.75,
+          "precoOriginal": 34.69,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/5485770/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+    },
+    "steam-5371870": {
+      "appId": 5371870,
+      "nome": "Afterpub",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5371870/edaff716de169366633ff02302c2c4aa491d8c0e/header.jpg?t=1795196125",
+      "lancamento": "20/nov./2026",
+      "descricaoSteam": "Grandpas in wheelchairs, a pub full of games and 22 maps to race over. Bet on the chaos, throw everything you grab, beat every pub's boss in Story Mode or play with friends online in Chaos Run, 1v1 Duels, tournaments and 25+ pub games. Full controller support, Steam Deck ready.",
+      "generos": [
+        "Ação",
+        "Casual",
+        "Corrida",
+        "Esportes",
+        "Estratégia"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 14.61,
+          "precoOriginal": 19.49,
+          "desconto": 25,
+          "url": "https://store.steampowered.com/app/5371870/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5524170": {
       "appId": 5524170,
@@ -549,7 +687,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -560,7 +698,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-2521670": {
       "appId": 2521670,
@@ -574,7 +712,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -585,7 +723,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-3652920": {
       "appId": 3652920,
@@ -601,7 +739,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -612,7 +750,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4714230": {
       "appId": 4714230,
@@ -629,7 +767,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -640,7 +778,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5398560": {
       "appId": 5398560,
@@ -655,7 +793,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -666,7 +804,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5198430": {
       "appId": 5198430,
@@ -680,7 +818,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -691,7 +829,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4535880": {
       "appId": 4535880,
@@ -707,7 +845,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -718,7 +856,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5277000": {
       "appId": 5277000,
@@ -733,7 +871,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -744,7 +882,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5388330": {
       "appId": 5388330,
@@ -761,7 +899,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -772,7 +910,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4967770": {
       "appId": 4967770,
@@ -789,7 +927,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -800,7 +938,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4847660": {
       "appId": 4847660,
@@ -816,7 +954,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -827,7 +965,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-3164010": {
       "appId": 3164010,
@@ -843,7 +981,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -854,7 +992,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5146090": {
       "appId": 5146090,
@@ -870,7 +1008,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -881,7 +1019,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-2440690": {
       "appId": 2440690,
@@ -897,7 +1035,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -908,7 +1046,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4525890": {
       "appId": 4525890,
@@ -924,7 +1062,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -935,7 +1073,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4425610": {
       "appId": 4425610,
@@ -949,7 +1087,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -960,7 +1098,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5428930": {
       "appId": 5428930,
@@ -975,7 +1113,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -986,7 +1124,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5482020": {
       "appId": 5482020,
@@ -1002,7 +1140,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1013,7 +1151,34 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+    },
+    "steam-4537030": {
+      "appId": 4537030,
+      "nome": "Rhythm Roll",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4537030/bc3f6ba1bfd5b98f90b5fe6a21eae05e66b9b331/header.jpg?t=1795184204",
+      "lancamento": "20/nov./2026",
+      "descricaoSteam": "Role por um mundo de ritmo e luz com Rhythm Roll! Controle uma bola rápida em níveis incríveis com estilos e músicas únicos. Desvie de obstáculos, siga a batida e teste seus reflexos. Simples de jogar, mas você consegue dominar a velocidade?",
+      "generos": [
+        "Ação",
+        "Casual",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 11.59,
+          "precoOriginal": 14.49,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/4537030/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4504940": {
       "appId": 4504940,
@@ -1028,7 +1193,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1039,7 +1204,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5398740": {
       "appId": 5398740,
@@ -1055,7 +1220,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1066,7 +1231,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4697880": {
       "appId": 4697880,
@@ -1082,7 +1247,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
+      "vistoEm": "2026-11-20T18:20:11.918Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1093,7 +1258,91 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+    },
+    "steam-2909400": {
+      "appId": 2909400,
+      "nome": "FINAL FANTASY VII REBIRTH",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg?t=1793774936",
+      "lancamento": "23/jan./2025",
+      "descricaoSteam": "A jornada rumo ao desconhecido continua... Depois de escaparem da cidade de Midgar, Cloud e seus amigos partem em uma aventura pelo planeta. Explore um mundo vasto e cheio de vida nessa aventura independente da trilogia do remake de FFVII.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "RPG"
+      ],
+      "origem": [
+        "promocao"
+      ],
+      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 32.98,
+          "precoOriginal": 219.9,
+          "desconto": 85,
+          "url": "https://store.steampowered.com/app/2909400/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+    },
+    "steam-1462040": {
+      "appId": 1462040,
+      "nome": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
+      "lancamento": "17/jun./2022",
+      "descricaoSteam": "Cloud Strife, ex-agente da SOLDIER, chega a Midgar, a cidade movida a energia de mako. O clássico atemporal FINAL FANTASY VII renasceu, com gráficos de última geração, um novo sistema de combate e uma aventura adicional com Yuffie Kisaragi.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "RPG"
+      ],
+      "origem": [
+        "promocao"
+      ],
+      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 31.48,
+          "precoOriginal": 174.9,
+          "desconto": 82,
+          "url": "https://store.steampowered.com/app/1462040/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
+    },
+    "steam-2406770": {
+      "appId": 2406770,
+      "nome": "Bodycam",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
+      "lancamento": "7/jun./2024",
+      "descricaoSteam": "Bodycam é o primeiro FPS multijogador tático com uma visão real da câmera corporal no Unreal Engine 5. Os combates corpo a corpo parecem crus e barulhentos. Cada ângulo, texto explicativo e marcador são importantes. Jogue Deathmatch, Team Deathmatch e Wingman em mapas fotorrealistas onde o jogo em.",
+      "generos": [
+        "Ação",
+        "Indie",
+        "Multijogador Massivo",
+        "Simulação",
+        "Estratégia",
+        "Acesso Antecipado"
+      ],
+      "origem": [
+        "promocao"
+      ],
+      "vistoEm": "2026-11-20T18:20:11.918Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 81.59,
+          "precoOriginal": 101.99,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/2406770/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5074300": {
       "appId": 5074300,
@@ -1121,7 +1370,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4834780": {
       "appId": 4834780,
@@ -1146,7 +1395,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4834810": {
       "appId": 4834810,
@@ -1171,7 +1420,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4834790": {
       "appId": 4834790,
@@ -1196,7 +1445,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4314350": {
       "appId": 4314350,
@@ -1223,7 +1472,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-4362370": {
       "appId": 4362370,
@@ -1249,7 +1498,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     },
     "steam-5509730": {
       "appId": 5509730,
@@ -1278,91 +1527,7 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
-    },
-    "steam-2909400": {
-      "appId": 2909400,
-      "nome": "FINAL FANTASY VII REBIRTH",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg?t=1793774936",
-      "lancamento": "23/jan./2025",
-      "descricaoSteam": "A jornada rumo ao desconhecido continua... Depois de escaparem da cidade de Midgar, Cloud e seus amigos partem em uma aventura pelo planeta. Explore um mundo vasto e cheio de vida nessa aventura independente da trilogia do remake de FFVII.",
-      "generos": [
-        "Ação",
-        "Aventura",
-        "RPG"
-      ],
-      "origem": [
-        "promocao"
-      ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 32.98,
-          "precoOriginal": 219.9,
-          "desconto": 85,
-          "url": "https://store.steampowered.com/app/2909400/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
-    },
-    "steam-1462040": {
-      "appId": 1462040,
-      "nome": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
-      "lancamento": "17/jun./2022",
-      "descricaoSteam": "Cloud Strife, ex-agente da SOLDIER, chega a Midgar, a cidade movida a energia de mako. O clássico atemporal FINAL FANTASY VII renasceu, com gráficos de última geração, um novo sistema de combate e uma aventura adicional com Yuffie Kisaragi.",
-      "generos": [
-        "Ação",
-        "Aventura",
-        "RPG"
-      ],
-      "origem": [
-        "promocao"
-      ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 31.48,
-          "precoOriginal": 174.9,
-          "desconto": 82,
-          "url": "https://store.steampowered.com/app/1462040/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
-    },
-    "steam-2406770": {
-      "appId": 2406770,
-      "nome": "Bodycam",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
-      "lancamento": "7/jun./2024",
-      "descricaoSteam": "Bodycam é o primeiro FPS multijogador tático com uma visão real da câmera corporal no Unreal Engine 5. Os combates corpo a corpo parecem crus e barulhentos. Cada ângulo, texto explicativo e marcador são importantes. Jogue Deathmatch, Team Deathmatch e Wingman em mapas fotorrealistas onde o jogo em.",
-      "generos": [
-        "Ação",
-        "Indie",
-        "Multijogador Massivo",
-        "Simulação",
-        "Estratégia",
-        "Acesso Antecipado"
-      ],
-      "origem": [
-        "promocao"
-      ],
-      "vistoEm": "2026-11-20T17:59:39.441Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 81.59,
-          "precoOriginal": 101.99,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/2406770/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-20T17:59:39.441Z"
+      "atualizadoEm": "2026-11-20T18:20:11.918Z"
     }
   },
   "promocoesSteam": [
@@ -1417,16 +1582,6 @@
       "url": "https://store.steampowered.com/app/2909400/"
     },
     {
-      "appId": 2531310,
-      "nome": "The Last of Us™ Parte II Remastered",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1750959180",
-      "preco": 133.93,
-      "precoOriginal": 199.9,
-      "desconto": 33,
-      "terminaEm": "2026-12-01T18:00:00.000Z",
-      "url": "https://store.steampowered.com/app/2531310/"
-    },
-    {
       "appId": 1462040,
       "nome": "FINAL FANTASY VII REMAKE INTERGRADE",
       "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
@@ -1435,6 +1590,16 @@
       "desconto": 82,
       "terminaEm": "2026-12-02T18:00:00.000Z",
       "url": "https://store.steampowered.com/app/1462040/"
+    },
+    {
+      "appId": 2531310,
+      "nome": "The Last of Us™ Parte II Remastered",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1750959180",
+      "preco": 133.93,
+      "precoOriginal": 199.9,
+      "desconto": 33,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/2531310/"
     },
     {
       "appId": 1259420,
@@ -1447,16 +1612,6 @@
       "url": "https://store.steampowered.com/app/1259420/"
     },
     {
-      "appId": 2322010,
-      "nome": "God of War Ragnarök",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1776465233",
-      "preco": 167.43,
-      "precoOriginal": 249.9,
-      "desconto": 33,
-      "terminaEm": "2026-12-01T18:00:00.000Z",
-      "url": "https://store.steampowered.com/app/2322010/"
-    },
-    {
       "appId": 2406770,
       "nome": "Bodycam",
       "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/677415ebaf02fc7ae5fe8960e6055e65e9fa21a4/header_alt_assets_4.jpg?t=1794951323",
@@ -1465,6 +1620,16 @@
       "desconto": 20,
       "terminaEm": "2026-11-20T21:00:00.000Z",
       "url": "https://store.steampowered.com/app/2406770/"
+    },
+    {
+      "appId": 2322010,
+      "nome": "God of War Ragnarök",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1776465233",
+      "preco": 167.43,
+      "precoOriginal": 249.9,
+      "desconto": 33,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/2322010/"
     }
   ],
   "erros": []
