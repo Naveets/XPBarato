@@ -8,7 +8,7 @@ import {
   DIAS_MINIMOS_VEREDITO, formatarPreco, formatarDiaCurto, quando, tempoRestante
 } from './dados.js';
 import { graficoDePreco } from './grafico.js';
-import { LOJAS, PLATAFORMAS, linkDeBusca } from './lojas.js';
+import { LOJAS, PLATAFORMAS, linkDeBusca, nomeDaLoja } from './lojas.js';
 import { registrarEvento } from './metricas.js';
 
 const app = document.getElementById('app');
@@ -56,7 +56,7 @@ function precoResumo(jogo) {
   const o = jogo.melhorOferta;
   if (!o) return `<div class="preco-resumo sem-preco">Ver preços nas lojas</div>`;
   const desconto = o.desconto > 0 ? `<span class="desconto">-${o.desconto}%</span>` : '';
-  return `<div class="preco-resumo">${desconto}<strong>${formatarPreco(o.preco)}</strong><small>na ${esc(LOJAS[o.loja]?.nome)}</small></div>`;
+  return `<div class="preco-resumo">${desconto}<strong>${formatarPreco(o.preco)}</strong><small>na ${esc(nomeDaLoja(o))}</small></div>`;
 }
 
 const itemDaLista = (j) => `
@@ -144,7 +144,7 @@ async function telaInicio() {
 
   const status = dados.exemplo
     ? `<div class="status alerta">Dados de exemplo: o robô de preços ainda não rodou.</div>`
-    : `<div class="status"><span class="ponto" aria-hidden="true"></span>Preços da Steam atualizados ${esc(quando(dados.atualizadoEm))}</div>`;
+    : `<div class="status"><span class="ponto" aria-hidden="true"></span>Preços atualizados ${esc(quando(dados.atualizadoEm))}</div>`;
 
   const instalar = pedidoDeInstalacao && !estaInstalado()
     ? `<button class="cartao-instalar" data-instalar>
@@ -173,7 +173,7 @@ async function telaInicio() {
         <h1>Qual jogo você quer pagar menos?</h1>
       </div>
     </header>
-    <a class="campo-busca falso" href="#/buscar"><span aria-hidden="true">⌕</span>Buscar entre ${dados.todos.length} jogos</a>
+    <a class="campo-busca falso" href="#/buscar"><span aria-hidden="true">⌕</span>Buscar</a>
     ${status}
     ${instalar}
     ${vitrine('Promoções do dia na Steam', dados.promocoes)}
@@ -271,14 +271,14 @@ async function telaJogo(id) {
   const linhaComPreco = (o, i) => `
     <li class="oferta ${i === 0 ? 'melhor' : ''}">
       <div class="loja">
-        <strong>${esc(LOJAS[o.loja]?.nome ?? o.loja)}</strong>
+        <strong>${esc(nomeDaLoja(o))}</strong>
         ${i === 0 ? '<span class="selo-menor">Menor preço</span>' : `<small>+ ${formatarPreco(o.preco - menor)}</small>`}
       </div>
       <div class="valores">
         ${o.desconto > 0 ? `<s>${formatarPreco(o.precoOriginal)}</s>` : ''}
         <span>${o.desconto > 0 ? `<em class="desconto">-${o.desconto}%</em>` : ''}<strong>${formatarPreco(o.preco)}</strong></span>
       </div>
-      <a class="botao ir" href="${esc(o.url)}" target="_blank" rel="noopener" data-loja="${esc(o.loja)}">Ir à loja</a>
+      <a class="botao ir" href="${esc(o.url || linkDeBusca(o.loja, jogo.nome))}" target="_blank" rel="noopener" data-loja="${esc(o.loja)}">Ir à loja</a>
     </li>`;
 
   const linhaSemPreco = (lojaId) => `
@@ -295,7 +295,7 @@ async function telaJogo(id) {
     <section class="cartao-selo">
       <p class="selo-titulo">🎁 Com gift card sai mais barato</p>
       <p>Comprando <strong>${s.quantidade > 1 ? `${s.quantidade} × ` : ''}${esc(s.cartao.nome)}</strong> por
-        ${formatarPreco(s.cartao.preco)}${s.quantidade > 1 ? ' cada' : ''} na ${esc(s.cartao.revenda)} e usando o crédito na ${esc(LOJAS[s.oferta.loja].nome)},
+        ${formatarPreco(s.cartao.preco)}${s.quantidade > 1 ? ' cada' : ''} na ${esc(s.cartao.revenda)} e usando o crédito na ${esc(nomeDaLoja(s.oferta))},
         o jogo sai por <strong class="verde">${formatarPreco(s.precoEfetivo)}</strong>
         (economia de ${formatarPreco(s.economia)}).</p>
       <a class="botao ir secundario" href="${esc(s.cartao.url)}" target="_blank" rel="noopener" data-loja="giftcard-${esc(s.cartao.revenda)}">Ver gift card</a>
@@ -327,7 +327,7 @@ async function telaJogo(id) {
         <h3 class="subtitulo">${comPreco.length ? 'Confira também' : ''}</h3>
         <ul class="ofertas">${semPreco.map(linhaSemPreco).join('')}</ul>` : ''}
       <p class="nota">${comPreco.length && !dados.exemplo
-        ? `Preço da Steam consultado pelo robô ${esc(quando(dados.atualizadoEm))}. `
+        ? `Preços consultados pelo robô ${esc(quando(dados.atualizadoEm))} (${esc(dados.fontes.join(' e '))}). `
         : ''}O botão "Ver preço" abre a busca do jogo no site oficial da loja.</p>
     </section>`;
 

@@ -32,6 +32,8 @@ jobs:
 
       - name: Consultar preços
         run: node robo/atualizar-precos.mjs
+        env:
+          ITAD_API_KEY: ${{ secrets.ITAD_API_KEY }}
 
       - name: Salvar no repositório
         run: |

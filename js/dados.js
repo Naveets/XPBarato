@@ -46,6 +46,7 @@ export async function carregarDados({ forcar = false } = {}) {
     todos,
     cartoes,
     atualizadoEm: precos.atualizadoEm ? new Date(precos.atualizadoEm) : null,
+    fontes: (precos.fontes ?? ['steam']).map((f) => ({ steam: 'Steam', isthereanydeal: 'IsThereAnyDeal' })[f] ?? f),
     exemplo: precos.fonte !== 'robo'
   };
   return cache;

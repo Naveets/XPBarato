@@ -14,6 +14,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { criarCliente, mesclarHistorico } from './itad.mjs';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ARQ_CATALOGO = path.join(RAIZ, 'dados', 'catalogo.json');
@@ -28,6 +29,8 @@ const DIAS_DE_HISTORICO = 365;  // quantos dias o histórico guarda
 const MAX_PROMOCOES = 12;       // cartões na vitrine "Promoções do dia"
 const MAX_EXTRAS = 60;          // jogos descobertos na Steam, além do catálogo
 const DIAS_MANTER_EXTRA = 30;   // um jogo descoberto continua no app por 30 dias depois de sair das listas
+const DIAS_IMPORTAR_ITAD = 90;  // quantos dias de histórico trazer do IsThereAnyDeal
+const MAX_IMPORTACOES = 80;     // históricos importados por execução (o resto fica para o dia seguinte)
 
 const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
 const centavos = (v) => Math.round(Number(v)) / 100;
@@ -173,7 +176,6 @@ export async function executar({ agora = new Date(), pausaMs = PAUSA_MS } = {}) 
         ofertas: s.oferta ? [s.oferta] : [],
         atualizadoEm: agoraIso
       };
-      registrarHistorico(historico, jogo.id, jogos[jogo.id].ofertas, dia);
       atualizados++;
       console.log(`✔ ${jogo.nome}: ${s.oferta ? 'R$ ' + s.oferta.preco.toFixed(2) : 'sem preço'}`);
     } catch (erro) {
@@ -231,7 +233,6 @@ export async function executar({ agora = new Date(), pausaMs = PAUSA_MS } = {}) 
         ofertas: [s.oferta],
         atualizadoEm: agoraIso
       };
-      registrarHistorico(historico, id, extras[id].ofertas, dia);
       atualizados++;
     } catch (erro) {
       erros.push(`${salvo?.nome ?? appId}: ${erro.message}`);
@@ -240,6 +241,27 @@ export async function executar({ agora = new Date(), pausaMs = PAUSA_MS } = {}) 
     await esperar(pausaMs);
   }
   console.log(`✔ Jogos descobertos na Steam: ${Object.keys(extras).length}`);
+
+  // ---------- 4. IsThereAnyDeal: outras lojas de PC + histórico (só com a chave configurada)
+  const fontes = ['steam'];
+  const chaveItad = process.env.ITAD_API_KEY?.trim();
+  if (chaveItad) {
+    try {
+      const resumo = await enriquecerComItad({ chave: chaveItad, catalogo, jogos, extras, historico, agora, agoraIso, erros });
+      fontes.push('isthereanydeal');
+      console.log(`✔ IsThereAnyDeal: ${resumo.mapeados} jogos encontrados, ${resumo.comOutrasLojas} com preço em outras lojas, ${resumo.importados} históricos importados`);
+    } catch (erro) {
+      erros.push(`IsThereAnyDeal: ${erro.message}`);
+      console.warn(`✖ IsThereAnyDeal: ${erro.message}`);
+    }
+  } else {
+    console.log('ℹ IsThereAnyDeal: sem chave (segredo ITAD_API_KEY), usando só a Steam');
+  }
+
+  // ---------- 5. registra o dia de hoje no histórico (todas as lojas com preço)
+  for (const [id, dados] of [...Object.entries(jogos), ...Object.entries(extras)]) {
+    if (dados.atualizadoEm === agoraIso) registrarHistorico(historico, id, dados.ofertas, dia);
+  }
 
   // Se nada deu certo, não sobrescreve os dados bons de ontem.
   if (atualizados === 0) {
@@ -250,7 +272,7 @@ export async function executar({ agora = new Date(), pausaMs = PAUSA_MS } = {}) 
   const precos = {
     atualizadoEm: agoraIso,
     fonte: 'robo',
-    fontes: ['steam'],
+    fontes,
     jogos,
     extras,
     promocoesSteam,
@@ -262,6 +284,54 @@ export async function executar({ agora = new Date(), pausaMs = PAUSA_MS } = {}) 
   await writeFile(ARQ_HISTORICO, JSON.stringify(historico) + '\n');
   console.log(`\nPronto: ${atualizados} jogo(s) atualizado(s), ${erros.length} erro(s).`);
   return { atualizados, erros, gravou: true };
+}
+
+async function enriquecerComItad({ chave, catalogo, jogos, extras, historico, agora, agoraIso, erros }) {
+  const cliente = criarCliente(chave);
+
+  // Todos os jogos com versão na Steam: id no app → appid da Steam
+  const alvos = [
+    ...catalogo.jogos.filter((j) => j.steamAppId && jogos[j.id]).map((j) => ({ id: j.id, appId: j.steamAppId, dados: jogos[j.id] })),
+    ...Object.entries(extras).map(([id, e]) => ({ id, appId: e.appId, dados: e }))
+  ];
+  const mapa = await cliente.mapearSteam(alvos.map((a) => a.appId));
+  const comId = alvos.filter((a) => mapa.get(a.appId)).map((a) => ({ ...a, uuid: mapa.get(a.appId) }));
+
+  // Preço atual nas outras lojas (a Steam continua vindo direto da Steam)
+  const precos = await cliente.precosAtuais(comId.map((a) => a.uuid));
+  let comOutrasLojas = 0;
+  for (const alvo of comId) {
+    const daSteam = (alvo.dados.ofertas ?? []).filter((o) => o.loja === 'steam');
+    const outras = new Map();
+    for (const o of precos.get(alvo.uuid) ?? []) {
+      if (o.loja === 'steam') continue;
+      if (!outras.has(o.loja) || o.preco < outras.get(o.loja).preco) outras.set(o.loja, o);
+    }
+    if (outras.size) comOutrasLojas++;
+    alvo.dados.ofertas = [...daSteam, ...outras.values()].sort((a, b) => a.preco - b.preco);
+    alvo.dados.itadId = alvo.uuid;
+    if (outras.size && alvo.dados.atualizadoEm !== agoraIso) alvo.dados.atualizadoEm = agoraIso;
+  }
+
+  // Histórico dos últimos 90 dias: importa uma vez por jogo
+  historico.importadoItad ??= {};
+  const desde = new Date(agora.getTime() - DIAS_IMPORTAR_ITAD * 86400000);
+  const ontem = new Date(agora.getTime() - 86400000);
+  let importados = 0;
+  for (const alvo of comId) {
+    if (historico.importadoItad[alvo.id] || importados >= MAX_IMPORTACOES) continue;
+    try {
+      const mudancas = await cliente.historico(alvo.uuid);
+      const lojasAtivas = new Set(alvo.dados.ofertas.map((o) => o.loja));
+      historico.jogos[alvo.id] = mesclarHistorico(historico.jogos[alvo.id], mudancas, { desde, ate: ontem, lojasAtivas });
+      historico.importadoItad[alvo.id] = agoraIso;
+      importados++;
+    } catch (erro) {
+      erros.push(`Histórico ${alvo.dados.nome ?? alvo.id}: ${erro.message}`);
+    }
+    await esperar(200);
+  }
+  return { mapeados: comId.length, comOutrasLojas, importados };
 }
 
 // Executa quando chamado direto pelo terminal (e não quando importado nos testes).
