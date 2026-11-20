@@ -1,8 +1,9 @@
 {
-  "atualizadoEm": "2026-11-20T18:23:00.720Z",
+  "atualizadoEm": "2026-11-20T18:30:58.801Z",
   "fonte": "robo",
   "fontes": [
-    "steam"
+    "steam",
+    "isthereanydeal"
   ],
   "jogos": {
     "cyberpunk-2077": {
@@ -15,15 +16,61 @@
       ],
       "ofertas": [
         {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 74.7,
+          "precoOriginal": 249,
+          "desconto": 70,
+          "url": "https://itad.link/019645ee-5f65-739d-a64d-5c11b8c60f46/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
           "loja": "steam",
           "preco": 199.9,
           "precoOriginal": 199.9,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1091500/",
           "fonte": "steam"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 199.9,
+          "precoOriginal": 199.9,
+          "desconto": 0,
+          "url": "https://itad.link/018d959f-05a1-72eb-9ec3-238e952331cc/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gog",
+          "lojaNome": "GOG",
+          "preco": 199.9,
+          "precoOriginal": 199.9,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-46b0-70e5-9b53-b1ca00522c36/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "blizzard",
+          "lojaNome": "Blizzard",
+          "preco": 199.9,
+          "precoOriginal": 199.9,
+          "desconto": 0,
+          "url": "https://itad.link/01a1c664-319f-711e-87b0-3735f012a925/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 249,
+          "precoOriginal": 249,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-46b0-70e5-9b53-b1ca15529805/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-2997-7131-b8b9-7c8af4825fa8"
     },
     "elden-ring": {
       "nomeSteam": "ELDEN RING",
@@ -36,15 +83,88 @@
       ],
       "ofertas": [
         {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 247.05,
+          "precoOriginal": 274.5,
+          "desconto": 10,
+          "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b523c3e1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
           "loja": "steam",
           "preco": 274.5,
           "precoOriginal": 274.5,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1245620/",
           "fonte": "steam"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 320.51,
+          "precoOriginal": 356.86,
+          "desconto": 10,
+          "url": "https://itad.link/018d9386-5634-71ca-ac17-8fff42a100db/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-us",
+          "lojaNome": "GamesPlanet US",
+          "preco": 321.16,
+          "precoOriginal": 356.86,
+          "desconto": 10,
+          "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b15ae209/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "wingamestore",
+          "lojaNome": "WinGameStore",
+          "preco": 344.96,
+          "precoOriginal": 356.86,
+          "desconto": 3,
+          "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b4787aba/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "playerland",
+          "lojaNome": "PlayerLand",
+          "preco": 344.96,
+          "precoOriginal": 356.86,
+          "desconto": 3,
+          "url": "https://itad.link/019c7021-d0f3-734f-9b35-758bd24ef51f/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 353.46,
+          "precoOriginal": 353.46,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-5633-7086-a2fa-f903c8435035/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 356.86,
+          "precoOriginal": 356.86,
+          "desconto": 0,
+          "url": "https://itad.link/018d9584-852e-73e4-ade2-d9dc4742aea0/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "planetplay",
+          "lojaNome": "PlanetPlay",
+          "preco": 356.86,
+          "precoOriginal": 356.86,
+          "desconto": 0,
+          "url": "https://itad.link/019852bb-43a9-73e4-96e3-bbf00cd11913/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-590c-728b-ac35-38bcff85f086"
     },
     "hogwarts-legacy": {
       "nomeSteam": "Hogwarts Legacy",
@@ -58,15 +178,169 @@
       ],
       "ofertas": [
         {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 21.92,
+          "precoOriginal": 249.99,
+          "desconto": 91,
+          "url": "https://itad.link/018d9386-759a-73d4-80de-6b9459d2c9d1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "playsum",
+          "lojaNome": "Playsum",
+          "preco": 24.34,
+          "precoOriginal": 249.99,
+          "desconto": 90,
+          "url": "https://itad.link/01a11204-b308-718e-8aea-faf3d8dd0560/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamebillet",
+          "lojaNome": "GameBillet",
+          "preco": 25,
+          "precoOriginal": 249.99,
+          "desconto": 90,
+          "url": "https://itad.link/01926901-7146-722d-ba24-d22dc88d7e85/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 25,
+          "precoOriginal": 249.99,
+          "desconto": 90,
+          "url": "https://itad.link/018d9386-759b-72ad-8ee0-197215340fe8/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 25,
+          "precoOriginal": 249.99,
+          "desconto": 90,
+          "url": "https://itad.link/018d9386-759a-73d4-80de-6b9452d3f3b2/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 29.99,
+          "precoOriginal": 299.99,
+          "desconto": 90,
+          "url": "https://itad.link/019645ee-5f64-701b-8a07-c00521f5aa78/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 31.47,
+          "precoOriginal": 356.86,
+          "desconto": 91,
+          "url": "https://itad.link/018d9587-898f-718b-81d0-16845a2d6ee6/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 33.98,
+          "precoOriginal": 339.76,
+          "desconto": 90,
+          "url": "https://itad.link/019c9add-1550-7084-9314-b8d69e0cd024/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-us",
+          "lojaNome": "GamesPlanet US",
+          "preco": 34.32,
+          "precoOriginal": 356.86,
+          "desconto": 90,
+          "url": "https://itad.link/018d9386-759a-73d4-80de-6b94595bd7ff/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "playerland",
+          "lojaNome": "PlayerLand",
+          "preco": 35.63,
+          "precoOriginal": 356.86,
+          "desconto": 90,
+          "url": "https://itad.link/01a0f8f9-c6c0-72ae-8ae8-7b663475b5f5/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "planetplay",
+          "lojaNome": "PlanetPlay",
+          "preco": 35.69,
+          "precoOriginal": 356.86,
+          "desconto": 90,
+          "url": "https://itad.link/019f13d5-1257-71bf-b78f-86bc2340527e/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-de",
+          "lojaNome": "GamesPlanet DE",
+          "preco": 37.36,
+          "precoOriginal": 391.85,
+          "desconto": 90,
+          "url": "https://itad.link/018d9386-759a-73d4-80de-6b945987070b/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-fr",
+          "lojaNome": "GamesPlanet FR",
+          "preco": 37.36,
+          "precoOriginal": 391.85,
+          "desconto": 90,
+          "url": "https://itad.link/018d9386-759b-72ad-8ee0-19724765f035/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-uk",
+          "lojaNome": "GamesPlanet UK",
+          "preco": 37.8,
+          "precoOriginal": 389.65,
+          "desconto": 90,
+          "url": "https://itad.link/018d9386-759a-73d4-80de-6b94586499ba/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
           "loja": "steam",
           "preco": 249.99,
           "precoOriginal": 249.99,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/990080/",
           "fonte": "steam"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 249.99,
+          "precoOriginal": 249.99,
+          "desconto": 0,
+          "url": "https://itad.link/018d959c-f86e-7393-896d-a27747ac7e91/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 306.89,
+          "precoOriginal": 356.86,
+          "desconto": 14,
+          "url": "https://itad.link/018d9386-759a-73d4-80de-6b94540f4f35/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "zapagames",
+          "lojaNome": "Zapagames",
+          "preco": 356.86,
+          "precoOriginal": 356.86,
+          "desconto": 0,
+          "url": "https://itad.link/01a08df7-c71b-72c6-98df-062f8bd69546/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-6144-7057-ad1c-0e99a3a71797"
     },
     "red-dead-redemption-2": {
       "nomeSteam": "Red Dead Redemption 2",
@@ -79,6 +353,42 @@
       ],
       "ofertas": [
         {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 74.97,
+          "precoOriginal": 299.9,
+          "desconto": 75,
+          "url": "https://itad.link/018d9386-b704-7355-a550-d9e43c928d37/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamebillet",
+          "lojaNome": "GameBillet",
+          "preco": 74.98,
+          "precoOriginal": 299.9,
+          "desconto": 75,
+          "url": "https://itad.link/01926901-71a0-7026-b374-b5f54bf27346/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 74.98,
+          "precoOriginal": 299.9,
+          "desconto": 75,
+          "url": "https://itad.link/018d9386-b703-7302-9857-11d2d1d13c48/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 299,
+          "precoOriginal": 299,
+          "desconto": 0,
+          "url": "https://itad.link/018d959f-735d-722a-8008-bb806806feef/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
           "loja": "steam",
           "preco": 299.9,
           "precoOriginal": 299.9,
@@ -87,7 +397,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-3a3b-7210-bd2d-0d1dfb1d84c0"
     },
     "god-of-war-ragnarok": {
       "nomeSteam": "God of War Ragnarök",
@@ -101,15 +412,124 @@
       ],
       "ofertas": [
         {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 142.3,
+          "precoOriginal": 249.9,
+          "desconto": 43,
+          "url": "https://itad.link/018ff4fc-b985-71e8-85ac-a83f2e840b87/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
           "loja": "steam",
           "preco": 167.43,
           "precoOriginal": 249.9,
           "desconto": 33,
           "url": "https://store.steampowered.com/app/2322010/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 167.43,
+          "precoOriginal": 249.9,
+          "desconto": 33,
+          "url": "https://itad.link/018fce65-ea66-732f-af16-f48899882db0/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 167.43,
+          "precoOriginal": 249.9,
+          "desconto": 33,
+          "url": "https://itad.link/01920b08-3588-7001-8fc9-953db71152cb/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "joybuggy",
+          "lojaNome": "JoyBuggy",
+          "preco": 167.43,
+          "precoOriginal": 249.9,
+          "desconto": 33,
+          "url": "https://itad.link/01a1f922-e526-711b-b610-71c0606213ef/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 215.87,
+          "precoOriginal": 356.86,
+          "desconto": 40,
+          "url": "https://itad.link/01920ad1-5b5e-714e-89db-573610f1285e/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 238.65,
+          "precoOriginal": 238.65,
+          "desconto": 0,
+          "url": "https://itad.link/019c9adc-4fa5-70f5-9aab-64ad73d89b83/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 239.07,
+          "precoOriginal": 356.86,
+          "desconto": 33,
+          "url": "https://itad.link/01920bcf-6b5d-714a-8566-c4378dce0855/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-uk",
+          "lojaNome": "GamesPlanet UK",
+          "preco": 241.55,
+          "precoOriginal": 389.65,
+          "desconto": 38,
+          "url": "https://itad.link/018fcdca-7dfb-7351-a91f-b6f8dd099591/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-de",
+          "lojaNome": "GamesPlanet DE",
+          "preco": 244.16,
+          "precoOriginal": 391.85,
+          "desconto": 38,
+          "url": "https://itad.link/018ff4c5-d431-7365-9969-7c145c641c79/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-fr",
+          "lojaNome": "GamesPlanet FR",
+          "preco": 244.16,
+          "precoOriginal": 391.85,
+          "desconto": 38,
+          "url": "https://itad.link/018ff4c5-b68e-72ca-a36a-7b367a49aa2b/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesload",
+          "lojaNome": "Gamesload",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://itad.link/01920ff2-b607-71a2-a432-c13294a06e49/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://itad.link/01920ae8-92e7-7296-aa09-4c7d12e95344/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-6bca-706d-9e69-8316170c379b"
     },
     "forza-horizon-5": {
       "nomeSteam": "Forza Horizon 5",
@@ -131,9 +551,28 @@
           "desconto": 60,
           "url": "https://store.steampowered.com/app/1551360/",
           "fonte": "steam"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 99.6,
+          "precoOriginal": 249,
+          "desconto": 60,
+          "url": "https://itad.link/018d9386-67ee-7395-84b3-8de2e81d17e1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 249,
+          "precoOriginal": 249,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-67ed-705e-b566-fb5bebcd3843/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-51cf-71a2-8359-bde443177de4"
     },
     "zelda-tears-of-the-kingdom": {
       "ofertas": [],
@@ -161,9 +600,28 @@
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1086940/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gog",
+          "lojaNome": "GOG",
+          "preco": 199.99,
+          "precoOriginal": 199.99,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-2caa-7166-99c3-53160d559490/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 259.95,
+          "precoOriginal": 259.95,
+          "desconto": 0,
+          "url": "https://itad.link/019645ee-5f6c-70b0-a024-5989a172c2cc/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d9584-24d6-7010-b82b-df1f0b154cc7"
     },
     "hades-ii": {
       "nomeSteam": "Hades II",
@@ -183,9 +641,28 @@
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1145350/",
           "fonte": "steam"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 88.99,
+          "precoOriginal": 88.99,
+          "desconto": 0,
+          "url": "https://itad.link/018d9591-4f72-72a0-b0c5-80e096ae077f/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 89.95,
+          "precoOriginal": 89.95,
+          "desconto": 0,
+          "url": "https://itad.link/019d2b85-57ba-71cc-bd87-c4489883dd35/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-6ee3-738a-b578-ddd7e9a0d24d"
     },
     "stardew-valley": {
       "nomeSteam": "Stardew Valley",
@@ -205,9 +682,28 @@
           "desconto": 0,
           "url": "https://store.steampowered.com/app/413150/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gog",
+          "lojaNome": "GOG",
+          "preco": 24.99,
+          "precoOriginal": 24.99,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-d141-7169-a0af-3349dedb00d2/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 57.79,
+          "precoOriginal": 57.79,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-d141-7169-a0af-3349e7cc991b/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937e-f835-710c-b95b-928e277b187e"
     },
     "ea-sports-fc-26": {
       "nomeSteam": "EA SPORTS FC™ 26",
@@ -226,9 +722,37 @@
           "desconto": 0,
           "url": "https://store.steampowered.com/app/3405690/",
           "fonte": "steam"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 125,
+          "precoOriginal": 125,
+          "desconto": 0,
+          "url": "https://itad.link/01998320-7246-71b7-9a5d-f83e619a41c1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "ea-store",
+          "lojaNome": "EA Store",
+          "preco": 125,
+          "precoOriginal": 125,
+          "desconto": 0,
+          "url": "https://itad.link/019b6763-b24a-70e7-a29c-105ba0f54e91/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 299,
+          "precoOriginal": 299,
+          "desconto": 0,
+          "url": "https://itad.link/01997cfe-8dce-7088-8f68-2f8f42086575/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019813f7-6d79-70fa-aae9-bae99fd48dd1"
     },
     "monster-hunter-wilds": {
       "nomeSteam": "Monster Hunter Wilds",
@@ -242,15 +766,124 @@
       ],
       "ofertas": [
         {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 94.99,
+          "precoOriginal": 169,
+          "desconto": 44,
+          "url": "https://itad.link/01927c98-a749-724c-80d9-7dfce410e6af/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 126.75,
+          "precoOriginal": 169,
+          "desconto": 25,
+          "url": "https://itad.link/018faab9-5f3b-72e2-9f8d-d7ce786a0c86/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 152.22,
+          "precoOriginal": 237.88,
+          "desconto": 36,
+          "url": "https://itad.link/01954afb-24fe-720c-8dd8-62fcfe8bf504/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
           "loja": "steam",
           "preco": 169,
           "precoOriginal": 169,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/2246340/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 169,
+          "precoOriginal": 169,
+          "desconto": 0,
+          "url": "https://itad.link/01954b0e-5ead-737f-908b-103e723673f8/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-us",
+          "lojaNome": "GamesPlanet US",
+          "preco": 214.09,
+          "precoOriginal": 237.88,
+          "desconto": 10,
+          "url": "https://itad.link/01922d13-cb17-7123-9109-a839d2804635/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "wingamestore",
+          "lojaNome": "WinGameStore",
+          "preco": 220.04,
+          "precoOriginal": 237.88,
+          "desconto": 8,
+          "url": "https://itad.link/01944c6c-8501-7207-88d5-79cfb2f199d1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-fr",
+          "lojaNome": "GamesPlanet FR",
+          "preco": 235.08,
+          "precoOriginal": 261.21,
+          "desconto": 10,
+          "url": "https://itad.link/01922d13-bda2-7016-992f-66955f484e6d/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-de",
+          "lojaNome": "GamesPlanet DE",
+          "preco": 235.08,
+          "precoOriginal": 261.21,
+          "desconto": 10,
+          "url": "https://itad.link/01922d13-d759-72ac-a8c3-d38d93ce9a14/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "zapagames",
+          "lojaNome": "Zapagames",
+          "preco": 237.88,
+          "precoOriginal": 237.88,
+          "desconto": 0,
+          "url": "https://itad.link/01a08df7-d35b-732f-926f-e7cec67bd9d3/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "planetplay",
+          "lojaNome": "PlanetPlay",
+          "preco": 237.88,
+          "precoOriginal": 237.88,
+          "desconto": 0,
+          "url": "https://itad.link/019852bb-dd35-7382-84ae-fb89fa317806/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 237.88,
+          "precoOriginal": 237.88,
+          "desconto": 0,
+          "url": "https://itad.link/01929a91-cba4-73f1-a045-6264e8b31456/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-uk",
+          "lojaNome": "GamesPlanet UK",
+          "preco": 245.45,
+          "precoOriginal": 272.73,
+          "desconto": 10,
+          "url": "https://itad.link/01922d13-b154-7234-ad4a-edc1f36c1a4f/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-7a06-7082-ae40-6a37d855cb32"
     },
     "persona-5-royal": {
       "nomeSteam": "Persona 5 Royal",
@@ -268,9 +901,64 @@
           "desconto": 70,
           "url": "https://store.steampowered.com/app/1687950/",
           "fonte": "steam"
+        },
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 74.97,
+          "precoOriginal": 249.9,
+          "desconto": 70,
+          "url": "https://itad.link/018f537b-f87f-7305-bcd1-bd58a4b95790/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 88.5,
+          "precoOriginal": 295,
+          "desconto": 70,
+          "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea59ac8ee3/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 99.88,
+          "precoOriginal": 356.86,
+          "desconto": 72,
+          "url": "https://itad.link/018f5344-0134-715d-a56a-6e121eba3a6a/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-us",
+          "lojaNome": "GamesPlanet US",
+          "preco": 102.26,
+          "precoOriginal": 356.86,
+          "desconto": 71,
+          "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea609b3254/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "wingamestore",
+          "lojaNome": "WinGameStore",
+          "preco": 107.02,
+          "precoOriginal": 356.86,
+          "desconto": 70,
+          "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61aae399/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "planetplay",
+          "lojaNome": "PlanetPlay",
+          "preco": 107.07,
+          "precoOriginal": 356.86,
+          "desconto": 70,
+          "url": "https://itad.link/0198e50e-42d0-703d-8e96-3b70f246ac2d/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-4adb-73a6-a9e5-94ff62f6265b"
     },
     "hollow-knight-silksong": {
       "nomeSteam": "Hollow Knight: Silksong",
@@ -290,9 +978,46 @@
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1030300/",
           "fonte": "steam"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 59.99,
+          "precoOriginal": 59.99,
+          "desconto": 0,
+          "url": "https://itad.link/0198cd46-21d9-70b6-90ad-03ada500ba72/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gog",
+          "lojaNome": "GOG",
+          "preco": 59.99,
+          "precoOriginal": 59.99,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-75a1-73f0-9fff-3ed65b81eb80/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 59.99,
+          "precoOriginal": 59.99,
+          "desconto": 0,
+          "url": "https://itad.link/019a2fc9-942b-7051-b4b7-fc4b7b6fbc49/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 60,
+          "precoOriginal": 60,
+          "desconto": 0,
+          "url": "https://itad.link/01991608-6a07-7120-acba-b7e1418fd8d5/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-1e67-708d-989d-b38bde2520fb"
     },
     "grand-theft-auto-v": {
       "nomeSteam": "Grand Theft Auto V Enhanced",
@@ -306,15 +1031,97 @@
       ],
       "ofertas": [
         {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 74.95,
+          "precoOriginal": 149.9,
+          "desconto": 50,
+          "url": "https://itad.link/01963af5-cbf7-71dc-af7c-7cc0c45fb0b3/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamebillet",
+          "lojaNome": "GameBillet",
+          "preco": 74.95,
+          "precoOriginal": 149.9,
+          "desconto": 50,
+          "url": "https://itad.link/0195535a-2acc-7079-bd8f-be15622457ac/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 74.95,
+          "precoOriginal": 149.9,
+          "desconto": 50,
+          "url": "https://itad.link/0195ce09-5328-70a1-849b-a5f0d56f7f82/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-us",
+          "lojaNome": "GamesPlanet US",
+          "preco": 83.22,
+          "precoOriginal": 178.4,
+          "desconto": 53,
+          "url": "https://itad.link/018d9386-6e3b-73a3-b41e-eba319a2b155/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-fr",
+          "lojaNome": "GamesPlanet FR",
+          "preco": 91.38,
+          "precoOriginal": 195.89,
+          "desconto": 53,
+          "url": "https://itad.link/018d9386-6e3b-73a3-b41e-eba318e6955c/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-de",
+          "lojaNome": "GamesPlanet DE",
+          "preco": 91.38,
+          "precoOriginal": 195.89,
+          "desconto": 53,
+          "url": "https://itad.link/018d9386-6e3b-73a3-b41e-eba3187c33e1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-uk",
+          "lojaNome": "GamesPlanet UK",
+          "preco": 109.05,
+          "precoOriginal": 233.76,
+          "desconto": 53,
+          "url": "https://itad.link/018d9386-6e3b-73a3-b41e-eba317938d23/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
           "loja": "steam",
           "preco": 149.9,
           "precoOriginal": 149.9,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/3240220/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gamesload",
+          "lojaNome": "Gamesload",
+          "preco": 149.9,
+          "precoOriginal": 149.9,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-6e3b-73a3-b41e-eba31ddef3b1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 149.9,
+          "precoOriginal": 149.9,
+          "desconto": 0,
+          "url": "https://itad.link/01956127-fb74-71a1-9a8c-9341f0ec425f/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019548b5-653e-7101-ae11-8f0bfbd15ee6"
     }
   },
   "extras": {
@@ -331,7 +1138,7 @@
       "origem": [
         "mais-vendidos"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -340,9 +1147,37 @@
           "desconto": 50,
           "url": "https://store.steampowered.com/app/4080220/",
           "fonte": "steam"
+        },
+        {
+          "loja": "ea-store",
+          "lojaNome": "EA Store",
+          "preco": 149.5,
+          "precoOriginal": 299,
+          "desconto": 50,
+          "url": "https://itad.link/01a0d5b0-4e71-7026-aed9-e30a262bd2ad/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 299,
+          "precoOriginal": 299,
+          "desconto": 0,
+          "url": "https://itad.link/01a0d5c2-d827-72ab-99e8-8301575b2520/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 342.9,
+          "precoOriginal": 350,
+          "desconto": 2,
+          "url": "https://itad.link/019fd383-5f8a-7281-b3d0-04e8fb5f5f92/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019f8fc2-975c-734e-92e6-7d99a6c5996a"
     },
     "steam-1593500": {
       "appId": 1593500,
@@ -359,8 +1194,26 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 69.9,
+          "precoOriginal": 199.9,
+          "desconto": 65,
+          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68988efad/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gog",
+          "lojaNome": "GOG",
+          "preco": 79.95,
+          "precoOriginal": 199.9,
+          "desconto": 60,
+          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e6991d052a/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
         {
           "loja": "steam",
           "preco": 79.96,
@@ -368,9 +1221,118 @@
           "desconto": 60,
           "url": "https://store.steampowered.com/app/1593500/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 79.96,
+          "precoOriginal": 199.9,
+          "desconto": 60,
+          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e67e77ab17/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 79.96,
+          "precoOriginal": 199.9,
+          "desconto": 60,
+          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e689c00c8a/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamebillet",
+          "lojaNome": "GameBillet",
+          "preco": 79.96,
+          "precoOriginal": 199.9,
+          "desconto": 60,
+          "url": "https://itad.link/01926901-718b-70d3-8edd-740d3bca680f/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "joybuggy",
+          "lojaNome": "JoyBuggy",
+          "preco": 79.96,
+          "precoOriginal": 199.9,
+          "desconto": 60,
+          "url": "https://itad.link/01a1f922-e523-707d-a070-23a5b7b866ab/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 107.02,
+          "precoOriginal": 297.37,
+          "desconto": 64,
+          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68226690a/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-us",
+          "lojaNome": "GamesPlanet US",
+          "preco": 111.3,
+          "precoOriginal": 297.37,
+          "desconto": 63,
+          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-uk",
+          "lojaNome": "GamesPlanet UK",
+          "preco": 116.84,
+          "precoOriginal": 311.7,
+          "desconto": 63,
+          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e6872ef7e9/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 118.91,
+          "precoOriginal": 297.37,
+          "desconto": 60,
+          "url": "https://itad.link/018d9584-f037-7016-8564-8d3de3d757d7/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-de",
+          "lojaNome": "GamesPlanet DE",
+          "preco": 122.21,
+          "precoOriginal": 326.53,
+          "desconto": 63,
+          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e688479c7e/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-fr",
+          "lojaNome": "GamesPlanet FR",
+          "preco": 122.21,
+          "precoOriginal": 326.53,
+          "desconto": 63,
+          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e6874f53ec/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesload",
+          "lojaNome": "Gamesload",
+          "preco": 199.9,
+          "precoOriginal": 199.9,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68f3ff43c/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 199.9,
+          "precoOriginal": 199.9,
+          "desconto": 0,
+          "url": "https://itad.link/018d959e-08aa-72e2-985a-00abccfae400/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-4964-7357-a557-f04dac608915"
     },
     "steam-2215430": {
       "appId": 2215430,
@@ -386,8 +1348,17 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 119.9,
+          "precoOriginal": 249.9,
+          "desconto": 52,
+          "url": "https://itad.link/018e7c15-75f1-707f-8de2-557e38746538/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
         {
           "loja": "steam",
           "preco": 124.95,
@@ -395,9 +1366,173 @@
           "desconto": 50,
           "url": "https://store.steampowered.com/app/2215430/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 124.95,
+          "precoOriginal": 249.9,
+          "desconto": 50,
+          "url": "https://itad.link/018e1668-e2bc-739c-8fa4-05acbc1244cc/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 124.95,
+          "precoOriginal": 249.9,
+          "desconto": 50,
+          "url": "https://itad.link/018e6644-c3a4-70d8-8f87-966e16ed3919/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamebillet",
+          "lojaNome": "GameBillet",
+          "preco": 124.95,
+          "precoOriginal": 249.9,
+          "desconto": 50,
+          "url": "https://itad.link/01926901-719e-72e5-b615-e7433895d81a/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "joybuggy",
+          "lojaNome": "JoyBuggy",
+          "preco": 124.95,
+          "precoOriginal": 249.9,
+          "desconto": 50,
+          "url": "https://itad.link/01a1f922-e4d0-71ac-8028-45f93d547b56/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 160.55,
+          "precoOriginal": 356.86,
+          "desconto": 55,
+          "url": "https://itad.link/018e66d6-b5d0-72a3-9e48-a437a4c52f1b/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-us",
+          "lojaNome": "GamesPlanet US",
+          "preco": 166.26,
+          "precoOriginal": 356.86,
+          "desconto": 53,
+          "url": "https://itad.link/018e65d6-6041-71fd-a592-72f2feb357f1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 178.14,
+          "precoOriginal": 178.14,
+          "desconto": 0,
+          "url": "https://itad.link/019c9adc-5104-7225-84e5-5edfcad9f1a7/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 178.4,
+          "precoOriginal": 356.86,
+          "desconto": 50,
+          "url": "https://itad.link/018e7661-9467-73c2-92e6-c94e4d51fdb9/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-uk",
+          "lojaNome": "GamesPlanet UK",
+          "preco": 181.85,
+          "precoOriginal": 389.65,
+          "desconto": 53,
+          "url": "https://itad.link/018e65d6-39e1-73d6-9549-f2e88a08fdd6/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-de",
+          "lojaNome": "GamesPlanet DE",
+          "preco": 182.57,
+          "precoOriginal": 391.85,
+          "desconto": 53,
+          "url": "https://itad.link/018e65d6-52e5-7186-bfe8-9929d74336ec/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-fr",
+          "lojaNome": "GamesPlanet FR",
+          "preco": 182.57,
+          "precoOriginal": 391.85,
+          "desconto": 53,
+          "url": "https://itad.link/018e65d6-4696-7094-bd11-0bd432c58c44/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesload",
+          "lojaNome": "Gamesload",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://itad.link/018f81fd-f4bc-7040-87ce-0f3030160a18/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://itad.link/018f8210-0f82-727a-b552-edf96b814b16/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018e147e-9b32-7025-90af-981a785efddf"
+    },
+    "steam-1426210": {
+      "appId": 1426210,
+      "nome": "It Takes Two",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header_brazilian.jpg?t=1777395376",
+      "lancamento": "25/mar./2021",
+      "descricaoSteam": "Embarque na jornada mais maluca da sua vida em It Takes Two. Convide um amigo ou amiga para se juntar de graça com o Passe de Amigo* e trabalhem juntos em uma variedade de desafios deliciosamente perturbadores.",
+      "generos": [
+        "Ação",
+        "Aventura"
+      ],
+      "origem": [
+        "mais-vendidos",
+        "promocao"
+      ],
+      "vistoEm": "2026-11-20T18:30:58.801Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 39.8,
+          "precoOriginal": 199,
+          "desconto": 80,
+          "url": "https://store.steampowered.com/app/1426210/",
+          "fonte": "steam"
+        },
+        {
+          "loja": "ea-store",
+          "lojaNome": "EA Store",
+          "preco": 39.8,
+          "precoOriginal": 199,
+          "desconto": 80,
+          "url": "https://itad.link/018d9386-81d4-71ac-b2d5-c351da4cb827/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 199,
+          "precoOriginal": 199,
+          "desconto": 0,
+          "url": "https://itad.link/018d959d-d266-71b4-9f42-9ab7b2743534/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        }
+      ],
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-4a27-72c8-9837-8ec5e5e92932"
     },
     "steam-1817070": {
       "appId": 1817070,
@@ -414,8 +1549,17 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 84.97,
+          "precoOriginal": 249.9,
+          "desconto": 66,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23250d50cc85/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
         {
           "loja": "steam",
           "preco": 99.96,
@@ -423,36 +1567,127 @@
           "desconto": 60,
           "url": "https://store.steampowered.com/app/1817070/",
           "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
-    },
-    "steam-1426210": {
-      "appId": 1426210,
-      "nome": "It Takes Two",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header_brazilian.jpg?t=1777395376",
-      "lancamento": "25/mar./2021",
-      "descricaoSteam": "Embarque na jornada mais maluca da sua vida em It Takes Two. Convide um amigo ou amiga para se juntar de graça com o Passe de Amigo* e trabalhem juntos em uma variedade de desafios deliciosamente perturbadores.",
-      "generos": [
-        "Ação",
-        "Aventura"
-      ],
-      "origem": [
-        "mais-vendidos",
-        "promocao"
-      ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
-      "ofertas": [
+        },
         {
-          "loja": "steam",
-          "preco": 39.8,
-          "precoOriginal": 199,
-          "desconto": 80,
-          "url": "https://store.steampowered.com/app/1426210/",
-          "fonte": "steam"
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 99.96,
+          "precoOriginal": 249.9,
+          "desconto": 60,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23250168ce76/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 99.96,
+          "precoOriginal": 249.9,
+          "desconto": 60,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23251911204c/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamebillet",
+          "lojaNome": "GameBillet",
+          "preco": 99.96,
+          "precoOriginal": 249.9,
+          "desconto": 60,
+          "url": "https://itad.link/0195c4ef-5636-7367-bd2a-3a93614cc4ae/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "joybuggy",
+          "lojaNome": "JoyBuggy",
+          "preco": 99.96,
+          "precoOriginal": 249.9,
+          "desconto": 60,
+          "url": "https://itad.link/01a1f922-ebf4-7250-b6de-8ebe089d73cd/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 128.43,
+          "precoOriginal": 356.86,
+          "desconto": 64,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23251374fd1c/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-us",
+          "lojaNome": "GamesPlanet US",
+          "preco": 133.19,
+          "precoOriginal": 356.86,
+          "desconto": 63,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23250b185761/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 142.51,
+          "precoOriginal": 142.51,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-232517a4b301/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 142.71,
+          "precoOriginal": 356.86,
+          "desconto": 60,
+          "url": "https://itad.link/018d9585-23e0-72e1-9b62-f18f7d4670e1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-uk",
+          "lojaNome": "GamesPlanet UK",
+          "preco": 145.84,
+          "precoOriginal": 389.65,
+          "desconto": 63,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-2325091ef880/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-de",
+          "lojaNome": "GamesPlanet DE",
+          "preco": 146.38,
+          "precoOriginal": 391.85,
+          "desconto": 63,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23250a2fb7d9/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-fr",
+          "lojaNome": "GamesPlanet FR",
+          "preco": 146.38,
+          "precoOriginal": 391.85,
+          "desconto": 63,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-2325096ff3fd/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesload",
+          "lojaNome": "Gamesload",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23251b2d4622/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://itad.link/018d959d-82dd-7176-aa37-4ec6f5c79276/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-6136-71e4-a7d4-088a2e8f58ad"
     },
     "steam-2531310": {
       "appId": 2531310,
@@ -468,8 +1703,17 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 128.9,
+          "precoOriginal": 199.9,
+          "desconto": 36,
+          "url": "https://itad.link/01948ffa-bfb3-7053-9415-84490f859c7a/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
         {
           "loja": "steam",
           "preco": 133.93,
@@ -477,9 +1721,100 @@
           "desconto": 33,
           "url": "https://store.steampowered.com/app/2531310/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 133.93,
+          "precoOriginal": 199.9,
+          "desconto": 33,
+          "url": "https://itad.link/0193dedd-03b1-7252-bfd6-b44363e40ab4/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 133.93,
+          "precoOriginal": 199.9,
+          "desconto": 33,
+          "url": "https://itad.link/01948e9e-8aa6-702f-9741-f71a96194461/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "joybuggy",
+          "lojaNome": "JoyBuggy",
+          "preco": 133.93,
+          "precoOriginal": 199.9,
+          "desconto": 33,
+          "url": "https://itad.link/01a1f922-fdb5-702b-b25c-e63c70f9ca8e/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 159.08,
+          "precoOriginal": 159.08,
+          "desconto": 0,
+          "url": "https://itad.link/019c9adc-4f08-715c-8da8-bb2628292145/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-uk",
+          "lojaNome": "GamesPlanet UK",
+          "preco": 194.79,
+          "precoOriginal": 311.7,
+          "desconto": 38,
+          "url": "https://itad.link/01948e7a-1cc6-7210-9a46-5f29e81638cb/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 199.22,
+          "precoOriginal": 297.37,
+          "desconto": 33,
+          "url": "https://itad.link/0194a782-f5e6-7326-8779-8443efb5f084/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 199.9,
+          "precoOriginal": 199.9,
+          "desconto": 0,
+          "url": "https://itad.link/0195fcab-2536-712b-9929-bafb192fe82c/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-de",
+          "lojaNome": "GamesPlanet DE",
+          "preco": 202.43,
+          "precoOriginal": 326.53,
+          "desconto": 38,
+          "url": "https://itad.link/01948e7a-4758-70fa-ba97-b00da82afa86/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-fr",
+          "lojaNome": "GamesPlanet FR",
+          "preco": 202.43,
+          "precoOriginal": 326.53,
+          "desconto": 38,
+          "url": "https://itad.link/01948e7a-320f-7355-b800-b2f454d33932/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 297.37,
+          "precoOriginal": 297.37,
+          "desconto": 0,
+          "url": "https://itad.link/01948e8c-246e-714b-995b-7501dd90b723/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-7b20-72f6-a2de-dc2ff64bae95"
     },
     "steam-1259420": {
       "appId": 1259420,
@@ -495,8 +1830,17 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 54.9,
+          "precoOriginal": 199.5,
+          "desconto": 72,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a062037ad053/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
         {
           "loja": "steam",
           "preco": 65.83,
@@ -504,9 +1848,145 @@
           "desconto": 67,
           "url": "https://store.steampowered.com/app/1259420/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 65.84,
+          "precoOriginal": 199.5,
+          "desconto": 67,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a061f8907d0b/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 65.84,
+          "precoOriginal": 199.5,
+          "desconto": 67,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a062074762df/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamebillet",
+          "lojaNome": "GameBillet",
+          "preco": 65.84,
+          "precoOriginal": 199.5,
+          "desconto": 67,
+          "url": "https://itad.link/0193b07f-3f85-732d-b838-ca5d3d9a5191/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "joybuggy",
+          "lojaNome": "JoyBuggy",
+          "preco": 65.84,
+          "precoOriginal": 199.5,
+          "desconto": 67,
+          "url": "https://itad.link/01a1f922-dc12-73e4-984d-1092a8aba382/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gog",
+          "lojaNome": "GOG",
+          "preco": 65.85,
+          "precoOriginal": 199.59,
+          "desconto": 67,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a06211beaeac/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 71.32,
+          "precoOriginal": 237.88,
+          "desconto": 70,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a061fae7f3e3/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-us",
+          "lojaNome": "GamesPlanet US",
+          "preco": 73.88,
+          "precoOriginal": 237.88,
+          "desconto": 69,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a061fa7444bc/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 78.38,
+          "precoOriginal": 78.38,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a062108a53dc/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 78.46,
+          "precoOriginal": 237.88,
+          "desconto": 67,
+          "url": "https://itad.link/018d9584-8592-715b-af11-7d8a0082d605/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-de",
+          "lojaNome": "GamesPlanet DE",
+          "preco": 81.19,
+          "precoOriginal": 261.21,
+          "desconto": 69,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a061fa3c31d9/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-fr",
+          "lojaNome": "GamesPlanet FR",
+          "preco": 81.19,
+          "precoOriginal": 261.21,
+          "desconto": 69,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a061f96ef95c/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet-uk",
+          "lojaNome": "GamesPlanet UK",
+          "preco": 84.96,
+          "precoOriginal": 272.73,
+          "desconto": 69,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a061f8c49049/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesload",
+          "lojaNome": "Gamesload",
+          "preco": 199.5,
+          "precoOriginal": 199.5,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a06203c42560/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 199.5,
+          "precoOriginal": 199.5,
+          "desconto": 0,
+          "url": "https://itad.link/018d959e-989e-71e5-b7ae-3ed0b94578b7/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "wingamestore",
+          "lojaNome": "WinGameStore",
+          "preco": 223.01,
+          "precoOriginal": 297.37,
+          "desconto": 25,
+          "url": "https://itad.link/018d9386-491d-721d-ac80-a061ff25562d/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-4ca6-7067-aee5-c1ed89a268f4"
     },
     "steam-5037200": {
       "appId": 5037200,
@@ -523,7 +2003,7 @@
       "origem": [
         "mais-vendidos"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -534,7 +2014,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a006e7-621f-71bb-9424-6b820c70a164"
     },
     "steam-4924900": {
       "appId": 4924900,
@@ -550,7 +2031,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -561,7 +2042,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a15efa-4978-7399-b3ca-b73727e780f1"
     },
     "steam-5130880": {
       "appId": 5130880,
@@ -575,7 +2057,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -586,7 +2068,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a048b9-b0ba-7070-a696-d96f9752c875"
     },
     "steam-4811080": {
       "appId": 4811080,
@@ -603,7 +2086,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -614,7 +2097,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019e9ce9-ae50-7256-a2a4-7a98b7190245"
     },
     "steam-5485770": {
       "appId": 5485770,
@@ -631,7 +2115,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -642,7 +2126,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a1acde-853c-73a2-9200-703f782b35f7"
     },
     "steam-5371870": {
       "appId": 5371870,
@@ -660,7 +2145,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -671,7 +2156,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a1139b-babb-710b-82c7-1c8e5c4e6303"
     },
     "steam-5524170": {
       "appId": 5524170,
@@ -686,7 +2172,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -697,7 +2183,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a18fe6-d313-71c1-9011-1e00fc1f9211"
     },
     "steam-2521670": {
       "appId": 2521670,
@@ -711,7 +2198,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -722,7 +2209,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-75aa-723a-84dc-81071dd21ad3"
     },
     "steam-3652920": {
       "appId": 3652920,
@@ -738,7 +2226,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -749,7 +2237,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019769de-b6b9-7181-b9f7-06e28431f046"
     },
     "steam-4714230": {
       "appId": 4714230,
@@ -766,7 +2255,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -777,7 +2266,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019e8dbb-505f-717b-aef4-542affe45f0c"
     },
     "steam-5398560": {
       "appId": 5398560,
@@ -792,7 +2282,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -803,7 +2293,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a1440c-5e85-72a2-b45a-402f67c48e0a"
     },
     "steam-5198430": {
       "appId": 5198430,
@@ -817,7 +2308,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -828,7 +2319,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a125cb-06b2-72c9-87c3-031ee7a6b3fe"
     },
     "steam-4535880": {
       "appId": 4535880,
@@ -844,7 +2336,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -855,7 +2347,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019dc362-bfc4-7009-91fb-46603a2ccaff"
     },
     "steam-5277000": {
       "appId": 5277000,
@@ -870,7 +2363,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -881,7 +2374,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a0c8d3-d13a-70a9-a78e-8cbecd57349c"
     },
     "steam-5388330": {
       "appId": 5388330,
@@ -898,7 +2392,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -909,7 +2403,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a15a41-d810-70bf-98e4-185b840a9f9d"
     },
     "steam-4967770": {
       "appId": 4967770,
@@ -926,7 +2421,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -937,7 +2432,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a0a3f9-780f-721b-8319-3effe116f326"
     },
     "steam-4847660": {
       "appId": 4847660,
@@ -953,7 +2449,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -964,7 +2460,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019f3663-9b5a-721d-98fb-fb978924ea16"
     },
     "steam-3164010": {
       "appId": 3164010,
@@ -980,7 +2477,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -991,7 +2488,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019f4c1d-51e5-71d4-8bf3-2ed068cac509"
     },
     "steam-5146090": {
       "appId": 5146090,
@@ -1007,7 +2505,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1018,7 +2516,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a07b78-fead-72c4-8ce7-669fed441a75"
     },
     "steam-2440690": {
       "appId": 2440690,
@@ -1034,7 +2533,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1045,7 +2544,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018e6822-a44d-71ea-b698-a761d110b6f9"
     },
     "steam-4525890": {
       "appId": 4525890,
@@ -1061,7 +2561,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1072,7 +2572,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019d283f-35f6-73eb-a0d7-880349e5d2aa"
     },
     "steam-4425610": {
       "appId": 4425610,
@@ -1086,7 +2587,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1097,7 +2598,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019c8193-016a-72a8-887f-f11d6e50ad2c"
     },
     "steam-5428930": {
       "appId": 5428930,
@@ -1112,7 +2614,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1123,7 +2625,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a17077-2e94-733b-a18e-767a5a3108c3"
     },
     "steam-5482020": {
       "appId": 5482020,
@@ -1139,7 +2642,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1150,7 +2653,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a1656a-5f9b-736b-870d-af70dbc25944"
     },
     "steam-4537030": {
       "appId": 4537030,
@@ -1166,7 +2670,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1177,7 +2681,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019d1b43-c6d8-7329-b2ec-68c0a8a6a556"
     },
     "steam-4504940": {
       "appId": 4504940,
@@ -1192,7 +2697,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1203,7 +2708,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019d222f-6391-7030-a870-04d217f10a61"
     },
     "steam-5398740": {
       "appId": 5398740,
@@ -1219,7 +2725,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1230,7 +2736,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a134a7-2564-729d-827f-999adca96cfc"
     },
     "steam-4697880": {
       "appId": 4697880,
@@ -1246,7 +2753,7 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1257,7 +2764,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-463f-73d5-b536-e1f029ca7223"
     },
     "steam-2909400": {
       "appId": 2909400,
@@ -1273,8 +2781,17 @@
       "origem": [
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 31.9,
+          "precoOriginal": 219.9,
+          "desconto": 85,
+          "url": "https://itad.link/01991106-7cdf-7034-85bb-9d4b41a0e50b/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
         {
           "loja": "steam",
           "preco": 32.98,
@@ -1282,9 +2799,28 @@
           "desconto": 85,
           "url": "https://store.steampowered.com/app/2909400/",
           "fonte": "steam"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 42.73,
+          "precoOriginal": 284.9,
+          "desconto": 85,
+          "url": "https://itad.link/019f9f8d-223b-7322-a53d-4dcdcdf5349e/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 219.9,
+          "precoOriginal": 219.9,
+          "desconto": 0,
+          "url": "https://itad.link/01949389-b340-70dc-a746-73c2169885a7/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "0190378e-1a64-720e-8971-4595157e24f3"
     },
     "steam-1462040": {
       "appId": 1462040,
@@ -1300,8 +2836,17 @@
       "origem": [
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 29.99,
+          "precoOriginal": 174.9,
+          "desconto": 83,
+          "url": "https://itad.link/01991106-7cdf-7034-85bb-9d4b42663285/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
         {
           "loja": "steam",
           "preco": 31.48,
@@ -1309,9 +2854,37 @@
           "desconto": 82,
           "url": "https://store.steampowered.com/app/1462040/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 31.48,
+          "precoOriginal": 174.9,
+          "desconto": 82,
+          "url": "https://itad.link/018d9386-63d7-7309-b125-fcda69ad0c58/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 39.9,
+          "precoOriginal": 199.5,
+          "desconto": 80,
+          "url": "https://itad.link/019c2fc0-802f-73da-982a-6b6913e90f5e/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 174.9,
+          "precoOriginal": 174.9,
+          "desconto": 0,
+          "url": "https://itad.link/018d959e-08cf-73cc-a2e6-87a23edafa54/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-5b12-7380-a77e-8754efb603d0"
     },
     "steam-2406770": {
       "appId": 2406770,
@@ -1330,7 +2903,7 @@
       "origem": [
         "promocao"
       ],
-      "vistoEm": "2026-11-20T18:23:00.720Z",
+      "vistoEm": "2026-11-20T18:30:58.801Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1341,7 +2914,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "018d937f-6ff1-733e-8c1d-7de69d1fd2b9"
     },
     "steam-5074300": {
       "appId": 5074300,
@@ -1369,7 +2943,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a154e4-a77f-71c6-ba9d-fc4f9f45470d"
     },
     "steam-4834780": {
       "appId": 4834780,
@@ -1392,9 +2967,19 @@
           "desconto": 20,
           "url": "https://store.steampowered.com/app/4834780/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gog",
+          "lojaNome": "GOG",
+          "preco": 39.19,
+          "precoOriginal": 48.99,
+          "desconto": 20,
+          "url": "https://itad.link/019f5c71-8715-73a4-a413-c02eadb7becd/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019f5c5e-7925-7207-9199-ee7a505194f1"
     },
     "steam-4834810": {
       "appId": 4834810,
@@ -1417,9 +3002,19 @@
           "desconto": 10,
           "url": "https://store.steampowered.com/app/4834810/",
           "fonte": "steam"
+        },
+        {
+          "loja": "gog",
+          "lojaNome": "GOG",
+          "preco": 29.69,
+          "precoOriginal": 32.99,
+          "desconto": 10,
+          "url": "https://itad.link/019f5c71-8714-7200-8f1f-0b3a5c95f0f4/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "0191c71b-13c5-73a4-a52e-35a41f36daa9"
     },
     "steam-4834790": {
       "appId": 4834790,
@@ -1444,7 +3039,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a03517-677d-71b0-8d44-9d7e7195cc8d"
     },
     "steam-4314350": {
       "appId": 4314350,
@@ -1471,7 +3067,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019be413-3e50-7179-bfda-e7ea65bc5586"
     },
     "steam-4362370": {
       "appId": 4362370,
@@ -1497,7 +3094,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "019d26b0-f2ad-7103-9aec-2d892ccae5b5"
     },
     "steam-5509730": {
       "appId": 5509730,
@@ -1526,7 +3124,8 @@
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-20T18:23:00.720Z"
+      "atualizadoEm": "2026-11-20T18:30:58.801Z",
+      "itadId": "01a1a36d-ce18-7173-8fb7-e507515f51c1"
     }
   },
   "promocoesSteam": [
@@ -1581,16 +3180,6 @@
       "url": "https://store.steampowered.com/app/2909400/"
     },
     {
-      "appId": 1462040,
-      "nome": "FINAL FANTASY VII REMAKE INTERGRADE",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
-      "preco": 31.48,
-      "precoOriginal": 174.9,
-      "desconto": 82,
-      "terminaEm": "2026-12-02T18:00:00.000Z",
-      "url": "https://store.steampowered.com/app/1462040/"
-    },
-    {
       "appId": 2531310,
       "nome": "The Last of Us™ Parte II Remastered",
       "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1750959180",
@@ -1609,6 +3198,16 @@
       "desconto": 67,
       "terminaEm": "2026-12-01T18:00:00.000Z",
       "url": "https://store.steampowered.com/app/1259420/"
+    },
+    {
+      "appId": 1462040,
+      "nome": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
+      "preco": 31.48,
+      "precoOriginal": 174.9,
+      "desconto": 82,
+      "terminaEm": "2026-12-02T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/1462040/"
     },
     {
       "appId": 2406770,
@@ -1631,7 +3230,5 @@
       "url": "https://store.steampowered.com/app/2322010/"
     }
   ],
-  "erros": [
-    "IsThereAnyDeal: a chave da API foi recusada (HTTP 403). Confira o segredo ITAD_API_KEY."
-  ]
+  "erros": []
 }
