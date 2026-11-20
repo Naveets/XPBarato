@@ -1,9 +1,9 @@
 // Robô de preços do XP Barato
 // ------------------------------------------------------------------
 // Roda todo dia no GitHub Actions (veja .github/workflows/robo-de-precos.yml).
-// 1. Lê a lista de jogos em dados/catalogo.json
-// 2. Consulta o preço de cada jogo na Steam, em reais (cc=br)
-// 3. Busca as promoções do dia na Steam
+// 1. Lê a lista de jogos em dados/catalogo.json (os jogos escolhidos pelo grupo)
+// 2. Descobre mais jogos na Steam: mais vendidos, lançamentos e promoções do dia
+// 3. Consulta o preço de cada jogo na Steam, em reais (cc=br)
 // 4. Salva tudo em dados/precos.json e acrescenta o dia em dados/historico.json
 //
 // Se uma consulta falhar, o robô mantém o último preço salvo daquele jogo,
@@ -25,7 +25,9 @@ const PAIS = 'br';
 const IDIOMA = 'brazilian';
 const PAUSA_MS = 1500;          // espera entre consultas, para não sobrecarregar a Steam
 const DIAS_DE_HISTORICO = 365;  // quantos dias o histórico guarda
-const MAX_PROMOCOES = 12;
+const MAX_PROMOCOES = 12;       // cartões na vitrine "Promoções do dia"
+const MAX_EXTRAS = 60;          // jogos descobertos na Steam, além do catálogo
+const DIAS_MANTER_EXTRA = 30;   // um jogo descoberto continua no app por 30 dias depois de sair das listas
 
 const esperar = (ms) => new Promise((r) => setTimeout(r, ms));
 const centavos = (v) => Math.round(Number(v)) / 100;
@@ -51,7 +53,6 @@ async function buscarJson(url) {
   return resposta.json();
 }
 
-/** Converte a data da Steam ("10 dez. 2020", "Dec 10, 2020"...) em texto simples. */
 function textoLancamento(releaseDate) {
   if (!releaseDate) return null;
   if (releaseDate.coming_soon) return 'Em breve';
@@ -80,6 +81,7 @@ export async function consultarSteam(appId) {
     : null;
 
   return {
+    tipo: d.type ?? 'game',
     nome: d.name,
     capa: d.header_image || null,
     lancamento: textoLancamento(d.release_date),
@@ -90,13 +92,14 @@ export async function consultarSteam(appId) {
   };
 }
 
-/** Promoções do dia na Steam brasileira. */
-export async function consultarPromocoesSteam() {
+/** Listas da página inicial da Steam brasileira: promoções, mais vendidos e lançamentos. */
+export async function consultarListasSteam() {
   const json = await buscarJson(`${STEAM}/featuredcategories?cc=${PAIS}&l=${IDIOMA}`);
-  const itens = json?.specials?.items ?? [];
+  const itens = (chave) => (json?.[chave]?.items ?? []).filter((i) => i && i.id && (i.type === undefined || i.type === 0));
   const vistos = new Set();
-  return itens
-    .filter((i) => i && i.id && i.discounted && i.currency === 'BRL')
+
+  const promocoes = itens('specials')
+    .filter((i) => i.discounted && i.currency === 'BRL')
     .filter((i) => (vistos.has(i.id) ? false : vistos.add(i.id)))
     .slice(0, MAX_PROMOCOES)
     .map((i) => ({
@@ -109,6 +112,19 @@ export async function consultarPromocoesSteam() {
       terminaEm: i.discount_expiration ? new Date(i.discount_expiration * 1000).toISOString() : null,
       url: `https://store.steampowered.com/app/${i.id}/`
     }));
+
+  const origens = new Map(); // appId -> ['mais-vendidos', 'lancamento', 'promocao']
+  const marcar = (lista, origem) => {
+    for (const i of lista) {
+      if (!origens.has(i.id)) origens.set(i.id, []);
+      if (!origens.get(i.id).includes(origem)) origens.get(i.id).push(origem);
+    }
+  };
+  marcar(itens('top_sellers'), 'mais-vendidos');
+  marcar(itens('new_releases'), 'lancamento');
+  marcar(itens('specials').filter((i) => i.discounted), 'promocao');
+
+  return { promocoes, origens };
 }
 
 /** Data de hoje no horário de Brasília, no formato AAAA-MM-DD. */
@@ -116,20 +132,34 @@ function hojeEmBrasilia(agora = new Date()) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Sao_Paulo' }).format(agora);
 }
 
+function registrarHistorico(historico, id, ofertas, dia) {
+  if (!ofertas?.length) return;
+  const serie = (historico.jogos[id] ??= []);
+  const registro = { data: dia };
+  for (const o of ofertas) registro[o.loja] = o.preco;
+  const ultimo = serie[serie.length - 1];
+  if (ultimo?.data === dia) serie[serie.length - 1] = registro; // rodou 2x no mesmo dia
+  else serie.push(registro);
+  if (serie.length > DIAS_DE_HISTORICO) serie.splice(0, serie.length - DIAS_DE_HISTORICO);
+}
+
 export async function executar({ agora = new Date(), pausaMs = PAUSA_MS } = {}) {
   const catalogo = await lerJson(ARQ_CATALOGO, { jogos: [] });
-  const anterior = await lerJson(ARQ_PRECOS, { jogos: {} });
+  const anterior = await lerJson(ARQ_PRECOS, { jogos: {}, extras: {} });
   const historico = await lerJson(ARQ_HISTORICO, { jogos: {} });
+  historico.jogos ??= {};
 
-  const jogos = {};
+  const agoraIso = agora.toISOString();
+  const dia = hojeEmBrasilia(agora);
   const erros = [];
   let atualizados = 0;
 
+  // ---------- 1. jogos do catálogo do grupo
+  const jogos = {};
   for (const jogo of catalogo.jogos) {
     const salvo = anterior.jogos?.[jogo.id];
     if (!jogo.steamAppId) {
-      // Jogo sem versão na Steam (ex.: exclusivos da Nintendo): só links por enquanto.
-      jogos[jogo.id] = { ofertas: [], atualizadoEm: null };
+      jogos[jogo.id] = { ofertas: [], atualizadoEm: null }; // ex.: exclusivos da Nintendo
       continue;
     }
     try {
@@ -141,8 +171,9 @@ export async function executar({ agora = new Date(), pausaMs = PAUSA_MS } = {}) 
         descricaoSteam: s.descricaoSteam,
         generos: s.generos,
         ofertas: s.oferta ? [s.oferta] : [],
-        atualizadoEm: agora.toISOString()
+        atualizadoEm: agoraIso
       };
+      registrarHistorico(historico, jogo.id, jogos[jogo.id].ofertas, dia);
       atualizados++;
       console.log(`✔ ${jogo.nome}: ${s.oferta ? 'R$ ' + s.oferta.preco.toFixed(2) : 'sem preço'}`);
     } catch (erro) {
@@ -153,47 +184,82 @@ export async function executar({ agora = new Date(), pausaMs = PAUSA_MS } = {}) 
     await esperar(pausaMs);
   }
 
+  // ---------- 2. listas da Steam (promoções, mais vendidos, lançamentos)
   let promocoesSteam = anterior.promocoesSteam ?? [];
+  let origensHoje = new Map();
   try {
-    promocoesSteam = await consultarPromocoesSteam();
-    console.log(`✔ Promoções do dia: ${promocoesSteam.length}`);
+    const listas = await consultarListasSteam();
+    promocoesSteam = listas.promocoes;
+    origensHoje = listas.origens;
+    console.log(`✔ Listas da Steam: ${promocoesSteam.length} promoções, ${origensHoje.size} jogos em destaque`);
   } catch (erro) {
-    erros.push(`Promoções da Steam: ${erro.message}`);
-    console.warn(`✖ Promoções da Steam: ${erro.message} (mantendo as anteriores)`);
+    erros.push(`Listas da Steam: ${erro.message}`);
+    console.warn(`✖ Listas da Steam: ${erro.message} (mantendo as anteriores)`);
   }
 
+  // ---------- 3. jogos descobertos ("extras"): os de hoje + os vistos nos últimos 30 dias
+  const noCatalogo = new Set(catalogo.jogos.map((j) => j.steamAppId).filter(Boolean));
+  const limite = agora.getTime() - DIAS_MANTER_EXTRA * 86400000;
+  const candidatos = new Map();
+  for (const [appId, origem] of origensHoje) {
+    if (!noCatalogo.has(appId)) candidatos.set(appId, { origem, vistoEm: agoraIso });
+  }
+  for (const extra of Object.values(anterior.extras ?? {})) {
+    if (candidatos.has(extra.appId) || noCatalogo.has(extra.appId)) continue;
+    if (new Date(extra.vistoEm).getTime() >= limite) candidatos.set(extra.appId, { origem: extra.origem ?? [], vistoEm: extra.vistoEm });
+  }
+
+  const extras = {};
+  for (const [appId, info] of [...candidatos].slice(0, MAX_EXTRAS)) {
+    const id = `steam-${appId}`;
+    const salvo = anterior.extras?.[id];
+    try {
+      const s = await consultarSteam(appId);
+      if (s.tipo !== 'game' || s.gratuito || !s.oferta) {
+        await esperar(pausaMs);
+        continue; // pula DLCs, trilhas sonoras, jogos gratuitos e itens sem preço
+      }
+      extras[id] = {
+        appId,
+        nome: s.nome,
+        capa: s.capa,
+        lancamento: s.lancamento,
+        descricaoSteam: s.descricaoSteam,
+        generos: s.generos,
+        origem: info.origem,
+        vistoEm: info.vistoEm,
+        ofertas: [s.oferta],
+        atualizadoEm: agoraIso
+      };
+      registrarHistorico(historico, id, extras[id].ofertas, dia);
+      atualizados++;
+    } catch (erro) {
+      erros.push(`${salvo?.nome ?? appId}: ${erro.message}`);
+      if (salvo) extras[id] = { ...salvo, origem: info.origem, vistoEm: info.vistoEm };
+    }
+    await esperar(pausaMs);
+  }
+  console.log(`✔ Jogos descobertos na Steam: ${Object.keys(extras).length}`);
+
   // Se nada deu certo, não sobrescreve os dados bons de ontem.
-  if (atualizados === 0 && catalogo.jogos.some((j) => j.steamAppId)) {
+  if (atualizados === 0) {
     console.error('Nenhum preço foi atualizado. Os arquivos não foram alterados.');
     return { atualizados, erros, gravou: false };
   }
 
   const precos = {
-    atualizadoEm: agora.toISOString(),
+    atualizadoEm: agoraIso,
     fonte: 'robo',
     fontes: ['steam'],
     jogos,
+    extras,
     promocoesSteam,
     erros
   };
-
-  // Histórico: um registro por dia com o preço de cada loja.
-  const dia = hojeEmBrasilia(agora);
-  historico.jogos ??= {};
-  for (const [id, dados] of Object.entries(jogos)) {
-    if (!dados.ofertas?.length || dados.atualizadoEm !== agora.toISOString()) continue;
-    const serie = (historico.jogos[id] ??= []);
-    const registro = { data: dia };
-    for (const o of dados.ofertas) registro[o.loja] = o.preco;
-    const ultimo = serie[serie.length - 1];
-    if (ultimo?.data === dia) serie[serie.length - 1] = registro; // rodou 2x no mesmo dia
-    else serie.push(registro);
-    if (serie.length > DIAS_DE_HISTORICO) serie.splice(0, serie.length - DIAS_DE_HISTORICO);
-  }
-  historico.atualizadoEm = agora.toISOString();
+  historico.atualizadoEm = agoraIso;
 
   await writeFile(ARQ_PRECOS, JSON.stringify(precos, null, 2) + '\n');
-  await writeFile(ARQ_HISTORICO, JSON.stringify(historico, null, 2) + '\n');
+  await writeFile(ARQ_HISTORICO, JSON.stringify(historico) + '\n');
   console.log(`\nPronto: ${atualizados} jogo(s) atualizado(s), ${erros.length} erro(s).`);
   return { atualizados, erros, gravou: true };
 }

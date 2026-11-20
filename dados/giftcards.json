@@ -1,0 +1,45 @@
+{
+  "_comoEditar": "Preço dos gift cards com desconto, usado no Selo de gift card. Confira o preço no site da revenda (link em 'url'), troque o valor em 'preco' e coloque a data de hoje em 'conferidoEm' (formato AAAA-MM-DD). Enquanto 'conferidoEm' for null, o app mostra o valor como exemplo. 'ecossistema' indica em qual loja o crédito vale: STEAM, PSN, XBOX ou NINTENDO.",
+  "cartoes": [
+    {
+      "id": "gc-steam-100",
+      "nome": "Gift Card Steam R$ 100",
+      "ecossistema": "STEAM",
+      "valorFace": 100,
+      "preco": 96.0,
+      "revenda": "Eneba",
+      "url": "https://www.eneba.com/br/store?text=steam%20gift%20card%20brl",
+      "conferidoEm": null
+    },
+    {
+      "id": "gc-psn-100",
+      "nome": "Gift Card PlayStation Store R$ 100",
+      "ecossistema": "PSN",
+      "valorFace": 100,
+      "preco": 89.9,
+      "revenda": "Eneba",
+      "url": "https://www.eneba.com/br/store?text=psn%20gift%20card%20brl",
+      "conferidoEm": null
+    },
+    {
+      "id": "gc-xbox-100",
+      "nome": "Gift Card Xbox R$ 100",
+      "ecossistema": "XBOX",
+      "valorFace": 100,
+      "preco": 91.9,
+      "revenda": "Eneba",
+      "url": "https://www.eneba.com/br/store?text=xbox%20gift%20card%20brl",
+      "conferidoEm": null
+    },
+    {
+      "id": "gc-nintendo-150",
+      "nome": "Gift Card Nintendo eShop R$ 150",
+      "ecossistema": "NINTENDO",
+      "valorFace": 150,
+      "preco": 140.9,
+      "revenda": "Eneba",
+      "url": "https://www.eneba.com/br/store?text=nintendo%20eshop%20brl",
+      "conferidoEm": null
+    }
+  ]
+}

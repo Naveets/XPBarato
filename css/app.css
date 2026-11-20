@@ -230,3 +230,77 @@ button { font: inherit; color: inherit; }
   padding: 10px 16px; border-radius: 12px; box-shadow: 0 8px 24px #0008;
   max-width: calc(100% - 32px);
 }
+
+/* =========================== Onda 2 =========================== */
+
+/* ---------- busca ---------- */
+.campo-busca {
+  display: flex; align-items: center; gap: 10px;
+  height: 48px; padding: 0 14px; margin-bottom: 12px;
+  background: var(--superficie); border: 1px solid var(--borda); border-radius: 12px;
+  color: var(--suave);
+}
+.campo-busca span { font-size: 1.3rem; line-height: 1; }
+.campo-busca input {
+  flex: 1; height: 100%; border: 0; outline: 0; background: transparent;
+  color: var(--texto); font-size: 1rem;
+}
+.campo-busca:focus-within { border-color: var(--destaque); }
+.busca { display: grid; gap: 4px; }
+.filtros { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
+.filtros::-webkit-scrollbar { display: none; }
+.filtros button {
+  flex: none; height: 34px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+  background: var(--superficie); border: 1px solid var(--borda); color: var(--suave); font-size: .85rem;
+}
+.filtros button[aria-pressed="true"] { background: #00e5ff1f; border-color: var(--destaque); color: var(--destaque); font-weight: 600; }
+.ordem { display: flex; align-items: center; justify-content: flex-end; gap: 8px; color: var(--suave); font-size: .85rem; margin-top: 8px; }
+.ordem select {
+  height: 34px; padding: 0 10px; border-radius: 10px;
+  background: var(--superficie); color: var(--texto); border: 1px solid var(--borda); font-size: .85rem;
+}
+.contagem { color: var(--suave); font-size: .85rem; margin: 12px 0 8px; }
+.vazio-busca { text-align: center; color: var(--suave); padding: 32px 8px; }
+.vazio-busca small { display: block; margin-top: 6px; }
+
+/* ---------- selo de gift card ---------- */
+.selo-gift {
+  font-size: .72rem; padding: 2px 8px; border-radius: 999px; font-weight: 600;
+  background: #b794f61f; color: #c9b2ff; border: 1px solid #b794f655;
+}
+.cartao-selo {
+  display: grid; gap: 8px; margin-top: 12px; padding: 14px;
+  background: linear-gradient(135deg, #b794f61a, var(--superficie));
+  border: 1px solid #b794f666; border-radius: var(--raio);
+}
+.cartao-selo .selo-titulo { font-weight: 700; color: #c9b2ff; }
+.cartao-selo small { color: var(--suave); font-size: .78rem; }
+.cartao-selo .botao { justify-self: start; }
+.verde { color: var(--verde); }
+
+/* ---------- histórico de preço ---------- */
+.cartao-historico {
+  display: grid; gap: 10px; padding: 14px;
+  background: var(--superficie); border: 1px solid var(--borda); border-radius: var(--raio);
+}
+.veredito { font-size: .88rem; color: var(--suave); }
+.veredito strong { color: var(--texto); }
+.veredito.recorde strong, .veredito.bom strong { color: var(--verde); }
+.veredito.alto strong { color: var(--vermelho); }
+.veredito.comum strong { color: var(--amarelo); }
+.veredito.formando strong { color: var(--destaque); }
+.grafico { width: 100%; height: auto; display: block; }
+.grafico .guia { stroke: var(--borda); stroke-width: 1; stroke-dasharray: 3 4; }
+.grafico .linha { fill: none; stroke: var(--destaque); stroke-width: 2.5; stroke-linejoin: round; }
+.grafico .ponto-atual { fill: var(--destaque); stroke: var(--fundo); stroke-width: 2; }
+.grafico .ponto-min { fill: var(--verde); stroke: var(--fundo); stroke-width: 2; }
+.grafico .rotulo { fill: var(--suave); font-size: 11px; }
+.legenda-grafico { display: flex; gap: 16px; font-size: .8rem; color: var(--suave); }
+.legenda-grafico span { display: inline-flex; align-items: center; gap: 6px; }
+.legenda-grafico i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.cor-atual { background: var(--destaque); }
+.cor-min { background: var(--verde); }
+.numeros { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin: 0; }
+.numeros div { background: var(--superficie-2); border-radius: 10px; padding: 8px; text-align: center; }
+.numeros dt { color: var(--suave); font-size: .72rem; }
+.numeros dd { margin: 2px 0 0; font-weight: 600; font-size: .85rem; }

@@ -3,7 +3,7 @@
 // - Preços (dados/*.json): sempre tenta a internet primeiro; sem internet, usa o último salvo.
 // Ao mudar o app, aumente a VERSAO para os celulares baixarem a versão nova.
 
-const VERSAO = 'xpbarato-onda1-v2';
+const VERSAO = 'xpbarato-onda2-v1';
 const ARQUIVOS_DO_APP = [
   './',
   './index.html',
@@ -11,6 +11,7 @@ const ARQUIVOS_DO_APP = [
   './js/app.js',
   './js/auth.js',
   './js/dados.js',
+  './js/grafico.js',
   './js/lojas.js',
   './js/metricas.js',
   './manifest.webmanifest',

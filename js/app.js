@@ -1,8 +1,13 @@
 // XP Barato · MVP (PWA)
 // Onda 1: tela de login, comparativo entre lojas e links para as promoções.
+// Onda 2: buscador de jogos, gráfico de histórico de preço e selo de gift card.
 
 import * as auth from './auth.js';
-import { carregarDados, encontrarJogo, formatarPreco, quando, tempoRestante } from './dados.js';
+import {
+  carregarDados, carregarHistorico, encontrarJogo, buscarJogos, serieMenorPreco, estatisticas, veredito,
+  DIAS_MINIMOS_VEREDITO, formatarPreco, formatarDiaCurto, quando, tempoRestante
+} from './dados.js';
+import { graficoDePreco } from './grafico.js';
 import { LOJAS, PLATAFORMAS, linkDeBusca } from './lojas.js';
 import { registrarEvento } from './metricas.js';
 
@@ -10,6 +15,7 @@ const app = document.getElementById('app');
 const barra = document.getElementById('barra');
 const aviso = document.getElementById('aviso');
 let pedidoDeInstalacao = null;
+const estadoBusca = { termo: '', plataforma: null, ordem: 'relevancia' };
 
 // ------------------------------------------------------------------ utilidades
 
@@ -44,6 +50,8 @@ function capa(jogo, classe = '') {
 const chipsPlataforma = (plataformas) =>
   plataformas.map((p) => `<span class="chip">${esc(PLATAFORMAS[p] ?? p)}</span>`).join('');
 
+const seloPequeno = (jogo) => (jogo.selo ? `<span class="selo-gift" title="Sai mais barato com gift card">🎁 Gift card</span>` : '');
+
 function precoResumo(jogo) {
   const o = jogo.melhorOferta;
   if (!o) return `<div class="preco-resumo sem-preco">Ver preços nas lojas</div>`;
@@ -51,7 +59,17 @@ function precoResumo(jogo) {
   return `<div class="preco-resumo">${desconto}<strong>${formatarPreco(o.preco)}</strong><small>na ${esc(LOJAS[o.loja]?.nome)}</small></div>`;
 }
 
-// ------------------------------------------------------------------ telas
+const itemDaLista = (j) => `
+  <li><a class="item-jogo" href="#/jogo/${esc(j.id)}">
+    ${capa(j)}
+    <div class="info">
+      <span class="nome">${esc(j.nome)}</span>
+      <span class="chips">${chipsPlataforma(j.plataformas)}${seloPequeno(j)}</span>
+      ${precoResumo(j)}
+    </div>
+  </a></li>`;
+
+// ------------------------------------------------------------------ login
 
 async function telaLogin({ modo = 'entrar' } = {}) {
   barra.hidden = true;
@@ -115,11 +133,14 @@ async function telaLogin({ modo = 'entrar' } = {}) {
   });
 }
 
+// ------------------------------------------------------------------ início
+
 async function telaInicio() {
   const usuario = auth.usuarioAtual();
   const dados = await carregarDados();
   const jogos = [...dados.jogos].sort((a, b) =>
     (b.melhorOferta?.desconto ?? -1) - (a.melhorOferta?.desconto ?? -1) || a.nome.localeCompare(b.nome));
+  const maisVendidos = dados.descobertos.filter((j) => j.origem.includes('mais-vendidos')).slice(0, 10);
 
   const status = dados.exemplo
     ? `<div class="status alerta">Dados de exemplo: o robô de preços ainda não rodou.</div>`
@@ -133,18 +154,17 @@ async function telaInicio() {
        </button>`
     : '';
 
-  const vitrine = dados.promocoes.length
-    ? `<h2 class="titulo-secao">Promoções do dia na Steam</h2>
-       <div class="vitrine">
-         ${dados.promocoes.map((p) => `
-           <a class="cartao-promo" href="#/jogo/${esc(p.id)}">
-             ${capa(p, 'larga')}
-             <span class="nome">${esc(p.nome)}</span>
-             <span class="linha-preco"><span class="desconto">-${p.melhorOferta.desconto}%</span><strong>${formatarPreco(p.melhorOferta.preco)}</strong></span>
-             ${p.terminaEm ? `<small>${esc(tempoRestante(p.terminaEm))}</small>` : ''}
-           </a>`).join('')}
-       </div>`
-    : '';
+  const cartaoVitrine = (p) => `
+    <a class="cartao-promo" href="#/jogo/${esc(p.id)}">
+      ${capa(p, 'larga')}
+      <span class="nome">${esc(p.nome)}</span>
+      <span class="linha-preco">${p.melhorOferta.desconto > 0 ? `<span class="desconto">-${p.melhorOferta.desconto}%</span>` : ''}<strong>${formatarPreco(p.melhorOferta.preco)}</strong></span>
+      ${p.terminaEm ? `<small>${esc(tempoRestante(p.terminaEm))}</small>` : ''}
+    </a>`;
+
+  const vitrine = (titulo, lista) => (lista.length
+    ? `<h2 class="titulo-secao">${titulo}</h2><div class="vitrine">${lista.map(cartaoVitrine).join('')}</div>`
+    : '');
 
   app.innerHTML = `
     <header class="topo">
@@ -153,24 +173,86 @@ async function telaInicio() {
         <h1>Qual jogo você quer pagar menos?</h1>
       </div>
     </header>
+    <a class="campo-busca falso" href="#/buscar"><span aria-hidden="true">⌕</span>Buscar entre ${dados.todos.length} jogos</a>
     ${status}
     ${instalar}
-    ${vitrine}
+    ${vitrine('Promoções do dia na Steam', dados.promocoes)}
+    ${vitrine('Mais vendidos na Steam', maisVendidos)}
     <h2 class="titulo-secao">Jogos monitorados</h2>
-    <ul class="lista-jogos">
-      ${jogos.map((j) => `
-        <li><a class="item-jogo" href="#/jogo/${esc(j.id)}">
-          ${capa(j)}
-          <div class="info">
-            <span class="nome">${esc(j.nome)}</span>
-            <span class="chips">${chipsPlataforma(j.plataformas)}</span>
-            ${precoResumo(j)}
-          </div>
-        </a></li>`).join('')}
-    </ul>`;
+    <ul class="lista-jogos">${jogos.map(itemDaLista).join('')}</ul>`;
 
   app.querySelector('[data-instalar]')?.addEventListener('click', instalarApp);
 }
+
+// ------------------------------------------------------------------ buscador (Onda 2)
+
+async function telaBuscar() {
+  const dados = await carregarDados();
+  app.innerHTML = `
+    <header class="topo"><h1>Buscar jogos</h1></header>
+    <form class="busca" role="search">
+      <label class="campo-busca">
+        <span aria-hidden="true">⌕</span>
+        <input type="search" name="termo" placeholder="Nome do jogo ou gênero" autocomplete="off" enterkeyhint="search" value="${esc(estadoBusca.termo)}">
+      </label>
+      <div class="filtros" role="group" aria-label="Plataforma">
+        <button type="button" data-plataforma="" aria-pressed="${!estadoBusca.plataforma}">Todas</button>
+        ${Object.entries(PLATAFORMAS).map(([id, nome]) =>
+          `<button type="button" data-plataforma="${id}" aria-pressed="${estadoBusca.plataforma === id}">${nome}</button>`).join('')}
+      </div>
+      <label class="ordem">Ordenar por
+        <select name="ordem">
+          <option value="relevancia">Relevância</option>
+          <option value="menor-preco">Menor preço</option>
+          <option value="desconto">Maior desconto</option>
+        </select>
+      </label>
+    </form>
+    <p class="contagem" aria-live="polite"></p>
+    <ul class="lista-jogos resultados"></ul>`;
+
+  const form = app.querySelector('form');
+  const campo = form.termo;
+  const lista = app.querySelector('.resultados');
+  const contagem = app.querySelector('.contagem');
+  form.ordem.value = estadoBusca.ordem;
+
+  const atualizar = () => {
+    const achados = buscarJogos(dados.todos, estadoBusca.termo, estadoBusca);
+    contagem.textContent = estadoBusca.termo
+      ? `${achados.length} resultado${achados.length === 1 ? '' : 's'} para "${estadoBusca.termo}"`
+      : `${achados.length} jogos`;
+    lista.innerHTML = achados.length
+      ? achados.map(itemDaLista).join('')
+      : `<li class="vazio-busca">Nenhum jogo encontrado.<br><small>O XP Barato monitora os jogos do catálogo e os destaques da Steam do dia.</small></li>`;
+  };
+
+  let espera;
+  campo.addEventListener('input', () => {
+    estadoBusca.termo = campo.value.trim();
+    atualizar();
+    clearTimeout(espera);
+    if (estadoBusca.termo.length >= 3) espera = setTimeout(() => registrarEvento('busca', { titulo: estadoBusca.termo }), 1200);
+  });
+  form.addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    campo.blur();
+  });
+  form.ordem.addEventListener('change', () => {
+    estadoBusca.ordem = form.ordem.value;
+    atualizar();
+  });
+  form.querySelectorAll('[data-plataforma]').forEach((b) => b.addEventListener('click', () => {
+    estadoBusca.plataforma = b.dataset.plataforma || null;
+    form.querySelectorAll('[data-plataforma]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    atualizar();
+  }));
+
+  atualizar();
+  if (!estadoBusca.termo) campo.focus();
+}
+
+// ------------------------------------------------------------------ detalhe do jogo
 
 async function telaJogo(id) {
   const dados = await carregarDados();
@@ -208,9 +290,24 @@ async function telaJogo(id) {
       <a class="botao ir secundario" href="${esc(linkDeBusca(lojaId, jogo.nome))}" target="_blank" rel="noopener" data-loja="${esc(lojaId)}">Ver preço</a>
     </li>`;
 
+  const s = jogo.selo;
+  const blocoSelo = s ? `
+    <section class="cartao-selo">
+      <p class="selo-titulo">🎁 Com gift card sai mais barato</p>
+      <p>Comprando <strong>${s.quantidade > 1 ? `${s.quantidade} × ` : ''}${esc(s.cartao.nome)}</strong> por
+        ${formatarPreco(s.cartao.preco)}${s.quantidade > 1 ? ' cada' : ''} na ${esc(s.cartao.revenda)} e usando o crédito na ${esc(LOJAS[s.oferta.loja].nome)},
+        o jogo sai por <strong class="verde">${formatarPreco(s.precoEfetivo)}</strong>
+        (economia de ${formatarPreco(s.economia)}).</p>
+      <a class="botao ir secundario" href="${esc(s.cartao.url)}" target="_blank" rel="noopener" data-loja="giftcard-${esc(s.cartao.revenda)}">Ver gift card</a>
+      <small>${s.cartao.conferidoEm
+        ? `Preço do gift card conferido em ${esc(formatarDiaCurto(s.cartao.conferidoEm))}.`
+        : 'Valor do gift card de exemplo: o grupo ainda não conferiu na revenda.'}
+        ${s.quantidade > 1 || s.oferta.preco % s.cartao.valorFace !== 0 ? ' O crédito que sobrar fica na sua conta da loja.' : ''}</small>
+    </section>` : '';
+
   app.innerHTML = `
     <div class="cabecalho-jogo">
-      <a class="voltar" href="#/inicio" aria-label="Voltar">‹</a>
+      <a class="voltar" href="#/${jogo.doCatalogo ? 'inicio' : 'buscar'}" aria-label="Voltar" data-voltar>‹</a>
       ${capa(jogo, 'destaque')}
     </div>
     <section class="detalhe">
@@ -224,17 +321,56 @@ async function telaJogo(id) {
       ${comPreco.length
         ? `<ul class="ofertas">${comPreco.map(linhaComPreco).join('')}</ul>`
         : `<p class="meta">Ainda não monitoramos o preço deste jogo. Confira direto nas lojas:</p>`}
+      ${blocoSelo}
+      <div id="historico"></div>
       ${semPreco.length ? `
-        ${comPreco.length ? '<h3 class="subtitulo">Confira também</h3>' : ''}
+        <h3 class="subtitulo">${comPreco.length ? 'Confira também' : ''}</h3>
         <ul class="ofertas">${semPreco.map(linhaSemPreco).join('')}</ul>` : ''}
       <p class="nota">${comPreco.length && !dados.exemplo
         ? `Preço da Steam consultado pelo robô ${esc(quando(dados.atualizadoEm))}. `
         : ''}O botão "Ver preço" abre a busca do jogo no site oficial da loja.</p>
     </section>`;
 
+  app.querySelector('[data-voltar]').addEventListener('click', (ev) => {
+    if (history.length > 1) {
+      ev.preventDefault();
+      history.back();
+    }
+  });
   app.querySelectorAll('a.ir').forEach((a) =>
     a.addEventListener('click', () => registrarEvento('clique-loja', { titulo: `${jogo.nome} → ${a.dataset.loja}` })));
+
+  if (comPreco.length) mostrarHistorico(jogo);
 }
+
+async function mostrarHistorico(jogo) {
+  const alvo = document.getElementById('historico');
+  const historico = await carregarHistorico();
+  if (!alvo.isConnected) return;
+  const serie = serieMenorPreco(historico.jogos?.[jogo.id]);
+  if (!serie.length) return;
+  const e = estatisticas(serie);
+  const v = veredito(e);
+  const faltam = DIAS_MINIMOS_VEREDITO - e.dias;
+
+  alvo.innerHTML = `
+    <h2 class="titulo-secao">Histórico de preço</h2>
+    <section class="cartao-historico">
+      ${v
+        ? `<p class="veredito ${v.tipo}"><strong>${v.titulo}</strong> · ${v.texto}</p>`
+        : `<p class="veredito formando"><strong>Histórico em formação</strong> · o robô registra um preço por dia desde ${esc(formatarDiaCurto(serie[0].data))}.
+             ${faltam > 0 ? `Em ${faltam} dia${faltam > 1 ? 's' : ''} o app já diz se é uma boa hora de comprar.` : ''}</p>`}
+      ${graficoDePreco(serie)}
+      <dl class="numeros">
+        <div><dt>Menor</dt><dd>${formatarPreco(e.minimo)}</dd></div>
+        <div><dt>Média</dt><dd>${formatarPreco(e.media)}</dd></div>
+        <div><dt>Maior</dt><dd>${formatarPreco(e.maximo)}</dd></div>
+        <div><dt>Dias</dt><dd>${e.dias}</dd></div>
+      </dl>
+    </section>`;
+}
+
+// ------------------------------------------------------------------ conta
 
 function telaConta() {
   const usuario = auth.usuarioAtual();
@@ -247,7 +383,7 @@ function telaConta() {
     ${pedidoDeInstalacao && !estaInstalado() ? '<button class="botao principal largo" data-instalar>Instalar o app no celular</button>' : ''}
     ${estaInstalado() ? '<p class="meta centro">App instalado neste aparelho ✔</p>' : ''}
     <button class="botao secundario largo" data-sair>Sair</button>
-    <p class="rodape-login">XP Barato · MVP Onda 1<br>Trabalho de APS · protótipo acadêmico</p>`;
+    <p class="rodape-login">XP Barato · MVP Onda 2<br>Trabalho de APS · protótipo acadêmico</p>`;
   app.querySelector('[data-sair]').addEventListener('click', () => {
     auth.sair();
     location.hash = '#/login';
@@ -272,12 +408,14 @@ async function rotear() {
 
   window.scrollTo(0, 0);
   barra.hidden = rota === 'login';
-  barra.querySelectorAll('a').forEach((a) =>
-    a.classList.toggle('ativo', a.dataset.aba === (rota === 'jogo' ? 'inicio' : rota)));
+  const aba = rota === 'jogo' ? (barra.dataset.ultima ?? 'inicio') : rota;
+  if (['inicio', 'buscar', 'conta'].includes(rota)) barra.dataset.ultima = rota;
+  barra.querySelectorAll('a').forEach((a) => a.classList.toggle('ativo', a.dataset.aba === aba));
 
   try {
     if (rota === 'login') await telaLogin();
     else if (rota === 'jogo') await telaJogo(decodeURIComponent(parametro ?? ''));
+    else if (rota === 'buscar') await telaBuscar();
     else if (rota === 'conta') telaConta();
     else await telaInicio();
   } catch (erro) {
