@@ -41,7 +41,7 @@ function montarJogo(base, salvo) {
     plataformas: base.plataformas,
     genero: salvo.generos?.[0] ?? base.genero,
     descricao: base.descricao || salvo.descricaoSteam,
-    lancamento: salvo.lancamento ?? formatarDataIso(base.lancamento),
+    lancamento: salvo.lancamento ? salvo.lancamento.replaceAll('/', ' ') : formatarDataIso(base.lancamento),
     capa: salvo.capa ?? null,
     ofertas,
     melhorOferta: ofertas[0] ?? null,
