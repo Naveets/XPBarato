@@ -1,10 +1,18 @@
 {
-  "atualizadoEm": null,
-  "fonte": "exemplo",
-  "_aviso": "Arquivo de exemplo com os preços do protótipo Java. O robô substitui este arquivo pelos preços reais na primeira execução.",
+  "atualizadoEm": "2026-11-20T17:31:42.565Z",
+  "fonte": "robo",
+  "fontes": [
+    "steam"
+  ],
   "jogos": {
     "cyberpunk-2077": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+      "nomeSteam": "Cyberpunk 2077",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg?t=1794474878",
+      "lancamento": "9/dez./2020",
+      "descricaoSteam": "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto que se passa em Night City, uma megalópole perigosa onde todos são obcecados por poder, glamour e alterações corporais.",
+      "generos": [
+        "RPG"
+      ],
       "ofertas": [
         {
           "loja": "steam",
@@ -12,27 +20,42 @@
           "precoOriginal": 199.9,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1091500/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "elden-ring": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+      "nomeSteam": "ELDEN RING",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1790290043",
+      "lancamento": "24/fev./2022",
+      "descricaoSteam": "O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
+      "generos": [
+        "Ação",
+        "RPG"
+      ],
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 229.9,
-          "precoOriginal": 229.9,
+          "preco": 274.5,
+          "precoOriginal": 274.5,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1245620/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "hogwarts-legacy": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg",
+      "nomeSteam": "Hogwarts Legacy",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg?t=1790708992",
+      "lancamento": "10/fev./2023",
+      "descricaoSteam": "Hogwarts Legacy é um RPG de ação imersivo de mundo aberto. Agora você pode assumir o controle da ação e estar no centro de sua própria aventura no mundo bruxo.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "RPG"
+      ],
       "ofertas": [
         {
           "loja": "steam",
@@ -40,41 +63,66 @@
           "precoOriginal": 249.99,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/990080/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "red-dead-redemption-2": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
+      "nomeSteam": "Red Dead Redemption 2",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
+      "lancamento": "5/dez./2019",
+      "descricaoSteam": "Arthur Morgan e a gangue Van der Linde são forçados a fugir. Com agentes federais e caçadores de recompensas no seu encalço, a gangue precisa roubar, assaltar e lutar para sobreviver no impiedoso coração dos Estados Unidos.",
+      "generos": [
+        "Ação",
+        "Aventura"
+      ],
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 249.9,
-          "precoOriginal": 249.9,
+          "preco": 299.9,
+          "precoOriginal": 299.9,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1174180/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "god-of-war-ragnarok": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg",
+      "nomeSteam": "God of War Ragnarök",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1776465233",
+      "lancamento": "19/set./2024",
+      "descricaoSteam": "Kratos e Atreus embarcam numa viagem mítica em busca de respostas antes da chegada do Ragnarök — agora no PC.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "RPG"
+      ],
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 249.9,
+          "preco": 167.43,
           "precoOriginal": 249.9,
-          "desconto": 0,
+          "desconto": 33,
           "url": "https://store.steampowered.com/app/2322010/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "forza-horizon-5": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
+      "nomeSteam": "Forza Horizon 5",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1788546569",
+      "lancamento": "8/nov./2021",
+      "descricaoSteam": "Explore as paisagens vibrantes de mundo aberto do México com diversão e velocidade sem limites com os melhores carros do mundo.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "Corrida",
+        "Simulação",
+        "Esportes"
+      ],
       "ofertas": [
         {
           "loja": "steam",
@@ -82,10 +130,10 @@
           "precoOriginal": 249,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1551360/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "zelda-tears-of-the-kingdom": {
       "ofertas": [],
@@ -96,7 +144,15 @@
       "atualizadoEm": null
     },
     "baldurs-gate-3": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+      "nomeSteam": "Baldur's Gate 3",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+      "lancamento": "3/ago./2023",
+      "descricaoSteam": "Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.",
+      "generos": [
+        "Aventura",
+        "RPG",
+        "Estratégia"
+      ],
       "ofertas": [
         {
           "loja": "steam",
@@ -104,27 +160,43 @@
           "precoOriginal": 199.99,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1086940/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "hades-ii": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
+      "nomeSteam": "Hades II",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/91ac334a2c137d08968ccc0bc474a02579602100/header.jpg?t=1779901265",
+      "lancamento": "25/set./2025",
+      "descricaoSteam": "Transcenda o Submundo com feitiços das trevas para enfrentar o titã do tempo nesta sequência mágica do premiado roguelike de exploração de masmorras.",
+      "generos": [
+        "Ação",
+        "Indie",
+        "RPG"
+      ],
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 129.99,
-          "precoOriginal": 129.99,
+          "preco": 88.99,
+          "precoOriginal": 88.99,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1145350/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "stardew-valley": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+      "nomeSteam": "Stardew Valley",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
+      "lancamento": "26/fev./2016",
+      "descricaoSteam": "Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de segunda-mão e algumas moedas, você parte para dar início a sua nova vida. Será que você vai aprender a viver da terra, a transformar esse matagal em um próspero lar?",
+      "generos": [
+        "Indie",
+        "RPG",
+        "Simulação"
+      ],
       "ofertas": [
         {
           "loja": "steam",
@@ -132,55 +204,84 @@
           "precoOriginal": 24.99,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/413150/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "ea-sports-fc-26": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/header.jpg",
+      "nomeSteam": "EA SPORTS FC™ 26",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/2d96aa1b06e453cd62dae9029d412f19e61932c3/header.jpg?t=1789751159",
+      "lancamento": "25/set./2025",
+      "descricaoSteam": "Vivencie The World's Game como nunca antes no EA SPORTS FC™ 26. Busque a glória em um modo de torneio internacional com 48 seleções, enfrente Desafios de Manager ao Vivo temáticos e entre na Carreira de Atleta com novos ÍDOLOS e Heróis/Heroínas internacionais.",
+      "generos": [
+        "Simulação",
+        "Esportes"
+      ],
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 349,
-          "precoOriginal": 349,
+          "preco": 125,
+          "precoOriginal": 125,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/3405690/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "monster-hunter-wilds": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg",
+      "nomeSteam": "Monster Hunter Wilds",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1787549555",
+      "lancamento": "27/fev./2025",
+      "descricaoSteam": "A força desenfreada da natureza corre selvagem e incansável, com ambientes se transformando drasticamente de um instante para o próximo. Essa é uma história de monstros e humanos, e suas lutas para viver em harmonia em um mundo de dualidade.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "RPG"
+      ],
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 299,
-          "precoOriginal": 299,
+          "preco": 169,
+          "precoOriginal": 169,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/2246340/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "persona-5-royal": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
+      "nomeSteam": "Persona 5 Royal",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg?t=1783356822",
+      "lancamento": "20/out./2022",
+      "descricaoSteam": "Lidere os Ladrões-Fantasma neste premiado e estiloso RPG em turnos, com direito a exploração de masmorras, personalização de grupos, combate estratégico e fusão de Personas. Aventure-se por Tóquio, forme relacionamentos, enfrente Sombras e infiltre as mentes dos corruptos para mudar suas atitudes!",
+      "generos": [
+        "RPG"
+      ],
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 249.9,
+          "preco": 74.97,
           "precoOriginal": 249.9,
-          "desconto": 0,
+          "desconto": 70,
           "url": "https://store.steampowered.com/app/1687950/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "hollow-knight-silksong": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/header.jpg",
+      "nomeSteam": "Hollow Knight: Silksong",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/7983574d464e6559ac7e24275727f73a8bcca1f3/header.jpg?t=1776125736",
+      "lancamento": "4/set./2025",
+      "descricaoSteam": "Descubra um reino vasto e amaldiçoado em Hollow Knight: Silksong! Explore, lute e sobreviva enquanto você ascende ao pico de uma terra governada pela seda e por canções.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "Indie"
+      ],
       "ofertas": [
         {
           "loja": "steam",
@@ -188,25 +289,125 @@
           "precoOriginal": 59.99,
           "desconto": 0,
           "url": "https://store.steampowered.com/app/1030300/",
-          "fonte": "exemplo"
+          "fonte": "steam"
         }
       ],
-      "atualizadoEm": null
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     },
     "grand-theft-auto-v": {
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 99.9,
-          "precoOriginal": 99.9,
-          "desconto": 0,
-          "url": "https://store.steampowered.com/app/271590/",
-          "fonte": "exemplo"
-        }
+      "nomeSteam": "Grand Theft Auto V Legacy",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
+      "lancamento": "13/abr./2015",
+      "descricaoSteam": "Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).",
+      "generos": [
+        "Ação",
+        "Aventura"
       ],
-      "atualizadoEm": null
+      "ofertas": [],
+      "atualizadoEm": "2026-11-20T17:31:42.565Z"
     }
   },
-  "promocoesSteam": []
+  "promocoesSteam": [
+    {
+      "appId": 1426210,
+      "nome": "It Takes Two",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header_brazilian.jpg?t=1777395376",
+      "preco": 39.8,
+      "precoOriginal": 199,
+      "desconto": 80,
+      "terminaEm": "2026-12-03T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/1426210/"
+    },
+    {
+      "appId": 2215430,
+      "nome": "Ghost of Tsushima VERSÃO DO DIRETOR",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215430/header.jpg?t=1763409398",
+      "preco": 124.95,
+      "precoOriginal": 249.9,
+      "desconto": 50,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/2215430/"
+    },
+    {
+      "appId": 1593500,
+      "nome": "God of War",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1763059412",
+      "preco": 79.96,
+      "precoOriginal": 199.9,
+      "desconto": 60,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/1593500/"
+    },
+    {
+      "appId": 1817070,
+      "nome": "Marvel’s Spider-Man Remastered",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg?t=1787838689",
+      "preco": 99.96,
+      "precoOriginal": 249.9,
+      "desconto": 60,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/1817070/"
+    },
+    {
+      "appId": 2909400,
+      "nome": "FINAL FANTASY VII REBIRTH",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909400/64a1006a85342c7d3e4b1e1b8e562fee2dc86578/header.jpg?t=1793774936",
+      "preco": 32.98,
+      "precoOriginal": 219.9,
+      "desconto": 85,
+      "terminaEm": "2026-12-02T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/2909400/"
+    },
+    {
+      "appId": 2531310,
+      "nome": "The Last of Us™ Parte II Remastered",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1750959180",
+      "preco": 133.93,
+      "precoOriginal": 199.9,
+      "desconto": 33,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/2531310/"
+    },
+    {
+      "appId": 1462040,
+      "nome": "FINAL FANTASY VII REMAKE INTERGRADE",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1462040/67aebedbdfc261278fc5e3cd45b519212ac0555a/header.jpg?t=1789446715",
+      "preco": 31.48,
+      "precoOriginal": 174.9,
+      "desconto": 82,
+      "terminaEm": "2026-12-02T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/1462040/"
+    },
+    {
+      "appId": 1259420,
+      "nome": "Days Gone",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1259420/header.jpg?t=1750947718",
+      "preco": 65.83,
+      "precoOriginal": 199.5,
+      "desconto": 67,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/1259420/"
+    },
+    {
+      "appId": 2322010,
+      "nome": "God of War Ragnarök",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1776465233",
+      "preco": 167.43,
+      "precoOriginal": 249.9,
+      "desconto": 33,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/2322010/"
+    },
+    {
+      "appId": 2651280,
+      "nome": "Marvel's Spider-Man 2",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg?t=1763569811",
+      "preco": 167.43,
+      "precoOriginal": 249.9,
+      "desconto": 33,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/2651280/"
+    }
+  ],
+  "erros": []
 }

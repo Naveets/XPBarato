@@ -1,3 +1,83 @@
 {
-  "jogos": {}
+  "jogos": {
+    "cyberpunk-2077": [
+      {
+        "data": "2026-11-20",
+        "steam": 199.9
+      }
+    ],
+    "elden-ring": [
+      {
+        "data": "2026-11-20",
+        "steam": 274.5
+      }
+    ],
+    "hogwarts-legacy": [
+      {
+        "data": "2026-11-20",
+        "steam": 249.99
+      }
+    ],
+    "red-dead-redemption-2": [
+      {
+        "data": "2026-11-20",
+        "steam": 299.9
+      }
+    ],
+    "god-of-war-ragnarok": [
+      {
+        "data": "2026-11-20",
+        "steam": 167.43
+      }
+    ],
+    "forza-horizon-5": [
+      {
+        "data": "2026-11-20",
+        "steam": 249
+      }
+    ],
+    "baldurs-gate-3": [
+      {
+        "data": "2026-11-20",
+        "steam": 199.99
+      }
+    ],
+    "hades-ii": [
+      {
+        "data": "2026-11-20",
+        "steam": 88.99
+      }
+    ],
+    "stardew-valley": [
+      {
+        "data": "2026-11-20",
+        "steam": 24.99
+      }
+    ],
+    "ea-sports-fc-26": [
+      {
+        "data": "2026-11-20",
+        "steam": 125
+      }
+    ],
+    "monster-hunter-wilds": [
+      {
+        "data": "2026-11-20",
+        "steam": 169
+      }
+    ],
+    "persona-5-royal": [
+      {
+        "data": "2026-11-20",
+        "steam": 74.97
+      }
+    ],
+    "hollow-knight-silksong": [
+      {
+        "data": "2026-11-20",
+        "steam": 59.99
+      }
+    ]
+  },
+  "atualizadoEm": "2026-11-20T17:31:42.565Z"
 }
