@@ -1,0 +1,135 @@
+{
+  "_comoEditar": "Lista de jogos monitorados pelo XP Barato. Para adicionar um jogo, copie um bloco e troque os dados. steamAppId é o número que aparece no link da Steam (store.steampowered.com/app/NUMERO). Use null para jogos que não estão na Steam. plataformas: PC, PS, XB, SW.",
+  "jogos": [
+    {
+      "id": "cyberpunk-2077",
+      "nome": "Cyberpunk 2077",
+      "steamAppId": 1091500,
+      "plataformas": ["PC", "PS", "XB"],
+      "genero": "RPG",
+      "descricao": "RPG de ação em mundo aberto na megalópole de Night City."
+    },
+    {
+      "id": "elden-ring",
+      "nome": "Elden Ring",
+      "steamAppId": 1245620,
+      "plataformas": ["PC", "PS", "XB"],
+      "genero": "RPG",
+      "descricao": "RPG de ação da FromSoftware ambientado nas Terras Intermédias."
+    },
+    {
+      "id": "hogwarts-legacy",
+      "nome": "Hogwarts Legacy",
+      "steamAppId": 990080,
+      "plataformas": ["PC", "PS", "XB", "SW"],
+      "genero": "Aventura",
+      "descricao": "Aventura em mundo aberto no universo bruxo do século XIX."
+    },
+    {
+      "id": "red-dead-redemption-2",
+      "nome": "Red Dead Redemption 2",
+      "steamAppId": 1174180,
+      "plataformas": ["PC", "PS", "XB"],
+      "genero": "Ação",
+      "descricao": "Faroeste épico da Rockstar com a gangue Van der Linde."
+    },
+    {
+      "id": "god-of-war-ragnarok",
+      "nome": "God of War Ragnarök",
+      "steamAppId": 2322010,
+      "plataformas": ["PS", "PC"],
+      "genero": "Ação",
+      "descricao": "Kratos e Atreus enfrentam o fim dos tempos nórdico."
+    },
+    {
+      "id": "forza-horizon-5",
+      "nome": "Forza Horizon 5",
+      "steamAppId": 1551360,
+      "plataformas": ["XB", "PC", "PS"],
+      "genero": "Corrida",
+      "descricao": "Festival de corrida em mundo aberto pelas paisagens do México."
+    },
+    {
+      "id": "zelda-tears-of-the-kingdom",
+      "nome": "The Legend of Zelda: Tears of the Kingdom",
+      "steamAppId": null,
+      "plataformas": ["SW"],
+      "genero": "Aventura",
+      "lancamento": "2023-05-12",
+      "descricao": "Link explora os céus e as profundezas de Hyrule."
+    },
+    {
+      "id": "super-mario-party-jamboree",
+      "nome": "Super Mario Party Jamboree",
+      "steamAppId": null,
+      "plataformas": ["SW"],
+      "genero": "Família",
+      "lancamento": "2024-10-17",
+      "descricao": "Festa com minijogos para jogar com amigos e família."
+    },
+    {
+      "id": "baldurs-gate-3",
+      "nome": "Baldur's Gate 3",
+      "steamAppId": 1086940,
+      "plataformas": ["PC", "PS", "XB"],
+      "genero": "RPG",
+      "descricao": "RPG de turnos baseado em Dungeons & Dragons."
+    },
+    {
+      "id": "hades-ii",
+      "nome": "Hades II",
+      "steamAppId": 1145350,
+      "plataformas": ["PC", "SW"],
+      "genero": "Roguelike",
+      "descricao": "Roguelike de ação: Melinoë enfrenta o Titã do Tempo."
+    },
+    {
+      "id": "stardew-valley",
+      "nome": "Stardew Valley",
+      "steamAppId": 413150,
+      "plataformas": ["PC", "PS", "XB", "SW"],
+      "genero": "Simulação",
+      "descricao": "Simulador de fazenda e vida no interior."
+    },
+    {
+      "id": "ea-sports-fc-26",
+      "nome": "EA SPORTS FC 26",
+      "steamAppId": 3405690,
+      "plataformas": ["PC", "PS", "XB", "SW"],
+      "genero": "Esporte",
+      "descricao": "Simulador de futebol com clubes e seleções licenciados."
+    },
+    {
+      "id": "monster-hunter-wilds",
+      "nome": "Monster Hunter Wilds",
+      "steamAppId": 2246340,
+      "plataformas": ["PC", "PS", "XB"],
+      "genero": "Ação",
+      "descricao": "Caçadas cooperativas a monstros gigantes em biomas vivos."
+    },
+    {
+      "id": "persona-5-royal",
+      "nome": "Persona 5 Royal",
+      "steamAppId": 1687950,
+      "plataformas": ["PC", "PS", "XB", "SW"],
+      "genero": "RPG",
+      "descricao": "RPG japonês sobre estudantes que vivem vidas duplas em Tóquio."
+    },
+    {
+      "id": "hollow-knight-silksong",
+      "nome": "Hollow Knight: Silksong",
+      "steamAppId": 1030300,
+      "plataformas": ["PC", "PS", "XB", "SW"],
+      "genero": "Metroidvania",
+      "descricao": "Hornet explora um reino desconhecido cheio de seda e canções."
+    },
+    {
+      "id": "grand-theft-auto-v",
+      "nome": "Grand Theft Auto V",
+      "steamAppId": 271590,
+      "plataformas": ["PC", "PS", "XB"],
+      "genero": "Ação",
+      "descricao": "Três criminosos, uma cidade enorme: Los Santos."
+    }
+  ]
+}

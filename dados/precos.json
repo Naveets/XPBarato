@@ -1,0 +1,212 @@
+{
+  "atualizadoEm": null,
+  "fonte": "exemplo",
+  "_aviso": "Arquivo de exemplo com os preços do protótipo Java. O robô substitui este arquivo pelos preços reais na primeira execução.",
+  "jogos": {
+    "cyberpunk-2077": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 199.9,
+          "precoOriginal": 199.9,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/1091500/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "elden-ring": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 229.9,
+          "precoOriginal": 229.9,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/1245620/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "hogwarts-legacy": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 249.99,
+          "precoOriginal": 249.99,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/990080/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "red-dead-redemption-2": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/1174180/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "god-of-war-ragnarok": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/2322010/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "forza-horizon-5": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 249,
+          "precoOriginal": 249,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/1551360/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "zelda-tears-of-the-kingdom": {
+      "ofertas": [],
+      "atualizadoEm": null
+    },
+    "super-mario-party-jamboree": {
+      "ofertas": [],
+      "atualizadoEm": null
+    },
+    "baldurs-gate-3": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 199.99,
+          "precoOriginal": 199.99,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/1086940/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "hades-ii": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145350/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 129.99,
+          "precoOriginal": 129.99,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/1145350/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "stardew-valley": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 24.99,
+          "precoOriginal": 24.99,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/413150/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "ea-sports-fc-26": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 349,
+          "precoOriginal": 349,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/3405690/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "monster-hunter-wilds": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 299,
+          "precoOriginal": 299,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/2246340/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "persona-5-royal": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1687950/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/1687950/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "hollow-knight-silksong": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030300/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 59.99,
+          "precoOriginal": 59.99,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/1030300/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    },
+    "grand-theft-auto-v": {
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 99.9,
+          "precoOriginal": 99.9,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/271590/",
+          "fonte": "exemplo"
+        }
+      ],
+      "atualizadoEm": null
+    }
+  },
+  "promocoesSteam": []
+}
