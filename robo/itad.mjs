@@ -26,6 +26,10 @@ const LOJA_POR_NOME = {
   'humble store': 'humble',
   'humble bundle': 'humble',
   'gamesplanet': 'gamesplanet',
+  'microsoft store': 'xbox',
+  'blizzard': 'battlenet',
+  'greenmangaming': 'gmg',
+  'ea store': 'ea',
   'gamersgate': 'gamersgate',
   'indiegala store': 'indiegala',
   'microsoft store': 'xbox',
@@ -35,7 +39,8 @@ const LOJA_POR_NOME = {
 };
 
 export function idDaLoja(nome) {
-  const chave = String(nome ?? '').trim().toLowerCase();
+  // versões regionais da mesma loja ("GamesPlanet US", "GamesPlanet UK"...) viram uma só
+  const chave = String(nome ?? '').trim().toLowerCase().replace(/\s+(us|uk|de|fr|eu|br)$/, '');
   return LOJA_POR_NOME[chave] ?? chave.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 

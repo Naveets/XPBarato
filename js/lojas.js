@@ -20,7 +20,9 @@ export const LOJAS = {
   indiegala:    { nome: 'IndieGala',         tipo: 'PC',      busca: 'https://www.indiegala.com/search/%s' },
   ubisoft:      { nome: 'Ubisoft Store',     tipo: 'PC',      busca: 'https://store.ubisoft.com/br/search?q=%s' },
   ea:           { nome: 'EA app',            tipo: 'PC',      busca: 'https://www.ea.com/pt-br/games/library?q=%s' },
-  battlenet:    { nome: 'Battle.net',        tipo: 'PC',      busca: 'https://shop.battle.net/pt-br/search?q=%s' }
+  battlenet:    { nome: 'Battle.net',        tipo: 'PC',      busca: 'https://shop.battle.net/pt-br/search?q=%s' },
+  gamebillet:   { nome: 'GameBillet',        tipo: 'PC',      busca: 'https://www.gamebillet.com/search?q=%s' },
+  wingamestore: { nome: 'WinGameStore',      tipo: 'PC',      busca: 'https://www.wingamestore.com/search/?SearchWord=%s' }
 };
 
 /** Nome da loja para mostrar na tela (lojas novas que o robô trouxer usam o nome recebido). */

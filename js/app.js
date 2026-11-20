@@ -16,6 +16,7 @@ const barra = document.getElementById('barra');
 const aviso = document.getElementById('aviso');
 let pedidoDeInstalacao = null;
 const estadoBusca = { termo: '', plataforma: null, ordem: 'relevancia' };
+const LOJAS_VISIVEIS = 5; // no comparativo, as demais lojas ficam em "Ver mais"
 
 // ------------------------------------------------------------------ utilidades
 
@@ -319,7 +320,12 @@ async function telaJogo(id) {
 
       <h2 class="titulo-secao">Comparativo entre lojas</h2>
       ${comPreco.length
-        ? `<ul class="ofertas">${comPreco.map(linhaComPreco).join('')}</ul>`
+        ? `<ul class="ofertas">${comPreco.slice(0, LOJAS_VISIVEIS).map(linhaComPreco).join('')}</ul>
+           ${comPreco.length > LOJAS_VISIVEIS ? `
+             <details class="mais-lojas">
+               <summary>Ver mais ${comPreco.length - LOJAS_VISIVEIS} loja${comPreco.length - LOJAS_VISIVEIS > 1 ? 's' : ''}</summary>
+               <ul class="ofertas">${comPreco.slice(LOJAS_VISIVEIS).map((o, i) => linhaComPreco(o, i + LOJAS_VISIVEIS)).join('')}</ul>
+             </details>` : ''}`
         : `<p class="meta">Ainda não monitoramos o preço deste jogo. Confira direto nas lojas:</p>`}
       ${blocoSelo}
       <div id="historico"></div>
