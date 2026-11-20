@@ -160,26 +160,81 @@ export function seloGiftCard(jogo, cartoes) {
 
 // ------------------------------------------------------------------ histórico
 
-/** Para cada dia, o menor preço entre as lojas (base do gráfico). */
+/**
+ * Para cada dia: o menor preço entre as lojas, qual loja tinha esse preço e o preço da Steam
+ * (base do gráfico). Registro do robô: { data: 'AAAA-MM-DD', steam: 199.9, nuuvem: 89.9, ... }.
+ */
 export function serieMenorPreco(registros = []) {
   return registros
     .map((r) => {
-      const valores = Object.entries(r).filter(([k, v]) => k !== 'data' && typeof v === 'number').map(([, v]) => v);
-      return valores.length ? { data: r.data, preco: Math.min(...valores) } : null;
+      const lojas = Object.entries(r)
+        .filter(([k, v]) => k !== 'data' && typeof v === 'number')
+        .sort(([a], [b]) => (a === 'steam' ? -1 : b === 'steam' ? 1 : 0)); // empate: Steam primeiro
+      if (!lojas.length) return null;
+      const [loja, preco] = lojas.reduce((menor, atual) => (atual[1] < menor[1] ? atual : menor));
+      return { data: r.data, preco, loja, steam: typeof r.steam === 'number' ? r.steam : null };
     })
     .filter(Boolean);
 }
 
+/** Últimos N dias da série (null = tudo). */
+export function recortar(serie, dias) {
+  return dias ? serie.slice(-dias) : serie;
+}
+
+const PROMOCAO = 0.95; // dia "em promoção" = pelo menos 5% abaixo do preço normal do período
+
 export function estatisticas(serie) {
   if (!serie.length) return null;
   const precos = serie.map((p) => p.preco);
+  const minimo = Math.min(...precos);
+  const maximo = Math.max(...precos);
+  const media = arredondar(precos.reduce((a, b) => a + b, 0) / precos.length);
+  const atual = precos[precos.length - 1];
+  // o menor preço mais recente (se repetiu, mostra a última vez)
+  const iMin = precos.lastIndexOf(minimo);
+  const normal = maximo; // preço "cheio" do período
+  const diasPromocao = precos.filter((p) => p <= normal * PROMOCAO).length;
+  const ha30 = serie.length > 30 ? precos[precos.length - 31] : precos[0];
+
   return {
-    minimo: Math.min(...precos),
-    maximo: Math.max(...precos),
-    media: arredondar(precos.reduce((a, b) => a + b, 0) / precos.length),
-    atual: precos[precos.length - 1],
-    dias: serie.length
+    minimo,
+    maximo,
+    media,
+    atual,
+    dias: serie.length,
+    lojaAtual: serie[serie.length - 1].loja,
+    dataMinimo: serie[iMin].data,
+    lojaMinimo: serie[iMin].loja,
+    vsMedia: media ? (atual - media) / media : 0,
+    variacao30: ha30 ? (atual - ha30) / ha30 : 0,
+    diasPromocao,
+    promocoes: promocoesDoPeriodo(serie, normal)
   };
+}
+
+/**
+ * Trechos em que o preço ficou em promoção: [{ inicio, fim, preco, loja, desconto, emAndamento }].
+ * Dias seguidos abaixo do preço normal formam uma promoção; o preço mostrado é o menor do trecho.
+ */
+export function promocoesDoPeriodo(serie, normal) {
+  const trechos = [];
+  let atual = null;
+  serie.forEach((p, i) => {
+    if (p.preco <= normal * PROMOCAO) {
+      if (!atual) atual = { inicio: p.data, fim: p.data, preco: p.preco, loja: p.loja };
+      atual.fim = p.data;
+      if (p.preco < atual.preco) Object.assign(atual, { preco: p.preco, loja: p.loja });
+      atual.emAndamento = i === serie.length - 1;
+    } else if (atual) {
+      trechos.push(atual);
+      atual = null;
+    }
+  });
+  if (atual) trechos.push(atual);
+  return trechos
+    .map((t) => ({ ...t, desconto: Math.round((1 - t.preco / normal) * 100) }))
+    .reverse(); // mais recente primeiro
 }
 
 export const DIAS_MINIMOS_VEREDITO = 7;

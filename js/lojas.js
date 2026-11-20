@@ -26,7 +26,9 @@ export const LOJAS = {
 };
 
 /** Nome da loja para mostrar na tela (lojas novas que o robô trouxer usam o nome recebido). */
-export const nomeDaLoja = (oferta) => LOJAS[oferta.loja]?.nome ?? oferta.lojaNome ?? oferta.loja;
+export const nomeDaLoja = (oferta) =>
+  LOJAS[oferta.loja]?.nome ?? oferta.lojaNome ?? String(oferta.loja ?? '')
+    .split('-').map((p) => (p.length <= 2 ? p.toUpperCase() : p[0].toUpperCase() + p.slice(1))).join(' ');
 
 export const PLATAFORMAS = {
   PC: 'PC',

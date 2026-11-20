@@ -4,10 +4,10 @@
 
 import * as auth from './auth.js';
 import {
-  carregarDados, carregarHistorico, encontrarJogo, buscarJogos, serieMenorPreco, estatisticas, veredito,
+  carregarDados, carregarHistorico, encontrarJogo, buscarJogos, serieMenorPreco, recortar, estatisticas, veredito,
   DIAS_MINIMOS_VEREDITO, formatarPreco, formatarDiaCurto, quando, tempoRestante
 } from './dados.js';
-import { graficoDePreco } from './grafico.js';
+import { graficoDePreco, ativarGrafico } from './grafico.js';
 import { LOJAS, PLATAFORMAS, linkDeBusca, nomeDaLoja } from './lojas.js';
 import { registrarEvento } from './metricas.js';
 
@@ -349,31 +349,77 @@ async function telaJogo(id) {
   if (comPreco.length) mostrarHistorico(jogo);
 }
 
+const PERIODOS = [
+  { dias: 30, nome: '30 dias' },
+  { dias: 90, nome: '90 dias' },
+  { dias: null, nome: 'Tudo' }
+];
+let periodoEscolhido = 90;
+
+const porcento = (v) => `${v > 0 ? '+' : ''}${Math.round(v * 100)}%`;
+const nomeLoja = (id) => nomeDaLoja({ loja: id });
+
 async function mostrarHistorico(jogo) {
   const alvo = document.getElementById('historico');
   const historico = await carregarHistorico();
   if (!alvo.isConnected) return;
-  const serie = serieMenorPreco(historico.jogos?.[jogo.id]);
-  if (!serie.length) return;
-  const e = estatisticas(serie);
-  const v = veredito(e);
-  const faltam = DIAS_MINIMOS_VEREDITO - e.dias;
+  const serieCompleta = serieMenorPreco(historico.jogos?.[jogo.id]);
+  if (!serieCompleta.length) return;
 
-  alvo.innerHTML = `
-    <h2 class="titulo-secao">Histórico de preço</h2>
-    <section class="cartao-historico">
-      ${v
-        ? `<p class="veredito ${v.tipo}"><strong>${v.titulo}</strong> · ${v.texto}</p>`
-        : `<p class="veredito formando"><strong>Histórico em formação</strong> · o robô registra um preço por dia desde ${esc(formatarDiaCurto(serie[0].data))}.
-             ${faltam > 0 ? `Em ${faltam} dia${faltam > 1 ? 's' : ''} o app já diz se é uma boa hora de comprar.` : ''}</p>`}
-      ${graficoDePreco(serie)}
-      <dl class="numeros">
-        <div><dt>Menor</dt><dd>${formatarPreco(e.minimo)}</dd></div>
-        <div><dt>Média</dt><dd>${formatarPreco(e.media)}</dd></div>
-        <div><dt>Maior</dt><dd>${formatarPreco(e.maximo)}</dd></div>
-        <div><dt>Dias</dt><dd>${e.dias}</dd></div>
-      </dl>
-    </section>`;
+  // só oferece os períodos que fazem sentido para o tamanho do histórico
+  const periodos = PERIODOS.filter((p, i) => i === 0 || !p.dias || serieCompleta.length > PERIODOS[i - 1].dias)
+    .filter((p) => p.dias || serieCompleta.length > 100);
+
+  const desenhar = () => {
+    const serie = recortar(serieCompleta, periodoEscolhido);
+    const e = estatisticas(serie);
+    const v = veredito(estatisticas(serieCompleta)); // o veredito usa todo o histórico
+    const faltam = DIAS_MINIMOS_VEREDITO - serieCompleta.length;
+    const abaixo = e.vsMedia <= -0.005;
+
+    alvo.innerHTML = `
+      <h2 class="titulo-secao">Histórico de preço</h2>
+      <section class="cartao-historico">
+        ${v
+          ? `<p class="veredito ${v.tipo}"><strong>${v.titulo}</strong> · ${v.texto}</p>`
+          : `<p class="veredito formando"><strong>Histórico em formação</strong> · o robô registra um preço por dia desde ${esc(formatarDiaCurto(serieCompleta[0].data))}.
+               ${faltam > 0 ? `Em ${faltam} dia${faltam > 1 ? 's' : ''} o app já diz se é uma boa hora de comprar.` : ''}</p>`}
+        ${periodos.length > 1 ? `
+          <div class="periodos" role="group" aria-label="Período do gráfico">
+            ${periodos.map((p) => `<button type="button" data-dias="${p.dias ?? ''}" aria-pressed="${p.dias === periodoEscolhido}">${p.nome}</button>`).join('')}
+          </div>` : ''}
+        ${graficoDePreco(serie, e)}
+        <p class="dica-uso">Toque ou arraste no gráfico para ver o preço de cada dia.</p>
+        <dl class="numeros">
+          <div><dt>Hoje</dt><dd>${formatarPreco(e.atual)}</dd><small>na ${esc(nomeLoja(e.lojaAtual))}</small></div>
+          <div class="destaque-min"><dt>Menor</dt><dd>${formatarPreco(e.minimo)}</dd><small>${esc(formatarDiaCurto(e.dataMinimo))} · ${esc(nomeLoja(e.lojaMinimo))}</small></div>
+          <div><dt>Maior</dt><dd>${formatarPreco(e.maximo)}</dd><small>preço cheio</small></div>
+          <div><dt>Média</dt><dd>${formatarPreco(e.media)}</dd><small>${e.dias} dias</small></div>
+          <div><dt>Hoje × média</dt><dd class="${abaixo ? 'verde' : e.vsMedia > 0.005 ? 'vermelho' : ''}">${porcento(e.vsMedia)}</dd><small>${abaixo ? 'abaixo da média' : e.vsMedia > 0.005 ? 'acima da média' : 'na média'}</small></div>
+          <div><dt>Em promoção</dt><dd>${e.diasPromocao} de ${e.dias}</dd><small>dias no período</small></div>
+        </dl>
+        ${e.promocoes.length ? `
+          <h3 class="subtitulo">Promoções no período</h3>
+          <ul class="promocoes">
+            ${e.promocoes.slice(0, 6).map((p) => `
+              <li>
+                <span class="datas">${esc(formatarDiaCurto(p.inicio))}${p.fim !== p.inicio ? ` – ${p.emAndamento ? 'hoje' : esc(formatarDiaCurto(p.fim))}` : ''}</span>
+                <span class="valor"><em class="desconto">-${p.desconto}%</em> ${formatarPreco(p.preco)}</span>
+                <small>${esc(nomeLoja(p.loja))}${p.emAndamento ? ' · <b>em andamento</b>' : ''}</small>
+              </li>`).join('')}
+          </ul>
+          ${e.promocoes.length > 6 ? `<p class="meta">e mais ${e.promocoes.length - 6} promoç${e.promocoes.length - 6 > 1 ? 'ões' : 'ão'} no período.</p>` : ''}`
+          : `<p class="meta">Nenhuma promoção neste período: o preço ficou estável.</p>`}
+        <p class="nota">Preço normal = maior preço do período. Promoção = pelo menos 5% abaixo dele. Lojas estrangeiras com preço convertido para reais pelo IsThereAnyDeal.</p>
+      </section>`;
+
+    ativarGrafico(alvo.querySelector('.grafico-caixa'), serie, e);
+    alvo.querySelectorAll('[data-dias]').forEach((b) => b.addEventListener('click', () => {
+      periodoEscolhido = b.dataset.dias ? Number(b.dataset.dias) : null;
+      desenhar();
+    }));
+  };
+  desenhar();
 }
 
 // ------------------------------------------------------------------ conta
