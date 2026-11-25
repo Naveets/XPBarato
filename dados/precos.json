@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T19:54:05.572Z",
+  "atualizadoEm": "2026-11-25T18:57:31.865Z",
   "fonte": "robo",
   "fontes": [
     "steam",
@@ -15,6 +15,15 @@
         "RPG"
       ],
       "ofertas": [
+        {
+          "loja": "gog",
+          "lojaNome": "GOG",
+          "preco": 59.95,
+          "precoOriginal": 199.9,
+          "desconto": 70,
+          "url": "https://itad.link/018d9386-46b0-70e5-9b53-b1ca00522c36/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
         {
           "loja": "xbox",
           "lojaNome": "Microsoft Store",
@@ -42,15 +51,6 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gog",
-          "lojaNome": "GOG",
-          "preco": 199.9,
-          "precoOriginal": 199.9,
-          "desconto": 0,
-          "url": "https://itad.link/018d9386-46b0-70e5-9b53-b1ca00522c36/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
           "loja": "battlenet",
           "lojaNome": "Blizzard",
           "preco": 199.9,
@@ -71,14 +71,14 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 354.02,
-          "precoOriginal": 354.02,
+          "preco": 351.53,
+          "precoOriginal": 351.53,
           "desconto": 0,
           "url": "https://itad.link/018d9386-46b0-70e5-9b53-b1ca01518040/?app=a2bv1b",
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-2997-7131-b8b9-7c8af4825fa8"
     },
     "elden-ring": {
@@ -111,8 +111,8 @@
         {
           "loja": "fanatical",
           "lojaNome": "Fanatical",
-          "preco": 317.96,
-          "precoOriginal": 354.02,
+          "preco": 315.72,
+          "precoOriginal": 351.53,
           "desconto": 10,
           "url": "https://itad.link/018d9386-5634-71ca-ac17-8fff42a100db/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -120,8 +120,8 @@
         {
           "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
-          "preco": 318.61,
-          "precoOriginal": 354.02,
+          "preco": 316.37,
+          "precoOriginal": 351.53,
           "desconto": 10,
           "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b15ae209/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -129,8 +129,8 @@
         {
           "loja": "wingamestore",
           "lojaNome": "WinGameStore",
-          "preco": 342.22,
-          "precoOriginal": 354.02,
+          "preco": 339.81,
+          "precoOriginal": 351.53,
           "desconto": 3,
           "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b4787aba/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -138,26 +138,17 @@
         {
           "loja": "playerland",
           "lojaNome": "PlayerLand",
-          "preco": 342.22,
-          "precoOriginal": 354.02,
+          "preco": 339.81,
+          "precoOriginal": 351.53,
           "desconto": 3,
           "url": "https://itad.link/019c7021-d0f3-734f-9b35-758bd24ef51f/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamersgate",
-          "lojaNome": "GamersGate",
-          "preco": 352.12,
-          "precoOriginal": 352.12,
-          "desconto": 0,
-          "url": "https://itad.link/018d9386-5633-7086-a2fa-f903c8435035/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
           "loja": "indiegala",
           "lojaNome": "IndieGala Store",
-          "preco": 354.02,
-          "precoOriginal": 354.02,
+          "preco": 351.53,
+          "precoOriginal": 351.53,
           "desconto": 0,
           "url": "https://itad.link/018d9584-852e-73e4-ade2-d9dc4742aea0/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -165,8 +156,8 @@
         {
           "loja": "planetplay",
           "lojaNome": "PlanetPlay",
-          "preco": 354.02,
-          "precoOriginal": 354.02,
+          "preco": 351.53,
+          "precoOriginal": 351.53,
           "desconto": 0,
           "url": "https://itad.link/019852bb-43a9-73e4-96e3-bbf00cd11913/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -174,14 +165,23 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 354.02,
-          "precoOriginal": 354.02,
+          "preco": 351.53,
+          "precoOriginal": 351.53,
           "desconto": 0,
           "url": "https://itad.link/018d9386-5633-7086-a2fa-f903b31c664f/?app=a2bv1b",
           "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 354.02,
+          "precoOriginal": 354.02,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-5633-7086-a2fa-f903c8435035/?app=a2bv1b",
+          "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-590c-728b-ac35-38bcff85f086"
     },
     "hogwarts-legacy": {
@@ -195,6 +195,15 @@
         "RPG"
       ],
       "ofertas": [
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 20,
+          "precoOriginal": 249.99,
+          "desconto": 92,
+          "url": "https://itad.link/018d9386-759a-73d4-80de-6b9452d3f3b2/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
         {
           "loja": "nuuvem",
           "lojaNome": "Nuuvem",
@@ -240,15 +249,6 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gmg",
-          "lojaNome": "GreenManGaming",
-          "preco": 25,
-          "precoOriginal": 249.99,
-          "desconto": 90,
-          "url": "https://itad.link/018d9386-759a-73d4-80de-6b9452d3f3b2/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
           "loja": "xbox",
           "lojaNome": "Microsoft Store",
           "preco": 29.99,
@@ -260,10 +260,19 @@
         {
           "loja": "indiegala",
           "lojaNome": "IndieGala Store",
-          "preco": 31.22,
-          "precoOriginal": 354.02,
+          "preco": 31,
+          "precoOriginal": 351.53,
           "desconto": 91,
           "url": "https://itad.link/018d9587-898f-718b-81d0-16845a2d6ee6/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet",
+          "lojaNome": "GamesPlanet US",
+          "preco": 33.81,
+          "precoOriginal": 351.53,
+          "desconto": 90,
+          "url": "https://itad.link/018d9386-759a-73d4-80de-6b94595bd7ff/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -276,19 +285,10 @@
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet",
-          "lojaNome": "GamesPlanet US",
-          "preco": 34.05,
-          "precoOriginal": 354.02,
-          "desconto": 90,
-          "url": "https://itad.link/018d9386-759a-73d4-80de-6b94595bd7ff/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
           "loja": "playerland",
           "lojaNome": "PlayerLand",
-          "preco": 35.35,
-          "precoOriginal": 354.02,
+          "preco": 35.1,
+          "precoOriginal": 351.53,
           "desconto": 90,
           "url": "https://itad.link/01a0f8f9-c6c0-72ae-8ae8-7b663475b5f5/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -296,8 +296,8 @@
         {
           "loja": "planetplay",
           "lojaNome": "PlanetPlay",
-          "preco": 35.41,
-          "precoOriginal": 354.02,
+          "preco": 35.16,
+          "precoOriginal": 351.53,
           "desconto": 90,
           "url": "https://itad.link/019f13d5-1257-71bf-b78f-86bc2340527e/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -305,8 +305,8 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 35.41,
-          "precoOriginal": 354.02,
+          "preco": 35.16,
+          "precoOriginal": 351.53,
           "desconto": 90,
           "url": "https://itad.link/018d9386-759a-73d4-80de-6b9459fe98b8/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -323,8 +323,8 @@
         {
           "loja": "fanatical",
           "lojaNome": "Fanatical",
-          "preco": 304.45,
-          "precoOriginal": 354.02,
+          "preco": 302.3,
+          "precoOriginal": 351.53,
           "desconto": 14,
           "url": "https://itad.link/018d9386-759a-73d4-80de-6b94540f4f35/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -332,14 +332,14 @@
         {
           "loja": "zapagames",
           "lojaNome": "Zapagames",
-          "preco": 354.02,
-          "precoOriginal": 354.02,
+          "preco": 351.53,
+          "precoOriginal": 351.53,
           "desconto": 0,
           "url": "https://itad.link/01a08df7-c71b-72c6-98df-062f8bd69546/?app=a2bv1b",
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-6144-7057-ad1c-0e99a3a71797"
     },
     "red-dead-redemption-2": {
@@ -390,8 +390,8 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 88.52,
-          "precoOriginal": 354.02,
+          "preco": 87.9,
+          "precoOriginal": 351.53,
           "desconto": 75,
           "url": "https://itad.link/018d9386-b703-7302-9857-11d2d4eeeda9/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -399,8 +399,8 @@
         {
           "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
-          "preco": 90.35,
-          "precoOriginal": 354.02,
+          "preco": 89.71,
+          "precoOriginal": 351.53,
           "desconto": 74,
           "url": "https://itad.link/018d9386-b703-7302-9857-11d2dc57881b/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -415,7 +415,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-3a3b-7210-bd2d-0d1dfb1d84c0"
     },
     "god-of-war-ragnarok": {
@@ -476,26 +476,17 @@
         {
           "loja": "fanatical",
           "lojaNome": "Fanatical",
-          "preco": 214.16,
-          "precoOriginal": 354.02,
+          "preco": 212.65,
+          "precoOriginal": 351.53,
           "desconto": 40,
           "url": "https://itad.link/01920ad1-5b5e-714e-89db-573610f1285e/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "allyouplay",
-          "lojaNome": "AllYouPlay",
-          "preco": 235.9,
-          "precoOriginal": 235.9,
-          "desconto": 0,
-          "url": "https://itad.link/019c9adc-4fa5-70f5-9aab-64ad73d89b83/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
           "loja": "indiegala",
           "lojaNome": "IndieGala Store",
-          "preco": 237.17,
-          "precoOriginal": 354.02,
+          "preco": 235.5,
+          "precoOriginal": 351.53,
           "desconto": 33,
           "url": "https://itad.link/01920bcf-6b5d-714a-8566-c4378dce0855/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -503,8 +494,8 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 237.17,
-          "precoOriginal": 354.02,
+          "preco": 235.5,
+          "precoOriginal": 351.53,
           "desconto": 33,
           "url": "https://itad.link/01900dc2-1136-7263-8e89-4e57075918b8/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -512,10 +503,19 @@
         {
           "loja": "gamesplanet",
           "lojaNome": "GamesPlanet UK",
-          "preco": 239.84,
-          "precoOriginal": 386.89,
+          "preco": 236.81,
+          "precoOriginal": 382.01,
           "desconto": 38,
           "url": "https://itad.link/018fcdca-7dfb-7351-a91f-b6f8dd099591/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 237.17,
+          "precoOriginal": 237.17,
+          "desconto": 0,
+          "url": "https://itad.link/019c9adc-4fa5-70f5-9aab-64ad73d89b83/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -537,7 +537,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-6bca-706d-9e69-8316170c379b"
     },
     "forza-horizon-5": {
@@ -580,7 +580,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-51cf-71a2-8359-bde443177de4"
     },
     "zelda-tears-of-the-kingdom": {
@@ -629,7 +629,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d9584-24d6-7010-b82b-df1f0b154cc7"
     },
     "hades-ii": {
@@ -670,7 +670,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-6ee3-738a-b578-ddd7e9a0d24d"
     },
     "stardew-valley": {
@@ -711,7 +711,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937e-f835-710c-b95b-928e277b187e"
     },
     "ea-sports-fc-26": {
@@ -760,7 +760,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "019813f7-6d79-70fa-aae9-bae99fd48dd1"
     },
     "monster-hunter-wilds": {
@@ -804,17 +804,17 @@
         {
           "loja": "fanatical",
           "lojaNome": "Fanatical",
-          "preco": 146.29,
-          "precoOriginal": 235.99,
-          "desconto": 38,
+          "preco": 149.95,
+          "precoOriginal": 234.33,
+          "desconto": 36,
           "url": "https://itad.link/01954afb-24fe-720c-8dd8-62fcfe8bf504/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
           "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
-          "preco": 160.93,
-          "precoOriginal": 235.99,
+          "preco": 159.8,
+          "precoOriginal": 234.33,
           "desconto": 32,
           "url": "https://itad.link/01922d13-cb17-7123-9109-a839d2804635/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -822,8 +822,8 @@
         {
           "loja": "wingamestore",
           "lojaNome": "WinGameStore",
-          "preco": 165.18,
-          "precoOriginal": 235.99,
+          "preco": 164.01,
+          "precoOriginal": 234.33,
           "desconto": 30,
           "url": "https://itad.link/01944c6c-8501-7207-88d5-79cfb2f199d1/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -839,8 +839,8 @@
         {
           "loja": "planetplay",
           "lojaNome": "PlanetPlay",
-          "preco": 176.98,
-          "precoOriginal": 235.99,
+          "preco": 175.73,
+          "precoOriginal": 234.33,
           "desconto": 25,
           "url": "https://itad.link/019852bb-dd35-7382-84ae-fb89fa317806/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -848,8 +848,8 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 176.98,
-          "precoOriginal": 235.99,
+          "preco": 175.73,
+          "precoOriginal": 234.33,
           "desconto": 25,
           "url": "https://itad.link/01927c55-3cb5-71b8-990e-eaf863e79942/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -857,8 +857,8 @@
         {
           "loja": "zapagames",
           "lojaNome": "Zapagames",
-          "preco": 235.99,
-          "precoOriginal": 235.99,
+          "preco": 234.33,
+          "precoOriginal": 234.33,
           "desconto": 0,
           "url": "https://itad.link/01a08df7-d35b-732f-926f-e7cec67bd9d3/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -866,14 +866,14 @@
         {
           "loja": "indiegala",
           "lojaNome": "IndieGala Store",
-          "preco": 235.99,
-          "precoOriginal": 235.99,
+          "preco": 234.33,
+          "precoOriginal": 234.33,
           "desconto": 0,
           "url": "https://itad.link/01929a91-cba4-73f1-a045-6264e8b31456/?app=a2bv1b",
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-7a06-7082-ae40-6a37d855cb32"
     },
     "persona-5-royal": {
@@ -914,8 +914,8 @@
         {
           "loja": "fanatical",
           "lojaNome": "Fanatical",
-          "preco": 99.08,
-          "precoOriginal": 354.02,
+          "preco": 98.39,
+          "precoOriginal": 351.53,
           "desconto": 72,
           "url": "https://itad.link/018f5344-0134-715d-a56a-6e121eba3a6a/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -923,8 +923,8 @@
         {
           "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
-          "preco": 101.44,
-          "precoOriginal": 354.02,
+          "preco": 100.73,
+          "precoOriginal": 351.53,
           "desconto": 71,
           "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea609b3254/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -932,8 +932,8 @@
         {
           "loja": "wingamestore",
           "lojaNome": "WinGameStore",
-          "preco": 104.98,
-          "precoOriginal": 354.02,
+          "preco": 104.24,
+          "precoOriginal": 351.53,
           "desconto": 70,
           "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea61aae399/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -941,8 +941,8 @@
         {
           "loja": "planetplay",
           "lojaNome": "PlanetPlay",
-          "preco": 106.22,
-          "precoOriginal": 354.02,
+          "preco": 105.48,
+          "precoOriginal": 351.53,
           "desconto": 70,
           "url": "https://itad.link/0198e50e-42d0-703d-8e96-3b70f246ac2d/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -950,14 +950,14 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 106.22,
-          "precoOriginal": 354.02,
+          "preco": 105.48,
+          "precoOriginal": 351.53,
           "desconto": 70,
           "url": "https://itad.link/018d9386-ab6c-72b0-96fc-37ea5f1795f6/?app=a2bv1b",
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-4adb-73a6-a9e5-94ff62f6265b"
     },
     "hollow-knight-silksong": {
@@ -1018,14 +1018,14 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 117.97,
-          "precoOriginal": 117.97,
+          "preco": 117.14,
+          "precoOriginal": 117.14,
           "desconto": 0,
           "url": "https://itad.link/018d9386-75a1-73f0-9fff-3ed65bacaf15/?app=a2bv1b",
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-1e67-708d-989d-b38bde2520fb"
     },
     "grand-theft-auto-v": {
@@ -1039,15 +1039,6 @@
         "Corrida"
       ],
       "ofertas": [
-        {
-          "loja": "gmg",
-          "lojaNome": "GreenManGaming",
-          "preco": 59.96,
-          "precoOriginal": 149.9,
-          "desconto": 60,
-          "url": "https://itad.link/0195ce09-5328-70a1-849b-a5f0d56f7f82/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
         {
           "loja": "xbox",
           "lojaNome": "Microsoft Store",
@@ -1064,6 +1055,15 @@
           "precoOriginal": 149.9,
           "desconto": 50,
           "url": "https://itad.link/0195535a-2acc-7079-bd8f-be15622457ac/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 74.95,
+          "precoOriginal": 149.9,
+          "desconto": 50,
+          "url": "https://itad.link/0195ce09-5328-70a1-849b-a5f0d56f7f82/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -1095,14 +1095,14 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 176.98,
-          "precoOriginal": 176.98,
+          "preco": 175.73,
+          "precoOriginal": 175.73,
           "desconto": 0,
           "url": "https://itad.link/019669d7-bb00-713c-b319-5ae06253dc54/?app=a2bv1b",
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "019548b5-653e-7101-ae11-8f0bfbd15ee6"
     }
   },
@@ -1120,7 +1120,7 @@
       "origem": [
         "mais-vendidos"
       ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "steam",
@@ -1158,7 +1158,7 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "019f8fc2-975c-734e-92e6-7d99a6c5996a"
     },
     "steam-1222140": {
@@ -1175,7 +1175,7 @@
         "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "epic",
@@ -1197,8 +1197,8 @@
         {
           "loja": "indiegala",
           "lojaNome": "IndieGala Store",
-          "preco": 38.89,
-          "precoOriginal": 235.99,
+          "preco": 38.62,
+          "precoOriginal": 234.33,
           "desconto": 84,
           "url": "https://itad.link/018d9584-84be-7370-8fa9-9c50df7cca81/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -1219,15 +1219,6 @@
           "precoOriginal": 199.99,
           "desconto": 80,
           "url": "https://itad.link/01926901-7183-7134-a79e-3e8ce4bae0a5/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "allyouplay",
-          "lojaNome": "AllYouPlay",
-          "preco": 40,
-          "precoOriginal": 199.99,
-          "desconto": 80,
-          "url": "https://itad.link/0196aee9-111d-705a-86a4-d3af292507f3/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
@@ -1260,8 +1251,8 @@
         {
           "loja": "fanatical",
           "lojaNome": "Fanatical",
-          "preco": 41.25,
-          "precoOriginal": 235.99,
+          "preco": 40.96,
+          "precoOriginal": 234.33,
           "desconto": 83,
           "url": "https://itad.link/018d9386-4c18-72a7-9563-4517168bd461/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -1269,8 +1260,8 @@
         {
           "loja": "planetplay",
           "lojaNome": "PlanetPlay",
-          "preco": 47.21,
-          "precoOriginal": 235.99,
+          "preco": 46.88,
+          "precoOriginal": 234.33,
           "desconto": 80,
           "url": "https://itad.link/019852bb-dfe8-7078-81a5-b72272bfe829/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -1278,8 +1269,8 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 47.21,
-          "precoOriginal": 235.99,
+          "preco": 46.88,
+          "precoOriginal": 234.33,
           "desconto": 80,
           "url": "https://itad.link/018d9386-4c18-72a7-9563-45171d168460/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -1321,10 +1312,19 @@
           "fonte": "isthereanydeal"
         },
         {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 199.99,
+          "precoOriginal": 199.99,
+          "desconto": 0,
+          "url": "https://itad.link/0196aee9-111d-705a-86a4-d3af292507f3/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
           "loja": "playerland",
           "lojaNome": "PlayerLand",
-          "preco": 212.39,
-          "precoOriginal": 235.99,
+          "preco": 210.89,
+          "precoOriginal": 234.33,
           "desconto": 10,
           "url": "https://itad.link/019bfb09-4cd3-70cf-ac56-9644b0e603a4/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -1332,8 +1332,8 @@
         {
           "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
-          "preco": 212.39,
-          "precoOriginal": 235.99,
+          "preco": 210.89,
+          "precoOriginal": 234.33,
           "desconto": 10,
           "url": "https://itad.link/018d9386-4c18-72a7-9563-45171271006e/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -1341,1191 +1341,15 @@
         {
           "loja": "zapagames",
           "lojaNome": "Zapagames",
-          "preco": 235.99,
-          "precoOriginal": 235.99,
+          "preco": 234.33,
+          "precoOriginal": 234.33,
           "desconto": 0,
           "url": "https://itad.link/01a08df7-d687-721a-afce-59049ebf1127/?app=a2bv1b",
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937e-f0ad-7094-b86c-d8fb32a1e6b4"
-    },
-    "steam-5037200": {
-      "appId": 5037200,
-      "nome": "just volleyball",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/cd1b5a290d15e7379b31dcacc12f1e5b25d37577/header.jpg?t=1794852941",
-      "lancamento": "16/nov./2026",
-      "descricaoSteam": "just volleyball is an online and offline volleyball game with unique yet intuitive controls and deep player expression. take on others in anything from 1v1s &amp; 2v2s to full team-based 6v6 matches. there's no right way to play, it's just volleyball!",
-      "generos": [
-        "Ação",
-        "Casual",
-        "Indie",
-        "Esportes"
-      ],
-      "origem": [
-        "mais-vendidos"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 27.49,
-          "precoOriginal": 27.49,
-          "desconto": 0,
-          "url": "https://store.steampowered.com/app/5037200/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a006e7-621f-71bb-9424-6b820c70a164"
-    },
-    "steam-3768760": {
-      "appId": 3768760,
-      "nome": "007 First Light",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/be65391533f072e79699be70ef2d47b7b2ac57ee/header_alt_assets_5.jpg?t=1795019577",
-      "lancamento": "26/mai./2026",
-      "descricaoSteam": "Conquiste o número. 007 First Light é um emocionante jogo de espionagem, ação e aventura desenvolvido pela IO Interactive. Acompanhe a jornada de James Bond, um jovem recruta habilidoso e, às vezes, imprudente, no programa de treinamento do MI6. Conheça a origem do espião mais famoso do mundo.",
-      "generos": [
-        "Ação",
-        "Aventura"
-      ],
-      "origem": [
-        "mais-vendidos",
-        "promocao"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 149.5,
-          "precoOriginal": 299,
-          "desconto": 50,
-          "url": "https://store.steampowered.com/app/3768760/",
-          "fonte": "steam"
-        },
-        {
-          "loja": "xbox",
-          "lojaNome": "Microsoft Store",
-          "preco": 195,
-          "precoOriginal": 390,
-          "desconto": 50,
-          "url": "https://itad.link/019e7a19-0804-7093-ad84-2afc78fd4ba6/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "allyouplay",
-          "lojaNome": "AllYouPlay",
-          "preco": 234.73,
-          "precoOriginal": 234.73,
-          "desconto": 0,
-          "url": "https://itad.link/019c9adc-4bc0-70cd-a11a-aed1de558831/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamebillet",
-          "lojaNome": "GameBillet",
-          "preco": 281.9,
-          "precoOriginal": 299.9,
-          "desconto": 6,
-          "url": "https://itad.link/019af083-5316-7295-ad4e-6d20f5080c97/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "nuuvem",
-          "lojaNome": "Nuuvem",
-          "preco": 299,
-          "precoOriginal": 299,
-          "desconto": 0,
-          "url": "https://itad.link/019aeaef-25f8-72e0-848b-9a6b4e6b751c/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "epic",
-          "lojaNome": "Epic Game Store",
-          "preco": 299.9,
-          "precoOriginal": 299.9,
-          "desconto": 0,
-          "url": "https://itad.link/019e69cb-1670-71c4-bcf7-d1071789d8cc/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamersgate",
-          "lojaNome": "GamersGate",
-          "preco": 299.9,
-          "precoOriginal": 299.9,
-          "desconto": 0,
-          "url": "https://itad.link/019ac486-e90d-73fd-98d8-f49e1fafbf70/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet",
-          "lojaNome": "GamesPlanet US",
-          "preco": 371.72,
-          "precoOriginal": 413.03,
-          "desconto": 10,
-          "url": "https://itad.link/019ac12a-11b2-7161-abb2-81218ee82a25/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "indiegala",
-          "lojaNome": "IndieGala Store",
-          "preco": 413.03,
-          "precoOriginal": 413.03,
-          "desconto": 0,
-          "url": "https://itad.link/019ae520-7b43-7256-abe5-859c6b9c4bcb/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01973cf5-c00c-72ad-bc30-2d24c94799f6"
-    },
-    "steam-5252110": {
-      "appId": 5252110,
-      "nome": "Rally Dynasty",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5252110/4452cba26dede210d0e4c7b793838d626d4f99de/header.jpg?t=1795546078",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Um gerenciador de rali de 1973 até hoje. Comande uma equipe familiar: contrate pilotos, compre carros, escolha os pneus e pague cada conta na moeda da época. Quando um piloto se aposenta ou morre, um herdeiro assume a equipe. Não oficial e sem licença. Jogo em inglês.",
-      "generos": [
-        "Indie",
-        "Corrida",
-        "Simulação",
-        "Esportes",
-        "Estratégia"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 47.99,
-          "precoOriginal": 47.99,
-          "desconto": 0,
-          "url": "https://store.steampowered.com/app/5252110/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a0f402-d9b3-72cb-a245-61ef08db85ed"
-    },
-    "steam-5516980": {
-      "appId": 5516980,
-      "nome": "Tidy Up: Bricks n Blocks",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5516980/3f3e4572005477fa117fca2306855712b4048e24/header.jpg?t=1795545877",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Thousands of toy bricks are tipped across a cozy toy shop floor. Sort each one onto the shelf for its shape and into the bin for its color, alone or in online co-op for up to 4. Play the 14-room Campaign, or put all 114 shapes on the floor at once in Cozy Mode.",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 11.69,
-          "precoOriginal": 17.99,
-          "desconto": 35,
-          "url": "https://store.steampowered.com/app/5516980/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a188ed-754b-7306-a067-9a02b85e686a"
-    },
-    "steam-5210430": {
-      "appId": 5210430,
-      "nome": "Break the Piñatas",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5210430/5184109f118c5ef4825faefb8738ff7799bf562c/header.jpg?t=1795545257",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Um jogo incremental cujo objetivo é quebrar 1.000 piñatas! Ganhe doces, compre upgrades e desbloqueie habilidades únicas para se tornar o mais forte. Então, vamos parar na última piñata?",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 9.59,
-          "precoOriginal": 11.99,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/5210430/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a09546-a773-7282-b620-87b1bb77456c"
-    },
-    "steam-5534310": {
-      "appId": 5534310,
-      "nome": "Find The Needle: Haystack Hunt",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5534310/50502f86a8fd262a0b142043565729516609164b/header.jpg?t=1795545032",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Cave um palheiro de um milhão de fios de palha, venda o feno e depois construa esteiras e braços robóticos para desmontá-lo. Dez agulhas escondidas dão bônus permanentes. Um jogo aconchegante de fábrica em primeira pessoa.",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 23.36,
-          "precoOriginal": 27.49,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/5534310/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a1bd48-c45d-71ca-9048-c95ee41ba855"
-    },
-    "steam-4949800": {
-      "appId": 4949800,
-      "nome": "Click the Faithless",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4949800/7b669ecc33842c5eac954b2c2af183b01a5aba55/header.jpg?t=1795544902",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Um incremental de fantasia sombria sobre castigar hereges escondidos na névoa, resgatar fiéis para o seu culto e juntar fé para melhorar suas runas.",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação",
-        "Estratégia"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 17.99,
-          "precoOriginal": 17.99,
-          "desconto": 0,
-          "url": "https://store.steampowered.com/app/4949800/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019fcd4a-4fcd-7205-b7fb-b555d94d4a6f"
-    },
-    "steam-3237870": {
-      "appId": 3237870,
-      "nome": "Cloudy with a Chance of Kittens",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3237870/header.jpg?t=1795544711",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Cloudy with a Chance of Kittens is a cozy, Suika-inspired, puzzle game where adorable, dessert-shaped cats fall from the clouds. Unlock power-ups, set up satisfying chains and combos, brave obstacles and cheeky weather twists. Play to relax or compete to leave your pawprint on our leaderboards. 🐈",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação",
-        "Estratégia"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 21.92,
-          "precoOriginal": 25.79,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/3237870/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01931dbc-125c-73ef-9dff-6424efb74e34"
-    },
-    "steam-5424370": {
-      "appId": 5424370,
-      "nome": "太阳骑士与邪恶试炼",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5424370/0a9e42cb14d2921d4a1fb83f222400b9fc641470/header.jpg?t=1795543762",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "A single-player action RPG blending pixel art with 3D environments. Explore varied lands, master stamina-based combat, and face altar bosses and twelve demon lords. Forge your build, hatch pet companions, and rest by the campfire on a journey through loss and memory.",
-      "generos": [
-        "Ação",
-        "Aventura",
-        "Casual",
-        "Indie"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 8.49,
-          "precoOriginal": 8.49,
-          "desconto": 0,
-          "url": "https://store.steampowered.com/app/5424370/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a1642e-87eb-71de-aa76-81a5faafd34d"
-    },
-    "steam-4488990": {
-      "appId": 4488990,
-      "nome": "Carmilla : Crimson Moon",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4488990/fa38aaf6b00a26ed317e7e3421f2ac3c48b4a1ff/header.jpg?t=1795546521",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "A dark yuri horror visual novel inspired by a classic gothic novella. When the enigmatic Carmilla arrives, Laura is swept into a fever dream of obsession. Is this stranger the cure for her loneliness or a herald of corruption? And what caused the mysterious deaths of two girls in the nearby village?",
-      "generos": [
-        "Aventura",
-        "Casual"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 30.59,
-          "precoOriginal": 33.99,
-          "desconto": 10,
-          "url": "https://store.steampowered.com/app/4488990/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019ce5ba-73fe-73e8-9036-7876c940a475"
-    },
-    "steam-5391260": {
-      "appId": 5391260,
-      "nome": "Fish It!: Sort the Aquarium Shop",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5391260/88ac954ab61923bdfd26abe56a7f4425ff88b330/header.jpg?t=1795545602",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Fish It!: Sort the Aquarium Shop é um jogo aconchegante onde você devolve mais de 4.100 peixes aos aquários. Encha os tanques, desbloqueie habilidades e aproveite para transformar o caos em uma loja limpa e organizada.",
-      "generos": [
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 19.96,
-          "precoOriginal": 23.49,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/5391260/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a12b6d-1511-7211-b785-004781453e79"
-    },
-    "steam-2387740": {
-      "appId": 2387740,
-      "nome": "Light of Atlantis",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2387740/c1fc03a62487c0ab14fbb6b2fca5189c4a004790/header.jpg?t=1795543398",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Explore the depths of the ocean in this 2D-Puzzle-Metroidvania! Control the water levels and switch between various robots to solve the ancient puzzles of Atlantis.",
-      "generos": [
-        "Aventura",
-        "Indie"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 51.19,
-          "precoOriginal": 63.99,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/2387740/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "018d937f-6feb-70f7-bfdd-48ec0f0c9505"
-    },
-    "steam-4912110": {
-      "appId": 4912110,
-      "nome": "Mayhem Duck Simulator",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4912110/1fd5cc4110115eaefd341b7933d06a2f44bcd321/header.jpg?t=1795543351",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Um simulador de patinhos de borracha baseado em física, relaxante e caótico ao mesmo tempo! Liberte patinhos com superpoderes, cause o caos com fogo de dragão e raios de OVNI ou só relaxe e assista. Criado por um pai, com ideias dos filhos de 4 e 5 anos. 🦆",
-      "generos": [
-        "Ação",
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 6.74,
-          "precoOriginal": 7.49,
-          "desconto": 10,
-          "url": "https://store.steampowered.com/app/4912110/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019f375a-adc8-7381-90d8-962aa8ae74fd"
-    },
-    "steam-4078600": {
-      "appId": 4078600,
-      "nome": "PiPu Party",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078600/1ee4ce8cc495c5443a4804fec4e3d8e50a0bcd5b/header.jpg?t=1795543543",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "PiPu Party é um jogo caótico de ação e quebra-cabeças. Compartilhe uma bolsa de símbolos mágicos para remodelar toda a fase em tempo real. Não existe uma única forma “certa” de jogar. Quebra-cabeças solo, cooperativo para 2 e disputas caóticas para 2–8 jogadores.",
-      "generos": [
-        "Ação",
-        "Indie"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 23.36,
-          "precoOriginal": 27.49,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/4078600/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "0199e622-4c09-73f6-a694-06e3f1dced90"
-    },
-    "steam-4737240": {
-      "appId": 4737240,
-      "nome": "Stevedore",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4737240/45ac96388797bd96b8b013c4bf33135ff5ccaa23/header.jpg?t=1795543211",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "No more job in the city. Managed to find one in the middle of nowhere. Stevedore. Crane worker. It feels off, but you need money. Stevedore is a short industrial horror game where you take a role of a crane worker. Lift containers, load ships and complete your contract. What could go wrong?",
-      "generos": [
-        "Aventura",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 6.36,
-          "precoOriginal": 7.95,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/4737240/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019ed084-c767-70f0-8f46-3002036d9b26"
-    },
-    "steam-5219370": {
-      "appId": 5219370,
-      "nome": "Wreck the Deck",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5219370/a09a30865f6967f035b33863b96394223cfc29d2/header.jpg?t=1795543129",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Take control of a powerful pirate cannon and turn everything on deck into flying debris! Shoot cannonballs, destroy objects, trigger devastating shockwaves, and collect cash to unlock powerful upgrades. The more you wreck, the stronger your cannon becomes.",
-      "generos": [
-        "Casual",
-        "Indie"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 11.59,
-          "precoOriginal": 14.49,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/5219370/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a0a67e-dd34-7176-aa21-4b0f46718c29"
-    },
-    "steam-5472080": {
-      "appId": 5472080,
-      "nome": "SHRED A BILLION",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/4584864fda356b4d391b69cc2c0ea73bc286db3d/header.jpg?t=1795542942",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "SHRED A BILLION é um jogo incremental em primeira pessoa sobre uma montanha de dinheiro! Pegue notas com as mãos, recolha com um balde, suba de nível e alimente o triturador com um bilhão de dólares. Só faltam 999.999.999 notas!",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 19.59,
-          "precoOriginal": 24.49,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/5472080/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a162ad-efa3-730a-aa9a-9e56d7da2119"
-    },
-    "steam-4748830": {
-      "appId": 4748830,
-      "nome": "D.A.M.N!",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4748830/ae1e414c3959c72157ed5291b55dc3834a1b34a7/header.jpg?t=1795542938",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Outplay your friends with cards instead of out-rolling them! In a cheerful race to the finish: help your partner, get in your rivals' way, combo, knock out, freeze, use ults... Collect awards, compare stats. Solo, in a team, with bots, hot-seat, cross-play online or offline — no limits!",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Estratégia"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 41.64,
-          "precoOriginal": 48.99,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/4748830/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "018d937f-228a-73a1-aa88-5a7a1caf3e6c"
-    },
-    "steam-5527800": {
-      "appId": 5527800,
-      "nome": "No Asteroids",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/d62c870790fcce767edd856ce3e7e6df2a9b1395/header.jpg?t=1795542925",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Um asteroide vai atingir a Terra em 90 dias. O governo abriu uma licitação, e apareceu um único mineiro com sua picareta. Não quer dinheiro: o asteroide se paga sozinho. Cave 5.000.000 m³ sozinho ou em cooperativo online para até 8. Venda o minério e compre canhões que atiram enquanto você cava.",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 21.99,
-          "precoOriginal": 27.49,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/5527800/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a193fa-7ec8-710f-8dd8-cec7becd7bce"
-    },
-    "steam-4685950": {
-      "appId": 4685950,
-      "nome": "Incremental Ants",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4685950/7d3ea699009fb4ce9c48c8fa9e2f54e2402c8bd3/header.jpg?t=1795542350",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Hatch ants. Explore parks. Steal picnic baskets. Incremental Ants is a game about growing an ant colony. Gather food using a variety of ants, upgrade their skills, unlock new species, and expand into territory where no ant has gone before.",
-      "generos": [
-        "Casual",
-        "Simulação",
-        "Estratégia"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 12.31,
-          "precoOriginal": 14.49,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/4685950/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019e8dd6-b4ea-7272-a921-5538587b33c5"
-    },
-    "steam-4243240": {
-      "appId": 4243240,
-      "nome": "Corefall: Idle Dungeon RPG",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4243240/321f5da2905bc6bebe8160bdfdda1f8d49a8b65b/header.jpg?t=1795541989",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Assemble a party of heroes, descend into a living 3D dungeon, and watch them fight. A deep idle RPG with TONS of ENDLESS Content!",
-      "generos": [
-        "Ação",
-        "Aventura",
-        "Casual",
-        "Indie",
-        "RPG",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 29.99,
-          "precoOriginal": 37.49,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/4243240/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019f23b8-7111-73ea-a14e-0e565e0f01dd"
-    },
-    "steam-5314080": {
-      "appId": 5314080,
-      "nome": "One More Donut",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5314080/d079fa9d9b97574e3e57648e96748f540db7776a/header.jpg?t=1795541764",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Transforme uma montanha de mais de 2.500 donuts em pura perfeição! Organize doces deliciosos, compre melhorias e relaxe ao som de uma trilha Lo-Fi acolhedora neste simulador de arrumação super satisfatório.",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 9.34,
-          "precoOriginal": 10.99,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/5314080/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a0e948-4943-722e-9a4b-47fddae766ee"
-    },
-    "steam-2558290": {
-      "appId": 2558290,
-      "nome": "Excalibur's Swordstone Idle Forge",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2558290/779fec0e1f867449c7150a08cc2d2cc77ff830ca/header.jpg?t=1795548390",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Excalibur's Swordstone Idle Forge é um pequeno clicker medieval aconchegante com um grande apetite. Você é um ferreiro que arranca espadas lendárias das pedras, entrega-as aos cavaleiros e empilha ouro cada vez mais alto.",
-      "generos": [
-        "Casual"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 18.26,
-          "precoOriginal": 21.49,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/2558290/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "018d937f-79c4-7203-8e02-6e0418166fb8"
-    },
-    "steam-1442430": {
-      "appId": 1442430,
-      "nome": "Storage Hunter Simulator",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1442430/7e80101e998d9bed0bac2fe7c73f4a13b1150a14/header.jpg?t=1788881598",
-      "lancamento": "27/nov./2025",
-      "descricaoSteam": "Participe do leilão de armazéns e contentores abandonados. A sua tarefa é avaliar corretamente o valor dos objetos encontrados no local. Ganha quem conseguir obter mais lucro. As localizações e os licitantes podem proporcionar aos jogadores várias surpresas.",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 48.09,
-          "precoOriginal": 73.99,
-          "desconto": 35,
-          "url": "https://store.steampowered.com/app/1442430/",
-          "fonte": "steam"
-        },
-        {
-          "loja": "allyouplay",
-          "lojaNome": "AllYouPlay",
-          "preco": 55.48,
-          "precoOriginal": 73.98,
-          "desconto": 25,
-          "url": "https://itad.link/019a35b5-19d0-7289-8fa7-0c6747b15608/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesporium",
-          "lojaNome": "Gamesporium",
-          "preco": 55.48,
-          "precoOriginal": 73.98,
-          "desconto": 25,
-          "url": "https://itad.link/01a1546d-da36-70bd-b739-6b0d58fd6b47/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "joybuggy",
-          "lojaNome": "JoyBuggy",
-          "preco": 55.49,
-          "precoOriginal": 73.99,
-          "desconto": 25,
-          "url": "https://itad.link/01a1f922-f9fa-701a-9b57-de37894ee083/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gog",
-          "lojaNome": "GOG",
-          "preco": 59.19,
-          "precoOriginal": 73.99,
-          "desconto": 20,
-          "url": "https://itad.link/019f18b9-b6ba-7127-be21-b1970295a807/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamersgate",
-          "lojaNome": "GamersGate",
-          "preco": 73.99,
-          "precoOriginal": 73.99,
-          "desconto": 0,
-          "url": "https://itad.link/019ac61a-6725-7098-bb60-7c1aebd6a7ec/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "indiegala",
-          "lojaNome": "IndieGala Store",
-          "preco": 90.17,
-          "precoOriginal": 147.47,
-          "desconto": 39,
-          "url": "https://itad.link/0197a240-5871-720f-a71c-1eb464b3dad3/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "wingamestore",
-          "lojaNome": "WinGameStore",
-          "preco": 103.8,
-          "precoOriginal": 147.47,
-          "desconto": 30,
-          "url": "https://itad.link/019aefde-9d73-7250-a65d-ca6f7fe3c7b9/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "fanatical",
-          "lojaNome": "Fanatical",
-          "preco": 125.34,
-          "precoOriginal": 147.47,
-          "desconto": 15,
-          "url": "https://itad.link/019ac607-1f5e-735f-a09f-43253d1fe6e4/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet",
-          "lojaNome": "GamesPlanet US",
-          "preco": 132.72,
-          "precoOriginal": 147.47,
-          "desconto": 10,
-          "url": "https://itad.link/0197a1ec-52fd-71ad-8a1b-3ce2a6251ae9/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "zapagames",
-          "lojaNome": "Zapagames",
-          "preco": 135.02,
-          "precoOriginal": 147.47,
-          "desconto": 8,
-          "url": "https://itad.link/01a08df7-e263-71be-8009-5bdc0de441f4/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "planetplay",
-          "lojaNome": "PlanetPlay",
-          "preco": 147.47,
-          "precoOriginal": 147.47,
-          "desconto": 0,
-          "url": "https://itad.link/019b0661-9b30-72e5-9d0f-b2970600f383/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "humble",
-          "lojaNome": "Humble Store",
-          "preco": 147.47,
-          "precoOriginal": 147.47,
-          "desconto": 0,
-          "url": "https://itad.link/019cbacb-c752-71ca-b037-9c965f8819b0/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "018fba28-6aa1-7055-b07b-f165f117e7f4"
-    },
-    "steam-4137750": {
-      "appId": 4137750,
-      "nome": "东方铭珠塔",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4137750/40ab8189ee85f4965432a72ab758fe214d4f9bdc/header.jpg?t=1795540224",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "&quot;Eastern Mingzhu Tower&quot; is a multi-ending tower defense &amp; AVG game. After the &quot;Snow-house&quot; is shattered by the tower's sudden emergence, you lead Ye-Luo Academy, its last guardian. Decide whether to intervene.",
-      "generos": [
-        "Indie",
-        "RPG",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 18.26,
-          "precoOriginal": 21.49,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/4137750/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019a5ec7-a037-70ff-9e0c-6d5be6240fdd"
-    },
-    "steam-4653380": {
-      "appId": 4653380,
-      "nome": "Anvilia",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4653380/e06be1ebc5cc05495f8586f39deaa5a1714c57a6/header.jpg?t=1795539740",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Comande uma ferraria de fantasia, sozinho ou com até 3 amigos. Forje ferramentas à mão e venda a clientes pechincheiros enquanto seu cachorro espanta ladrões. Depois cruze o portal rumo a terras geladas, ardentes e tempestuosas por metais raros. Minere, forje, venda, explore mais fundo.",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 23.36,
-          "precoOriginal": 27.49,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/4653380/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019fb233-08dc-722f-890b-f6967234f2ff"
-    },
-    "steam-4905460": {
-      "appId": 4905460,
-      "nome": "Chest Looter: Cardimonsta Collection",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4905460/b82c74955ea8723186e4de2af8faa7b475475bf0/header.jpg?t=1795539637",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Um jogo incremental de saque de baús. Destrua baús, colete cartas únicas e obtenha melhorias infinitas. Desbloqueie pacotes de cartas de níveis mais altos, descubra cartas ainda mais poderosas e expanda sua coleção sem parar.",
-      "generos": [
-        "Ação",
-        "Aventura",
-        "Casual",
-        "Indie",
-        "RPG"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 17.19,
-          "precoOriginal": 21.49,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/4905460/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019f2f0a-3239-737a-a757-c8d824b0ddec"
-    },
-    "steam-5000170": {
-      "appId": 5000170,
-      "nome": "BORE",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000170/63cdcf736f9ce1f3995ee56e2673db929235206b/header.jpg?t=1795539003",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Um jogo de terror e sobrevivência para 1–4 jogadores. Opere uma perfuradora gigante. Explore cavernas, colete objetos valiosos e escape das criaturas. Volte à superfície para vender seus achados e comprar melhorias e equipamentos. Jogue solo ou em cooperação online.",
-      "generos": [
-        "Ação",
-        "Aventura",
-        "Indie"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 18.79,
-          "precoOriginal": 23.49,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/5000170/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a02a86-1251-72cc-a977-6ad9eec12559"
-    },
-    "steam-5486380": {
-      "appId": 5486380,
-      "nome": "Taenera's Offer",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5486380/641304fd7ee031049e4b1260583a35cca8162892/header.jpg?t=1795540889",
-      "lancamento": "24/nov./2026",
-      "descricaoSteam": "Um jogo de tiro com extração em um planeta desértico à beira da destruição. Encontre armas, suprimentos e itens valiosos, cumpra contratos arriscados e lute para escapar. Use mira precisa, esquivas ágeis e a física do ambiente para sobreviver e ganhar dinheiro para fugir.",
-      "generos": [
-        "Ação",
-        "RPG"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 20.39,
-          "precoOriginal": 33.99,
-          "desconto": 40,
-          "url": "https://store.steampowered.com/app/5486380/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a16f64-b421-7164-bc5d-35bb4a218ca4"
-    },
-    "steam-1426210": {
-      "appId": 1426210,
-      "nome": "It Takes Two",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header_brazilian.jpg?t=1777395376",
-      "lancamento": "25/mar./2021",
-      "descricaoSteam": "Embarque na jornada mais maluca da sua vida em It Takes Two. Convide um amigo ou amiga para se juntar de graça com o Passe de Amigo* e trabalhem juntos em uma variedade de desafios deliciosamente perturbadores.",
-      "generos": [
-        "Ação",
-        "Aventura"
-      ],
-      "origem": [
-        "promocao"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 39.8,
-          "precoOriginal": 199,
-          "desconto": 80,
-          "url": "https://store.steampowered.com/app/1426210/",
-          "fonte": "steam"
-        },
-        {
-          "loja": "ea",
-          "lojaNome": "EA Store",
-          "preco": 39.8,
-          "precoOriginal": 199,
-          "desconto": 80,
-          "url": "https://itad.link/018d9386-81d4-71ac-b2d5-c351da4cb827/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "epic",
-          "lojaNome": "Epic Game Store",
-          "preco": 199,
-          "precoOriginal": 199,
-          "desconto": 0,
-          "url": "https://itad.link/018d959d-d266-71b4-9f42-9ab7b2743534/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "018d937f-4a27-72c8-9837-8ec5e5e92932"
-    },
-    "steam-1817070": {
-      "appId": 1817070,
-      "nome": "Marvel’s Spider-Man Remastered",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg?t=1787838689",
-      "lancamento": "12/ago./2022",
-      "descricaoSteam": "Em Marvel's Spider-Man Remasterizado, os mundos de Peter Parker e Spider-Man entram em conflito em uma história original cheia de ação. Jogue como um Peter Parker experiente que combate as maiores ameaças do crime e vilões icônicos na Nova York da Marvel.",
-      "generos": [
-        "Ação",
-        "Aventura",
-        "Casual"
-      ],
-      "origem": [
-        "promocao"
-      ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
-      "ofertas": [
-        {
-          "loja": "nuuvem",
-          "lojaNome": "Nuuvem",
-          "preco": 84.97,
-          "precoOriginal": 249.9,
-          "desconto": 66,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-23250d50cc85/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "steam",
-          "preco": 99.96,
-          "precoOriginal": 249.9,
-          "desconto": 60,
-          "url": "https://store.steampowered.com/app/1817070/",
-          "fonte": "steam"
-        },
-        {
-          "loja": "gmg",
-          "lojaNome": "GreenManGaming",
-          "preco": 99.96,
-          "precoOriginal": 249.9,
-          "desconto": 60,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-23250168ce76/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamersgate",
-          "lojaNome": "GamersGate",
-          "preco": 99.96,
-          "precoOriginal": 249.9,
-          "desconto": 60,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-23251911204c/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamebillet",
-          "lojaNome": "GameBillet",
-          "preco": 99.96,
-          "precoOriginal": 249.9,
-          "desconto": 60,
-          "url": "https://itad.link/0195c4ef-5636-7367-bd2a-3a93614cc4ae/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "joybuggy",
-          "lojaNome": "JoyBuggy",
-          "preco": 99.96,
-          "precoOriginal": 249.9,
-          "desconto": 60,
-          "url": "https://itad.link/01a1f922-ebf4-7250-b6de-8ebe089d73cd/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "fanatical",
-          "lojaNome": "Fanatical",
-          "preco": 127.41,
-          "precoOriginal": 354.02,
-          "desconto": 64,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-23251374fd1c/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet",
-          "lojaNome": "GamesPlanet US",
-          "preco": 132.13,
-          "precoOriginal": 354.02,
-          "desconto": 63,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-23250b185761/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "allyouplay",
-          "lojaNome": "AllYouPlay",
-          "preco": 140.87,
-          "precoOriginal": 140.87,
-          "desconto": 0,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-232517a4b301/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "indiegala",
-          "lojaNome": "IndieGala Store",
-          "preco": 141.57,
-          "precoOriginal": 354.02,
-          "desconto": 60,
-          "url": "https://itad.link/018d9585-23e0-72e1-9b62-f18f7d4670e1/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "humble",
-          "lojaNome": "Humble Store",
-          "preco": 141.63,
-          "precoOriginal": 354.02,
-          "desconto": 60,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-232504701a9a/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesload",
-          "lojaNome": "Gamesload",
-          "preco": 249.9,
-          "precoOriginal": 249.9,
-          "desconto": 0,
-          "url": "https://itad.link/018d9386-9338-71ed-919d-23251b2d4622/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "epic",
-          "lojaNome": "Epic Game Store",
-          "preco": 249.9,
-          "precoOriginal": 249.9,
-          "desconto": 0,
-          "url": "https://itad.link/018d959d-82dd-7176-aa37-4ec6f5c79276/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "018d937f-6136-71e4-a7d4-088a2e8f58ad"
     },
     "steam-1593500": {
       "appId": 1593500,
@@ -2539,9 +1363,10 @@
         "RPG"
       ],
       "origem": [
+        "mais-vendidos",
         "promocao"
       ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "nuuvem",
@@ -2608,8 +1433,8 @@
         {
           "loja": "fanatical",
           "lojaNome": "Fanatical",
-          "preco": 106.16,
-          "precoOriginal": 295.01,
+          "preco": 105.42,
+          "precoOriginal": 292.93,
           "desconto": 64,
           "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68226690a/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -2617,8 +1442,8 @@
         {
           "loja": "gamesplanet",
           "lojaNome": "GamesPlanet US",
-          "preco": 110.41,
-          "precoOriginal": 295.01,
+          "preco": 109.64,
+          "precoOriginal": 292.93,
           "desconto": 63,
           "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e68913c06f/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -2626,8 +1451,8 @@
         {
           "loja": "indiegala",
           "lojaNome": "IndieGala Store",
-          "preco": 117.97,
-          "precoOriginal": 295.01,
+          "preco": 117.14,
+          "precoOriginal": 292.93,
           "desconto": 60,
           "url": "https://itad.link/018d9584-f037-7016-8564-8d3de3d757d7/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -2635,8 +1460,8 @@
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 118.03,
-          "precoOriginal": 295.01,
+          "preco": 117.19,
+          "precoOriginal": 292.93,
           "desconto": 60,
           "url": "https://itad.link/018d9386-6c96-73a3-8151-d9e67edc0d11/?app=a2bv1b",
           "fonte": "isthereanydeal"
@@ -2660,275 +1485,241 @@
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
       "itadId": "018d937f-4964-7357-a557-f04dac608915"
     },
-    "steam-570940": {
-      "appId": 570940,
-      "nome": "DARK SOULS™: REMASTERED",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
-      "lancamento": "23/mai./2018",
-      "descricaoSteam": "Mas então, fez-se o fogo. Experimente novamente o jogo aclamado pela crítica e definidor de gênero que foi o início tudo. Belamente remasterizado, volte a Lordran com detalhes em alta definição a 60fps.",
+    "steam-4356430": {
+      "appId": 4356430,
+      "nome": "NBA 2K27",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg?t=1792163139",
+      "lancamento": "3/set./2026",
+      "descricaoSteam": "A corrida não para e a corrida nunca termina no NBA 2K27. Busque a grandeza o tempo todo no MyCAREER, MyTEAM e MyNBA e torne seus sonhos de jogo uma realidade.",
       "generos": [
-        "Ação"
+        "Esportes"
       ],
       "origem": [
-        "promocao"
+        "mais-vendidos"
       ],
-      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
-          "loja": "nuuvem",
-          "lojaNome": "Nuuvem",
-          "preco": 68.9,
-          "precoOriginal": 154.9,
-          "desconto": 56,
-          "url": "https://itad.link/018d9386-47d0-710a-a1d2-83274fa828f4/?app=a2bv1b",
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 153.76,
+          "precoOriginal": 410.12,
+          "desconto": 63,
+          "url": "https://itad.link/01a1b165-4db8-702e-80a1-58b1609b14a5/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
           "loja": "steam",
-          "preco": 77.45,
-          "precoOriginal": 154.9,
-          "desconto": 50,
-          "url": "https://store.steampowered.com/app/570940/",
+          "preco": 157.05,
+          "precoOriginal": 349,
+          "desconto": 55,
+          "url": "https://store.steampowered.com/app/4356430/",
           "fonte": "steam"
         },
         {
-          "loja": "playerland",
-          "lojaNome": "PlayerLand",
-          "preco": 106.16,
-          "precoOriginal": 235.99,
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 157.05,
+          "precoOriginal": 349,
           "desconto": 55,
-          "url": "https://itad.link/019bfb09-4b8b-7126-885b-96163ba13ea0/?app=a2bv1b",
+          "url": "https://itad.link/01a15932-69f8-7021-9efa-9f0662571f83/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "gamesplanet",
-          "lojaNome": "GamesPlanet US",
-          "preco": 107.76,
-          "precoOriginal": 235.99,
-          "desconto": 54,
-          "url": "https://itad.link/018d9386-47d0-710a-a1d2-832754bf81ba/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "fanatical",
-          "lojaNome": "Fanatical",
-          "preco": 108.53,
-          "precoOriginal": 235.99,
-          "desconto": 54,
-          "url": "https://itad.link/018d9386-47d1-70ff-9417-e487eeeff86a/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "wingamestore",
-          "lojaNome": "WinGameStore",
-          "preco": 117.38,
-          "precoOriginal": 235.99,
-          "desconto": 50,
-          "url": "https://itad.link/018d9386-47d0-710a-a1d2-832753a6c62d/?app=a2bv1b",
+          "loja": "gamebillet",
+          "lojaNome": "GameBillet",
+          "preco": 157.05,
+          "precoOriginal": 349,
+          "desconto": 55,
+          "url": "https://itad.link/019fe0d2-8b9c-734b-b0d6-23e6e061733d/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
           "loja": "gamersgate",
           "lojaNome": "GamersGate",
-          "preco": 117.39,
-          "precoOriginal": 234.73,
-          "desconto": 50,
-          "url": "https://itad.link/018d9386-47d1-70ff-9417-e487ee08e6ed/?app=a2bv1b",
+          "preco": 157.05,
+          "precoOriginal": 349,
+          "desconto": 55,
+          "url": "https://itad.link/019ff203-1033-716b-b726-267ff62ea1b3/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "planetplay",
-          "lojaNome": "PlanetPlay",
-          "preco": 117.97,
-          "precoOriginal": 235.99,
-          "desconto": 50,
-          "url": "https://itad.link/019852bb-43c3-7002-be06-31025ffc0309/?app=a2bv1b",
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 157.05,
+          "precoOriginal": 349,
+          "desconto": 55,
+          "url": "https://itad.link/019f8a57-e37d-73bc-920c-515c4754cf3f/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet",
+          "lojaNome": "GamesPlanet US",
+          "preco": 171.92,
+          "precoOriginal": 410.12,
+          "desconto": 58,
+          "url": "https://itad.link/019fdcab-6691-7213-8bef-0e680bbdea9d/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
           "loja": "indiegala",
           "lojaNome": "IndieGala Store",
-          "preco": 117.97,
-          "precoOriginal": 235.99,
-          "desconto": 50,
-          "url": "https://itad.link/018d9386-47d0-710a-a1d2-83274eb2df49/?app=a2bv1b",
+          "preco": 184.52,
+          "precoOriginal": 410.12,
+          "desconto": 55,
+          "url": "https://itad.link/019feb8c-664e-7318-9fbc-1dec15b2e1f7/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 184.89,
+          "precoOriginal": 410.82,
+          "desconto": 55,
+          "url": "https://itad.link/01a06b4f-5f56-72d5-83c0-9286d1ed912b/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 349,
+          "precoOriginal": 349,
+          "desconto": 0,
+          "url": "https://itad.link/01a02649-4d5c-70ab-94af-fdbdd4b6067b/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "planetplay",
+          "lojaNome": "PlanetPlay",
+          "preco": 410.12,
+          "precoOriginal": 410.12,
+          "desconto": 0,
+          "url": "https://itad.link/01a1f4c8-d1a9-7386-8709-f1dd30b3556e/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
           "loja": "humble",
           "lojaNome": "Humble Store",
-          "preco": 118.03,
-          "precoOriginal": 235.99,
-          "desconto": 50,
-          "url": "https://itad.link/018d9386-47d0-710a-a1d2-83274cf04ba9/?app=a2bv1b",
+          "preco": 410.12,
+          "precoOriginal": 410.12,
+          "desconto": 0,
+          "url": "https://itad.link/019f90c7-f6b4-70d4-8230-23f6b729eef7/?app=a2bv1b",
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "018d937f-03e5-729e-aece-46616a6ea2eb"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019f8a2e-4aa9-70aa-b631-69bd041de0a6"
     },
-    "steam-1172620": {
-      "appId": 1172620,
-      "nome": "Sea of Thieves: 2026 Edition",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/579c6d544424019a032f4add98e8f923925c1cef/header.jpg?t=1793617680",
-      "lancamento": "3/jun./2020",
-      "descricaoSteam": "Sea of Thieves é um jogo de aventura pirata de sucesso, que oferece a experiência de pilhar tesouros perdidos, fazer parte de batalhas intensas, derrotar monstros marinhos e muito mais. Mergulhe nesta edição revisada do jogo, que inclui acesso a conteúdo digital bônus.",
+    "steam-4115450": {
+      "appId": 4115450,
+      "nome": "Phantom Blade Zero",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1793261976",
+      "lancamento": "28/out./2026",
+      "descricaoSteam": "A S-GAME apresenta Phantom Blade Zero, uma união da narrativa Wuxia com a ação impulsionada pela Unreal Engine 5. Como Soul, você tem só sessenta e seis dias de vida para derrotar assassinos, desvendar conspirações perigosas e defender seus valores com a sua vida.",
       "generos": [
         "Ação",
-        "Aventura"
+        "RPG"
       ],
       "origem": [
         "mais-vendidos"
       ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 38.49,
-          "precoOriginal": 109.99,
-          "desconto": 65,
-          "url": "https://store.steampowered.com/app/1172620/",
-          "fonte": "steam"
-        },
-        {
-          "loja": "battlenet",
-          "lojaNome": "Blizzard",
-          "preco": 62.65,
-          "precoOriginal": 179,
-          "desconto": 65,
-          "url": "https://itad.link/0196357f-7537-7376-a5ac-3e9f7446e7c3/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "xbox",
-          "lojaNome": "Microsoft Store",
-          "preco": 69.65,
-          "precoOriginal": 199,
-          "desconto": 65,
-          "url": "https://itad.link/018d9386-c294-720d-9964-412467ac1b1d/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
         {
           "loja": "nuuvem",
           "lojaNome": "Nuuvem",
-          "preco": 199,
-          "precoOriginal": 199,
+          "preco": 219.99,
+          "precoOriginal": 229.9,
+          "desconto": 4,
+          "url": "https://itad.link/01a1833e-6e34-7130-8e23-11af9a118909/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "steam",
+          "preco": 229.9,
+          "precoOriginal": 229.9,
           "desconto": 0,
-          "url": "https://itad.link/018d9386-c294-720d-9964-412469df361f/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "018d937f-1f0a-73a6-a3aa-b861902b50a6"
-    },
-    "steam-4435490": {
-      "appId": 4435490,
-      "nome": "Call of Duty®: Modern Warfare® 4",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4435490/0c492be3204835d71e8b454b6eb1817f8ff68c0d/header.jpg?t=1794873974",
-      "lancamento": "22/out./2026",
-      "descricaoSteam": "Em Call of Duty®: Modern Warfare® 4, a guerra irrompe na península coreana quando a Coreia do Norte lança uma invasão em grande escala que ameaça desestabilizar o mundo.",
-      "generos": [
-        "Ação"
-      ],
-      "origem": [
-        "mais-vendidos"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 254.15,
-          "precoOriginal": 299,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/4435490/",
+          "url": "https://store.steampowered.com/app/4115450/",
           "fonte": "steam"
         },
         {
-          "loja": "xbox",
-          "lojaNome": "Microsoft Store",
-          "preco": 254.15,
-          "precoOriginal": 299,
-          "desconto": 15,
-          "url": "https://itad.link/01a18dea-2aec-739c-8fd9-6420729c8bf7/?app=a2bv1b",
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 229.9,
+          "precoOriginal": 229.9,
+          "desconto": 0,
+          "url": "https://itad.link/01a1857e-e5a2-73b5-a741-020d9c023c43/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "battlenet",
-          "lojaNome": "Blizzard",
-          "preco": 254.15,
-          "precoOriginal": 299,
-          "desconto": 15,
-          "url": "https://itad.link/01a18e39-4e94-71f6-af5f-2bc1d68ad35c/?app=a2bv1b",
+          "loja": "zapagames",
+          "lojaNome": "Zapagames",
+          "preco": 314.67,
+          "precoOriginal": 314.67,
+          "desconto": 0,
+          "url": "https://itad.link/01a16498-2679-72f4-a6c6-156ff27f0d66/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "nuuvem",
-          "lojaNome": "Nuuvem",
-          "preco": 332.4,
-          "precoOriginal": 349.9,
-          "desconto": 5,
-          "url": "https://itad.link/01a12579-506c-71a6-8070-a243fad7d5ec/?app=a2bv1b",
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 316.37,
+          "precoOriginal": 351.53,
+          "desconto": 10,
+          "url": "https://itad.link/01a0147e-24fd-72f9-a747-461411e727d5/?app=a2bv1b",
           "fonte": "isthereanydeal"
         },
         {
-          "loja": "playerland",
-          "lojaNome": "PlayerLand",
-          "preco": 460.24,
-          "precoOriginal": 472.05,
-          "desconto": 3,
-          "url": "https://itad.link/019eb6e3-d2cf-72eb-9c50-28aee0f7b7ee/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "gamesplanet",
-          "lojaNome": "GamesPlanet FR",
-          "preco": 502.1,
-          "precoOriginal": 517.63,
-          "desconto": 3,
-          "url": "https://itad.link/01a1357e-d163-7223-9fa6-8ff80c9e3f95/?app=a2bv1b",
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 356.79,
+          "precoOriginal": 356.79,
+          "desconto": 0,
+          "url": "https://itad.link/019ff5e2-f2ae-71c8-a1bb-802c068f719c/?app=a2bv1b",
           "fonte": "isthereanydeal"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019e6f25-b1eb-7096-88a6-155aff8809e3"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019b0e5d-bce3-7191-aa2a-fc77ef136df3"
     },
-    "steam-5206930": {
-      "appId": 5206930,
-      "nome": "A Drop of Magenta",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5206930/5e2e3541c181b7ad897c8388b006b7221102fc51/header.jpg?t=1795464666",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "A Drop of Magenta is a puzzle game about painting inside (and outside) the lines.",
+    "steam-5195560": {
+      "appId": 5195560,
+      "nome": "Pocket Dynasty",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5195560/9e29256c8434034dfb7961ead06e9d016e4ddbd9/header.jpg?t=1795632863",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Coach an American football team in modern-retro pixel art. Call every play, hand the headset to your coordinators, or take the snap yourself. Draft rookies, bring legends back as coaches, chase a title, and challenge a friend on one PC or online.",
       "generos": [
-        "Casual",
         "Indie",
+        "Simulação",
+        "Esportes",
         "Estratégia"
       ],
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 26.75,
-          "precoOriginal": 26.75,
-          "desconto": 0,
-          "url": "https://store.steampowered.com/app/5206930/",
+          "preco": 42.79,
+          "precoOriginal": 53.49,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/5195560/",
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a08ec8-ccf8-70fb-8b67-11f57809153d"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a08814-3bdb-73e5-9ae7-457b8a6eba13"
     },
-    "steam-5199510": {
-      "appId": 5199510,
-      "nome": "Undervein",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5199510/6c6b29ba5314454ed9962168db309466377aef7d/header.jpg?t=1795460529",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "No fundo da montanha há um veio que nunca se esgota, uma equipe de anões que o minera enquanto você dorme e uma porta coberta de runas que ninguém jamais abriu. Clique. Construa. Desça. E esteja pronto quando a ira da montanha despertar.",
+    "steam-3098060": {
+      "appId": 3098060,
+      "nome": "Business Simulator",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3098060/5d760359372cbeef8a44c631cb9809172d301821/header.jpg?t=1795630175",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Em Business Simulator 2026, você começa com um pequeno capital e seu objetivo é construir um império de negócios na cidade, decidindo qual negócio abrir em cada loja e definindo os preços. Esta simulação de negócios testa sua perspicácia comercial e habilidades de planejamento estratégico.",
       "generos": [
         "Casual",
         "Indie",
@@ -2938,481 +1729,502 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 22.8,
+          "precoOriginal": 38,
+          "desconto": 40,
+          "url": "https://store.steampowered.com/app/3098060/",
+          "fonte": "steam"
+        },
+        {
+          "loja": "gamesporium",
+          "lojaNome": "Gamesporium",
+          "preco": 38,
+          "precoOriginal": 38,
+          "desconto": 0,
+          "url": "https://itad.link/01a12125-31ec-7287-9370-0898dc75faf1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "0199a479-1cc6-73ba-a6e6-3a2ef77cc1ef"
+    },
+    "steam-4535610": {
+      "appId": 4535610,
+      "nome": "Vegetableau",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4535610/9686848f7fade5a7cee760b015f3fd4e3d3418a6/header.jpg?t=1795629708",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "A relaxing sliding tile puzzle game. Sort vegetables into contiguous groups across 15 levels of increasing difficulty. Try to beat your best time, challenge your friends to a race, or just play endlessly to relax.",
+      "generos": [
+        "Casual",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 14.99,
+          "precoOriginal": 14.99,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/4535610/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019e959d-f8bb-7031-ac5c-8b256147ec1f"
+    },
+    "steam-4934480": {
+      "appId": 4934480,
+      "nome": "Decrypting Life",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4934480/d98a94640760f855e99ecfd81b297b0fdc8a3df9/header.jpg?t=1795629636",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Decrypting Life é um jogo curto, nostálgico e incremental em que você deve restaurar arquivos corrompidos para descobrir uma história da década de 2000.",
+      "generos": [
+        "Casual",
+        "Simulação",
+        "Estratégia"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 11.69,
+          "precoOriginal": 19.49,
+          "desconto": 40,
+          "url": "https://store.steampowered.com/app/4934480/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019f7fb8-764e-70b7-9c9f-be4dd4f3e5f7"
+    },
+    "steam-5254210": {
+      "appId": 5254210,
+      "nome": "Coins in Place",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5254210/b74a9de7d20ca9318f20704977c5efb442c3b4dc/header.jpg?t=1795629599",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Um jogo incremental curto sobre pegar até a última moeda. Se escapar uma só antes do fim do dia, você vai ter que trabalhar mais uma semana! Compre melhorias, recrute gatos para ajudar e encontre seu próprio jeito de fazer a semana perfeita. Cada moeda no seu lugar.",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 5.94,
+          "precoOriginal": 6.99,
+          "desconto": 15,
+          "url": "https://store.steampowered.com/app/5254210/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a130ca-47ad-72c3-b636-722cce242b75"
+    },
+    "steam-5557390": {
+      "appId": 5557390,
+      "nome": "Winter Wonderland: Tidy Up Together",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5557390/60565c653087fb11a052c9f9b4ed474b52c46a41/header.jpg?t=1795628147",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "After the busiest night at Winter Wonderland, everything has ended up in one giant pile. Team up with up to 8 friends to sort nearly 3,000+ festive treasures back where they belong, hang the baubles and switch the magical Winter Wonderland lights back on, one cosy armful at a time.",
+      "generos": [
+        "Casual",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 21.49,
+          "precoOriginal": 21.49,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/5557390/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a1bd3b-24dd-71ee-aba6-3baf5e28d84a"
+    },
+    "steam-5455460": {
+      "appId": 5455460,
+      "nome": "Backmare: Return of the nightmare",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5455460/3dba544dbb0de281fbf86a75d367fc8e6707b333/header.jpg?t=1795627851",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Mergulhe em Backmare, uma experiência de terror psicológico e sobrevivência, projetada para distorcer a sua realidade e testar a sua sanidade. Aqui, sobreviver não se resume apenas a fugir — trata-se de recompor uma verdade fragmentada, esquecida pelo tempo.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 11.08,
+          "precoOriginal": 13.85,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/5455460/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a16a07-43c1-7365-8802-56da1be0a539"
+    },
+    "steam-4314600": {
+      "appId": 4314600,
+      "nome": "Toe-tal War",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4314600/bed56bfe94be617b4f9d6b0de8a929e2fd7ee291/header.jpg?t=1795627063",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "TOE-TAL WAR is an action-puzzle platformer where you kill people with your foot smell. Run and jump to make your feet smelly, change your shoes and socks to control the smell — then get close to enemies and stink them to death. Some levels may require a little practice and hard thinking.",
+      "generos": [
+        "Aventura",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "steam",
           "preco": 14.17,
           "precoOriginal": 15.75,
           "desconto": 10,
-          "url": "https://store.steampowered.com/app/5199510/",
+          "url": "https://store.steampowered.com/app/4314600/",
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a0bee7-4572-72c3-802b-f7b486a28f61"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019c37b4-ff69-72d6-ba4f-45c7d768d10a"
     },
-    "steam-5531480": {
-      "appId": 5531480,
-      "nome": "Goldbar In A Shitstack",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5531480/109b71fc4e87e9857455d538cfbf2dce0aae550c/header.jpg?t=1795457070",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "There is one gold bar hidden inside a gigantic pile of shit. No clues. Dig it out by hand, hire an army of idiots, survive flying cows, UFOs and the foot of God, and scale up from a dog's little business to a planet made of 200 million chunks.",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 16.19,
-          "precoOriginal": 17.99,
-          "desconto": 10,
-          "url": "https://store.steampowered.com/app/5531480/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a19ce2-1c60-7045-a29a-24d8b1d33182"
-    },
-    "steam-4443690": {
-      "appId": 4443690,
-      "nome": "Cornerwitch",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4443690/e72ab07b8d53a25ea9cebcdf6bc01570c26cfdbe/header.jpg?t=1795548216",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Cornerwitch é um jogo idle aconchegante que fica em um cantinho da sua tela. Estude novos feitiços e avance por uma jornada mágica. Desbloqueie itens cosméticos para vestir sua bruxinha, suba de nível e fique mais forte.",
-      "generos": [
-        "Aventura",
-        "Casual",
-        "Indie",
-        "RPG",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 10.79,
-          "precoOriginal": 17.99,
-          "desconto": 40,
-          "url": "https://store.steampowered.com/app/4443690/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a1194b-2ce0-733d-9a80-3fd88ded3979"
-    },
-    "steam-5113690": {
-      "appId": 5113690,
-      "nome": "Blendead",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5113690/783bde7b17d3dd38d3c5351cbad24e67fc5f01c9/header.jpg?t=1795456787",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Me encontre. Estou logo na sua frente. Um esconde-esconde multiplayer onde você se passa por um NPC na multidão — um errinho e você morre.",
+    "steam-4823770": {
+      "appId": 4823770,
+      "nome": "Strato Alto",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4823770/213dff079d0e3fb5dd35d4e4eef2e2fcc37554a6/header.jpg?t=1795626542",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Strato Alto é um roguelite arcade nas alturas, com sobrevivência por rodadas e campanha com morte permanente. Escolha entre vários aviões, armas e habilidades especiais, e melhore, conserte e equipe sua aeronave para dominar os céus!",
       "generos": [
         "Ação",
+        "Aventura",
         "Casual",
         "Indie"
       ],
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 27.19,
+          "precoOriginal": 33.99,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/4823770/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a0eef7-f027-714c-b738-e1017d50c844"
+    },
+    "steam-4959350": {
+      "appId": 4959350,
+      "nome": "Take This Thing Out Of Me",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4959350/0fc040a05afb9f88529b550e0b4a9df3e34e172f/header.jpg?t=1795626066",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "É um jogo curto. Mas pode acabar sendo um jogo longo. Tudo depende de você ter nascido sob uma estrela da sorte... ou de ter habilidade nas mãos. Então... tire essa coisa daí!",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 5.61,
+          "precoOriginal": 7.49,
+          "desconto": 25,
+          "url": "https://store.steampowered.com/app/4959350/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019f7ea5-fb80-7342-9fe0-701f3b697d60"
+    },
+    "steam-5053040": {
+      "appId": 5053040,
+      "nome": "Sexception: The Dark Seeds",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5053040/9b286d9744adc28b14667a31c4f99bea8b2b580e/header.jpg?t=1795626060",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Entre em sonhos instáveis, recupere um passado perdido e decida se vai respeitar ou reescrever os desejos de seis mulheres nesta visual novel adulta, erótica e psicológica, guiada pelas suas escolhas.",
+      "generos": [
+        "Aventura",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "steam",
           "preco": 20.81,
           "precoOriginal": 24.49,
           "desconto": 15,
-          "url": "https://store.steampowered.com/app/5113690/",
+          "url": "https://store.steampowered.com/app/5053040/",
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a0625e-0f10-70f3-b628-ba83a8aa3c5c"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a09253-530b-73c6-82ab-108eee14bf00"
     },
-    "steam-5179660": {
-      "appId": 5179660,
-      "nome": "Armorer: Tidy Up the Armory Before Dawn",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5179660/3d7d454e1b063ed01244b57b1691806c05fa9584/header.jpg?t=1795456122",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Um jogo aconchegante de organização em primeira pessoa. Três mil armas estão empilhadas em um arsenal medieval de dois andares, e cada uma tem exatamente um lugar certo. Conheça o salão, ganhe as habilidades que o revelam e coloque tudo em ordem antes do amanhecer — sozinho ou com amigos.",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 14.61,
-          "precoOriginal": 19.49,
-          "desconto": 25,
-          "url": "https://store.steampowered.com/app/5179660/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a097a2-cc4f-7017-8d06-eb61739da11b"
-    },
-    "steam-4265000": {
-      "appId": 4265000,
-      "nome": "Isekai Parlor Simulator GOLD",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4265000/932f369f58ae1e04dec0876df749f749739ad53d/header.jpg?t=1795456358",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "An erotic management simulator in which you build your very own monster girl parlor from the ground up!",
-      "generos": [
-        "Aventura",
-        "RPG",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 29.69,
-          "precoOriginal": 32.99,
-          "desconto": 10,
-          "url": "https://store.steampowered.com/app/4265000/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019d87c9-8f4b-7100-ad4f-4712abad0f93"
-    },
-    "steam-5023620": {
-      "appId": 5023620,
-      "nome": "Raiding Season",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5023620/f20e386dfc1330f597969b79be9fd3ced4238d63/header.jpg?t=1795459252",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Lidere saqueadores vikings em busca de riqueza e glória neste RPG tático por turnos. Recrute guerreiros, personalize suas habilidades e lute em mapas hexagonais mortais. Queime, saqueie e avance por recompensas maiores, mas a resistência crescente pode custar tudo o que você conquistou.",
-      "generos": [
-        "Indie",
-        "Estratégia"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 58.87,
-          "precoOriginal": 73.59,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/5023620/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019fc928-c4f5-73f4-92d5-549d5793a276"
-    },
-    "steam-4676440": {
-      "appId": 4676440,
-      "nome": "Naked Ambition",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4676440/3bc6946a337853321a0180fa394b63266779ddac/header.jpg?t=1795456459",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Naked Ambition is a &quot;training&quot; game with deck building elements in which the player influences a Princess vying for the throne.",
-      "generos": [
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 33.74,
-          "precoOriginal": 37.49,
-          "desconto": 10,
-          "url": "https://store.steampowered.com/app/4676440/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019dd38a-e8b9-72c1-b778-c59a2aafbfc9"
-    },
-    "steam-5109010": {
-      "appId": 5109010,
-      "nome": "Sexhelgard: Shadow of Lust",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5109010/0f71f93eeec78116c851a6d66e8d2784e30555fe/header.jpg?t=1795453115",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Conheça Sexhelgard, uma *visual novel* de fantasia sombria para adultos na qual você assume o papel de um mercenário sedutor em busca de um artefato mágico roubado. Seduza mulheres poderosas, desvende uma conspiração oculta e descubra até onde o desejo pode levar um herói.",
-      "generos": [
-        "Indie"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 18.26,
-          "precoOriginal": 21.49,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/5109010/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a0490c-0bb0-714f-bf75-19405f6dffff"
-    },
-    "steam-3861740": {
-      "appId": 3861740,
-      "nome": "A Thousand Cloys",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3861740/599556ebe82d9151bf1036e1ff6c4ff95a206873/header.jpg?t=1795467383",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "A chill, exploration-based incremental game about harvesting and cleansing an alien planet of its radiation with a swarm of high-tech toasters.",
-      "generos": [
-        "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 26.99,
-          "precoOriginal": 29.99,
-          "desconto": 10,
-          "url": "https://store.steampowered.com/app/3861740/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "0197fa1e-6283-714b-a512-ba9cee7d6d08"
-    },
-    "steam-1205950": {
-      "appId": 1205950,
-      "nome": "Seeds of Chaos",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1205950/4b3c78190999964f57dfd327186c976c0ec42fbd/header_alt_assets_16.jpg?t=1795455691",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Not your average visual novel, Seeds of Chaos is a sexy dark fantasy tale with RPG &amp; Strategy elements. Become an active participant in the story, making choices which impact your experience and shape the direction of the narrative.",
+    "steam-5328170": {
+      "appId": 5328170,
+      "nome": "Cucked By My Girlfriend : Part 1",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5328170/5b3157db5224f78bfc2b6bad4910d021090c0a87/header.jpg?t=1795626018",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Anissa works long days and comes home to Theo. He cooks, she teases, and they've always liked it that way. Then she joins a gym, and a trainer named Marcus starts coming up in conversation.",
       "generos": [
         "Aventura",
         "Casual",
         "Indie",
-        "RPG"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "gog",
-          "lojaNome": "GOG",
-          "preco": 28.49,
-          "precoOriginal": 37.99,
-          "desconto": 25,
-          "url": "https://itad.link/018d9386-c351-72f0-973c-828ac3d080ce/?app=a2bv1b",
-          "fonte": "isthereanydeal"
-        },
-        {
-          "loja": "steam",
-          "preco": 30.39,
-          "precoOriginal": 37.99,
-          "desconto": 20,
-          "url": "https://store.steampowered.com/app/1205950/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "018d937f-3d42-7292-93c8-7761bcaf4629"
-    },
-    "steam-5026590": {
-      "appId": 5026590,
-      "nome": "Goblin Island",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5026590/cd881a41bb3014b0521c27ce3d9a7f471cc893ac/header.jpg?t=1795461176",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Você largou o emprego por uma vida tranquila na fazenda, mas não consegue parar de rolar o feed. Plante, regue e colha, cace mutações raras e contrate companheiros goblins. Resista à vontade de olhar o celular, treine seu foco e transforme um terreno humilde em um império agrícola goblin.",
-      "generos": [
-        "Casual",
-        "Indie",
         "Simulação"
       ],
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 33.99,
+          "preco": 27.19,
           "precoOriginal": 33.99,
-          "desconto": 0,
-          "url": "https://store.steampowered.com/app/5026590/",
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/5328170/",
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a00f2a-4ea9-7354-8dbd-a99d49ee0eee"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a1365e-8049-7338-bf10-35aa5d8e7f0c"
     },
-    "steam-5173000": {
-      "appId": 5173000,
-      "nome": "Hit The Beer",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5173000/72821d62ac60d7196ae53651ca5af6c4ac4b8732/header.jpg?t=1795455374",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "HIT THE BEER is a lightweight idle collection game for your desktop corner. Anonymous typing rhythms brew different beers without recording what you type. Welcome guests with unique tastes, uncover brewing patterns and secret beers, and fill your beer and guest catalogs as you work or study!",
+    "steam-4437270": {
+      "appId": 4437270,
+      "nome": "The Last Embrace: Book One",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4437270/d2af270fc8fcf62035df6e1670b465fb0925c513/header.jpg?t=1795625941",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "A young girl, a vampire and last of her kind, wakes up after a thousand years to a modern world. A story focused visual novel with adult elements. Mystery, betrayal, loss and violence await! Shape the future of the protagonist and the world itself!",
       "generos": [
         "Casual",
-        "Indie",
-        "Simulação"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 10.99,
-          "precoOriginal": 10.99,
-          "desconto": 0,
-          "url": "https://store.steampowered.com/app/5173000/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a08ec8-ccfc-736f-b55f-36250f2b38be"
-    },
-    "steam-4999870": {
-      "appId": 4999870,
-      "nome": "Climb, Cube, Climb!",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4999870/ac38afb49bdc141b18c45708787fbdf8c1e3335c/header.jpg?t=1795451444",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Climb, Cube, Climb! is a hybrid rage game and precision platformer where the primary obstacle standing in your way is gravity. Employ a diverse set of movement skills to ascend to the top, but be wary: falling is a guarantee.",
-      "generos": [
-        "Ação",
-        "Aventura",
         "Indie"
       ],
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 10.79,
-          "precoOriginal": 11.99,
+          "preco": 32.21,
+          "precoOriginal": 35.79,
           "desconto": 10,
-          "url": "https://store.steampowered.com/app/4999870/",
+          "url": "https://store.steampowered.com/app/4437270/",
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019fbe1b-defb-713b-8948-d1a34bfda1c6"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019ce85b-5ff4-72c6-97b6-01458435d57d"
     },
-    "steam-4962200": {
-      "appId": 4962200,
-      "nome": "Very Very RARE",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4962200/44f021c64948cab011a12fc8970580bbc8654895/header.jpg?t=1795450355",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Forje torres na bigorna e reze por um Eterno. Um tower defense idle incremental em que cada golpe sorteia uma de 11 raridades, de Comum ao absurdamente raro. Encaixe glifos, colecione relíquias, fortaleça seu castelo e avance por cinco regiões cheias de monstros e chefes.",
+    "steam-4193300": {
+      "appId": 4193300,
+      "nome": "Fleshborn",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4193300/38ac507537cd5e787a48bd54e81005b8b795c273/header.jpg?t=1795625760",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "A short incremental game where you are tasked to clean a lab from fleshy growths using your flamethrower. Collect resources and spend them in a vast upgrade tree to unlock new abilities.",
       "generos": [
         "Casual",
-        "Indie",
-        "Estratégia"
-      ],
-      "origem": [
-        "lancamento"
-      ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
-      "ofertas": [
-        {
-          "loja": "steam",
-          "preco": 13.38,
-          "precoOriginal": 15.75,
-          "desconto": 15,
-          "url": "https://store.steampowered.com/app/4962200/",
-          "fonte": "steam"
-        }
-      ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "019f7c72-c07a-7390-b459-5ee5bfbb9c03"
-    },
-    "steam-5127530": {
-      "appId": 5127530,
-      "nome": "TOO MANY CLANKERS",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5127530/839d32db729b14534e957239e68bd4557fb33f8f/header.jpg?t=1795454004",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Um jogo incremental de defesa de torres sobre um problema bem simples: TOO MANY CLANKERS. Construa uma quantidade absurda de poder de fogo e reduza os CLANKERS a sucata.",
-      "generos": [
-        "Ação",
         "Simulação",
         "Estratégia"
       ],
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 21.14,
-          "precoOriginal": 23.49,
+          "preco": 13.04,
+          "precoOriginal": 14.49,
           "desconto": 10,
-          "url": "https://store.steampowered.com/app/5127530/",
+          "url": "https://store.steampowered.com/app/4193300/",
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a07ab8-c929-7040-9516-9676fc6bed6f"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019ae3a7-f8a8-706d-bb44-9aac9fddf078"
     },
-    "steam-5257640": {
-      "appId": 5257640,
-      "nome": "Nightclub Security",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5257640/47f85635605363c4cc0885b4ee8056cb5a1050fb/header.jpg?t=1795449896",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "Neste jogo absurdo de segurança de balada em primeira pessoa, você tem 10 segundos para decidir quem entra. Confira documentos, identifique bêbados, encontre e confisque itens proibidos escondidos. Deixe os clientes entrarem - ou dê tapas, empurre, agarre e jogue-os para fora.",
+    "steam-3899990": {
+      "appId": 3899990,
+      "nome": "Wanderer of Spaces",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3899990/8ae0e79f98e8b36fb80d46c1ad933d246383fb5f/header.jpg?t=1795624193",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "A lighthearted first-person puzzle game based on real architectural designs. Dive into the inner world of an architect, travel through realistic and imaginary spaces, and experience the architect's career from the beginning to self-fulfillment.",
       "generos": [
         "Casual",
-        "Indie",
-        "Simulação"
+        "Indie"
       ],
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 15.29,
-          "precoOriginal": 17.99,
+          "preco": 45.46,
+          "precoOriginal": 53.49,
           "desconto": 15,
-          "url": "https://store.steampowered.com/app/5257640/",
+          "url": "https://store.steampowered.com/app/3899990/",
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a0cdec-a30a-7286-9fb8-8df83f12a008"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019e92fd-2633-73d9-b46a-c10b02b4dfe3"
     },
-    "steam-5556800": {
-      "appId": 5556800,
-      "nome": "Christmas Market: Tidy Up Together",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5556800/9b96b03bc126e413b8a256169e7ae80ccea2405f/header.jpg?t=1795449286",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "The Christmas feast is over and the harbour market is buried in mess of 3486 objects. Join up to 8 friends as the Night Crew of cozy elves, carry armfuls of plates, baubles and gingerbread back where they belong, and have the snowy market sparkling before sunrise.",
+    "steam-1550920": {
+      "appId": 1550920,
+      "nome": "Slime Alchemy",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1550920/header.jpg?t=1795624065",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Slime Alchemy é um jogo de quebra-cabeças relaxante em que você deve posicionar peças em locais específicos de uma grade hexagonal.",
+      "generos": [
+        "Casual"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 13.04,
+          "precoOriginal": 14.49,
+          "desconto": 10,
+          "url": "https://store.steampowered.com/app/1550920/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01922952-66a3-71c5-b237-bb2e4ce69b64"
+    },
+    "steam-5202040": {
+      "appId": 5202040,
+      "nome": "Monsters Can Cook",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5202040/05e31188079d2b7f00cf211b5911beab7acbd5fe/header.jpg?t=1795623005",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Você foi uma pessoa má na sua vida passada e agora terá que trabalhar como ajudante de cozinha mesmo depois da morte. Compre ingredientes duvidosos, prepare pratos para os clientes e aprimore suas habilidades até que seu restaurante receba cinco estrelas.",
+      "generos": [
+        "Ação",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 23.36,
+          "precoOriginal": 27.49,
+          "desconto": 15,
+          "url": "https://store.steampowered.com/app/5202040/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a0a422-9a01-7323-8d23-75ffcbf84187"
+    },
+    "steam-4941160": {
+      "appId": 4941160,
+      "nome": "A Sector Darkly",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4941160/5385b154cd1bcd1e004aa2c5d30a1658a5efa496/header.jpg?t=1795622489",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Explore um mundo aberto espacial em tempo real. Sua nave e tripulação estão perdidas em um setor mergulhado no caos. Faça aliados, recupere recursos, pesquise, fabrique e aprimore. Sobreviva, desvende o mistério dos setores sombrios e leve sua tripulação para casa.",
+      "generos": [
+        "Ação",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 38.79,
+          "precoOriginal": 48.49,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/4941160/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019fa92f-fb38-7130-82fc-aee266282f99"
+    },
+    "steam-5477240": {
+      "appId": 5477240,
+      "nome": "STASIS LAST RAIL",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5477240/0ea140293fedcb4c74ca98cc6290b02bb88cedf4/header.jpg?t=1795618875",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Um jogo de tiro em visão de cima, procedural, com clima de faroeste e pixel art retrô. Atravesse 50 andares em 5 capítulos, destrua os buracos de surgimento, congele as balas com a habilidade Stasis e derrote um chefe a cada cinco andares, incluindo um chefe final de duas formas.",
+      "generos": [
+        "Ação",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 14.09,
+          "precoOriginal": 23.49,
+          "desconto": 40,
+          "url": "https://store.steampowered.com/app/5477240/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a16104-34de-725a-b5d0-43f092a06c41"
+    },
+    "steam-4880720": {
+      "appId": 4880720,
+      "nome": "Son of Beach",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4880720/951dd8177c96d837fe5de4efa9ad235bcd84fbba/header.jpg?t=1795618834",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Transforme uma praia imunda, tomada pelo lixo, em um destino cheio de vida! Recicle e desbloqueie ferramentas e veículos para limpar a praia. Construa instalações, gerencie barracas e receba turistas. Reinvista seus lucros e veja a praia ganhar vida.",
       "generos": [
         "Casual",
         "Indie",
@@ -3421,28 +2233,1047 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 22.04,
+          "precoOriginal": 24.49,
+          "desconto": 10,
+          "url": "https://store.steampowered.com/app/4880720/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019f2cbb-95d3-7288-97c5-638e64c114b8"
+    },
+    "steam-4989110": {
+      "appId": 4989110,
+      "nome": "TCG Shop Life",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4989110/b8d89d455707476f307722dbc754f04a278a7778/header.jpg?t=1795618829",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Administre a loja de cards dos seus sonhos! Abasteça as prateleiras, abra pacotes de cartas, personalize sua loja e contrate funcionários. Colecione cartas, monte decks poderosos e participe até de torneios para chegar ao Campeonato Mundial!",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 22.04,
+          "precoOriginal": 24.49,
+          "desconto": 10,
+          "url": "https://store.steampowered.com/app/4989110/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019fa1ff-c71b-73ff-81eb-79fc071e7b2c"
+    },
+    "steam-4607420": {
+      "appId": 4607420,
+      "nome": "楽園追放 -The Stellar Angel-",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4607420/e90e233f05ae7e66102180d5eed58e76dee5052a/header.jpg?t=1795618813",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "The first game in the Expelled from Paradise series: a brand-new sci-fi visual novel. Angela Balzac left the virtual world of DEVA behind and chose to live on the surface. Now, as she builds a life with her partner Dingo, a new case is brought to her door.",
+      "generos": [
+        "Aventura"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 112.49,
+          "precoOriginal": 124.99,
+          "desconto": 10,
+          "url": "https://store.steampowered.com/app/4607420/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a01eb8-c3ab-7068-bf9b-9f2aed7d40a8"
+    },
+    "steam-5201500": {
+      "appId": 5201500,
+      "nome": "NecroSmash",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5201500/99f9d20fe383b95000712a773da548a5de4608b6/header.jpg?t=1795619721",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "A first-person survivors-like for solo or co-op play. Dash, slide, and smash through hundreds of enemies across multi-level arenas, level up mid-run, and face a boss at the end of every level. Clear a run to unlock new classes and new areas to test them in.",
+      "generos": [
+        "Ação",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
       "ofertas": [
         {
           "loja": "steam",
           "preco": 17.19,
           "precoOriginal": 21.49,
           "desconto": 20,
-          "url": "https://store.steampowered.com/app/5556800/",
+          "url": "https://store.steampowered.com/app/5201500/",
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a1b53c-e1a0-722d-869e-501d1d717e4a"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a15dda-1936-71a5-9444-60d9f73bc534"
     },
-    "steam-5542020": {
-      "appId": 5542020,
-      "nome": "Flock Hunt",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5542020/baa92f22b57748aa5d7f105ab1666be7437b3cd3/header.jpg?t=1795494011",
-      "lancamento": "23/nov./2026",
-      "descricaoSteam": "A first-person stealth game about taking down mass surveillance cameras and fighting a dystopian future. Every camera you break brings The Flock a little closer. Sneak out at night and destroy cameras with a growing arsenal of tools, sell camera scrap for upgrades, and hire a crew.",
+    "steam-4823250": {
+      "appId": 4823250,
+      "nome": "Incremental Pain Profit",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4823250/1a8b5a061b0ef0b31d3b76d840e010e6c80fef11/header.jpg?t=1795616738",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Click, topple and profit! Knock over tiny wandering Humans, hire Animals to cause chaos, collect mountains of coins and grow your ridiculous empire. Unlock powerful Rebirth upgrades, defeat Bosses and turn a peaceful board into a glorious mess of falling people.",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação",
+        "Estratégia"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 18.36,
+          "precoOriginal": 24.49,
+          "desconto": 25,
+          "url": "https://store.steampowered.com/app/4823250/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019ed393-cc2d-70b7-ae6d-cf887996b53b"
+    },
+    "steam-4933500": {
+      "appId": 4933500,
+      "nome": "Me and You",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4933500/31fbf2a60a4bacd4061e64c06ff3cd6b108a4ba8/header.jpg?t=1795615744",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Me and You é um jogo de quebra-cabeça cooperativo inspirado no aclamado “Baba Is You”. Crie, mude e quebre as regras de cada nível para resolvê-lo juntos.",
+      "generos": [
+        "Aventura",
+        "Casual",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 28.89,
+          "precoOriginal": 33.99,
+          "desconto": 15,
+          "url": "https://store.steampowered.com/app/4933500/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019f7f65-fe19-7178-8de1-ad943b44691e"
+    },
+    "steam-3075360": {
+      "appId": 3075360,
+      "nome": "PhotonVERSE 2",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3075360/45981305fb0345c7b896e03e2241564b5a2848d8/header.jpg?t=1795615053",
+      "lancamento": "25/nov./2026",
+      "descricaoSteam": "Guide a single photon of light through 70 hand-crafted stages across 7 neon worlds. Bounce, dash, flip gravity and shift between dimensions in a precision platformer that's easy to learn and hard to master, with free updates bringing new worlds, skins and modes.",
       "generos": [
         "Ação",
+        "Casual",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 10.49,
+          "precoOriginal": 10.49,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/3075360/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "0190c23a-637b-712b-92ea-8d1aa0297de3"
+    },
+    "steam-3768760": {
+      "appId": 3768760,
+      "nome": "007 First Light",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/be65391533f072e79699be70ef2d47b7b2ac57ee/header_alt_assets_5.jpg?t=1795019577",
+      "lancamento": "26/mai./2026",
+      "descricaoSteam": "Conquiste o número. 007 First Light é um emocionante jogo de espionagem, ação e aventura desenvolvido pela IO Interactive. Acompanhe a jornada de James Bond, um jovem recruta habilidoso e, às vezes, imprudente, no programa de treinamento do MI6. Conheça a origem do espião mais famoso do mundo.",
+      "generos": [
+        "Ação",
+        "Aventura"
+      ],
+      "origem": [
+        "promocao"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 149.5,
+          "precoOriginal": 299,
+          "desconto": 50,
+          "url": "https://store.steampowered.com/app/3768760/",
+          "fonte": "steam"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 195,
+          "precoOriginal": 390,
+          "desconto": 50,
+          "url": "https://itad.link/019e7a19-0804-7093-ad84-2afc78fd4ba6/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 235.99,
+          "precoOriginal": 235.99,
+          "desconto": 0,
+          "url": "https://itad.link/019c9adc-4bc0-70cd-a11a-aed1de558831/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamebillet",
+          "lojaNome": "GameBillet",
+          "preco": 281.9,
+          "precoOriginal": 299.9,
+          "desconto": 6,
+          "url": "https://itad.link/019af083-5316-7295-ad4e-6d20f5080c97/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 299,
+          "precoOriginal": 299,
+          "desconto": 0,
+          "url": "https://itad.link/019aeaef-25f8-72e0-848b-9a6b4e6b751c/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 299.9,
+          "precoOriginal": 299.9,
+          "desconto": 0,
+          "url": "https://itad.link/019e69cb-1670-71c4-bcf7-d1071789d8cc/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 299.9,
+          "precoOriginal": 299.9,
+          "desconto": 0,
+          "url": "https://itad.link/019ac486-e90d-73fd-98d8-f49e1fafbf70/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet",
+          "lojaNome": "GamesPlanet US",
+          "preco": 369.11,
+          "precoOriginal": 410.12,
+          "desconto": 10,
+          "url": "https://itad.link/019ac12a-11b2-7161-abb2-81218ee82a25/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 410.12,
+          "precoOriginal": 410.12,
+          "desconto": 0,
+          "url": "https://itad.link/019ae520-7b43-7256-abe5-859c6b9c4bcb/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01973cf5-c00c-72ad-bc30-2d24c94799f6"
+    },
+    "steam-1426210": {
+      "appId": 1426210,
+      "nome": "It Takes Two",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header_brazilian.jpg?t=1777395376",
+      "lancamento": "25/mar./2021",
+      "descricaoSteam": "Embarque na jornada mais maluca da sua vida em It Takes Two. Convide um amigo ou amiga para se juntar de graça com o Passe de Amigo* e trabalhem juntos em uma variedade de desafios deliciosamente perturbadores.",
+      "generos": [
+        "Ação",
+        "Aventura"
+      ],
+      "origem": [
+        "promocao"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 39.8,
+          "precoOriginal": 199,
+          "desconto": 80,
+          "url": "https://store.steampowered.com/app/1426210/",
+          "fonte": "steam"
+        },
+        {
+          "loja": "ea",
+          "lojaNome": "EA Store",
+          "preco": 39.8,
+          "precoOriginal": 199,
+          "desconto": 80,
+          "url": "https://itad.link/018d9386-81d4-71ac-b2d5-c351da4cb827/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 199,
+          "precoOriginal": 199,
+          "desconto": 0,
+          "url": "https://itad.link/018d959d-d266-71b4-9f42-9ab7b2743534/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "018d937f-4a27-72c8-9837-8ec5e5e92932"
+    },
+    "steam-1817070": {
+      "appId": 1817070,
+      "nome": "Marvel’s Spider-Man Remastered",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg?t=1787838689",
+      "lancamento": "12/ago./2022",
+      "descricaoSteam": "Em Marvel's Spider-Man Remasterizado, os mundos de Peter Parker e Spider-Man entram em conflito em uma história original cheia de ação. Jogue como um Peter Parker experiente que combate as maiores ameaças do crime e vilões icônicos na Nova York da Marvel.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "Casual"
+      ],
+      "origem": [
+        "promocao"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 84.97,
+          "precoOriginal": 249.9,
+          "desconto": 66,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23250d50cc85/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "steam",
+          "preco": 99.96,
+          "precoOriginal": 249.9,
+          "desconto": 60,
+          "url": "https://store.steampowered.com/app/1817070/",
+          "fonte": "steam"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 99.96,
+          "precoOriginal": 249.9,
+          "desconto": 60,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23250168ce76/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 99.96,
+          "precoOriginal": 249.9,
+          "desconto": 60,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23251911204c/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamebillet",
+          "lojaNome": "GameBillet",
+          "preco": 99.96,
+          "precoOriginal": 249.9,
+          "desconto": 60,
+          "url": "https://itad.link/0195c4ef-5636-7367-bd2a-3a93614cc4ae/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "joybuggy",
+          "lojaNome": "JoyBuggy",
+          "preco": 99.96,
+          "precoOriginal": 249.9,
+          "desconto": 60,
+          "url": "https://itad.link/01a1f922-ebf4-7250-b6de-8ebe089d73cd/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 126.51,
+          "precoOriginal": 351.53,
+          "desconto": 64,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23251374fd1c/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet",
+          "lojaNome": "GamesPlanet US",
+          "preco": 131.2,
+          "precoOriginal": 351.53,
+          "desconto": 63,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23250b185761/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 140.58,
+          "precoOriginal": 351.53,
+          "desconto": 60,
+          "url": "https://itad.link/018d9585-23e0-72e1-9b62-f18f7d4670e1/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "humble",
+          "lojaNome": "Humble Store",
+          "preco": 140.63,
+          "precoOriginal": 351.53,
+          "desconto": 60,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-232504701a9a/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 141.63,
+          "precoOriginal": 141.63,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-232517a4b301/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesload",
+          "lojaNome": "Gamesload",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://itad.link/018d9386-9338-71ed-919d-23251b2d4622/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 249.9,
+          "precoOriginal": 249.9,
+          "desconto": 0,
+          "url": "https://itad.link/018d959d-82dd-7176-aa37-4ec6f5c79276/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "018d937f-6136-71e4-a7d4-088a2e8f58ad"
+    },
+    "steam-2183900": {
+      "appId": 2183900,
+      "nome": "Warhammer 40,000: Space Marine 2",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg?t=1790874369",
+      "lancamento": "9/set./2024",
+      "descricaoSteam": "Encarne a habilidade e a brutalidade sobre-humanas de um Space Marine. Use habilidades letais e armas devastadoras para aniquilar incansáveis enxames Tirânidos. Defenda o Imperium na espetacular ação em terceira pessoa do modo solo ou multijogador.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "RPG"
+      ],
+      "origem": [
+        "promocao"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 49.97,
+          "precoOriginal": 199.9,
+          "desconto": 75,
+          "url": "https://store.steampowered.com/app/2183900/",
+          "fonte": "steam"
+        },
+        {
+          "loja": "xbox",
+          "lojaNome": "Microsoft Store",
+          "preco": 87.48,
+          "precoOriginal": 349.95,
+          "desconto": 75,
+          "url": "https://itad.link/019645ee-5f7b-719a-b041-8c3699cbde22/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "humble",
+          "lojaNome": "Humble Store",
+          "preco": 87.9,
+          "precoOriginal": 351.53,
+          "desconto": 75,
+          "url": "https://itad.link/018fef0e-2f0e-71c8-a95b-a2c4f5d26461/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 96.73,
+          "precoOriginal": 96.73,
+          "desconto": 0,
+          "url": "https://itad.link/019ffb28-9017-7275-ae6e-3bbaded1338a/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 105.65,
+          "precoOriginal": 352.12,
+          "desconto": 70,
+          "url": "https://itad.link/019d8783-8570-71d3-844f-71a687baf504/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 199.9,
+          "precoOriginal": 199.9,
+          "desconto": 0,
+          "url": "https://itad.link/0191d7b2-c111-7138-9e12-7f55f2388301/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 309.34,
+          "precoOriginal": 351.53,
+          "desconto": 12,
+          "url": "https://itad.link/018fc00f-020f-7054-947e-42422a7a5dda/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet",
+          "lojaNome": "GamesPlanet US",
+          "preco": 316.37,
+          "precoOriginal": 351.53,
+          "desconto": 10,
+          "url": "https://itad.link/018fa64e-993d-7022-8379-f16a22a99ed2/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "018d937f-6ed9-71ca-8010-4baa9771ef55"
+    },
+    "steam-2531310": {
+      "appId": 2531310,
+      "nome": "The Last of Us™ Parte II Remastered",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1750959180",
+      "lancamento": "3/abr./2025",
+      "descricaoSteam": "Experimente o vencedor de mais de 300 prêmios de Jogo do Ano, agora no PC. Descubra a história de Ellie e Abby com melhorias gráficas, modos de jogo como a experiência de sobrevivência roguelike Sem Volta e muito mais.",
+      "generos": [
+        "Ação",
+        "Aventura"
+      ],
+      "origem": [
+        "promocao"
+      ],
+      "vistoEm": "2026-11-25T18:57:31.865Z",
+      "ofertas": [
+        {
+          "loja": "nuuvem",
+          "lojaNome": "Nuuvem",
+          "preco": 128.9,
+          "precoOriginal": 199.9,
+          "desconto": 36,
+          "url": "https://itad.link/01948ffa-bfb3-7053-9415-84490f859c7a/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "steam",
+          "preco": 133.93,
+          "precoOriginal": 199.9,
+          "desconto": 33,
+          "url": "https://store.steampowered.com/app/2531310/",
+          "fonte": "steam"
+        },
+        {
+          "loja": "gmg",
+          "lojaNome": "GreenManGaming",
+          "preco": 133.93,
+          "precoOriginal": 199.9,
+          "desconto": 33,
+          "url": "https://itad.link/0193dedd-03b1-7252-bfd6-b44363e40ab4/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamersgate",
+          "lojaNome": "GamersGate",
+          "preco": 133.93,
+          "precoOriginal": 199.9,
+          "desconto": 33,
+          "url": "https://itad.link/01948e9e-8aa6-702f-9741-f71a96194461/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "joybuggy",
+          "lojaNome": "JoyBuggy",
+          "preco": 133.93,
+          "precoOriginal": 199.9,
+          "desconto": 33,
+          "url": "https://itad.link/01a1f922-fdb5-702b-b25c-e63c70f9ca8e/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "allyouplay",
+          "lojaNome": "AllYouPlay",
+          "preco": 158.1,
+          "precoOriginal": 158.1,
+          "desconto": 0,
+          "url": "https://itad.link/019c9adc-4f08-715c-8da8-bb2628292145/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "fanatical",
+          "lojaNome": "Fanatical",
+          "preco": 177.2,
+          "precoOriginal": 292.93,
+          "desconto": 40,
+          "url": "https://itad.link/01948e8c-246e-714b-995b-7501dd90b723/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "gamesplanet",
+          "lojaNome": "GamesPlanet UK",
+          "preco": 190.96,
+          "precoOriginal": 305.59,
+          "desconto": 38,
+          "url": "https://itad.link/01948e7a-1cc6-7210-9a46-5f29e81638cb/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "indiegala",
+          "lojaNome": "IndieGala Store",
+          "preco": 196.24,
+          "precoOriginal": 292.93,
+          "desconto": 33,
+          "url": "https://itad.link/0194a782-f5e6-7326-8779-8443efb5f084/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "humble",
+          "lojaNome": "Humble Store",
+          "preco": 196.24,
+          "precoOriginal": 292.93,
+          "desconto": 33,
+          "url": "https://itad.link/0195059c-68df-715a-9b70-32dc2d59d1c0/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        },
+        {
+          "loja": "epic",
+          "lojaNome": "Epic Game Store",
+          "preco": 199.9,
+          "precoOriginal": 199.9,
+          "desconto": 0,
+          "url": "https://itad.link/0195fcab-2536-712b-9929-bafb192fe82c/?app=a2bv1b",
+          "fonte": "isthereanydeal"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "018d937f-7b20-72f6-a2de-dc2ff64bae95"
+    },
+    "steam-5037200": {
+      "appId": 5037200,
+      "nome": "just volleyball",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5037200/cd1b5a290d15e7379b31dcacc12f1e5b25d37577/header.jpg?t=1794852941",
+      "lancamento": "16/nov./2026",
+      "descricaoSteam": "just volleyball is an online and offline volleyball game with unique yet intuitive controls and deep player expression. take on others in anything from 1v1s &amp; 2v2s to full team-based 6v6 matches. there's no right way to play, it's just volleyball!",
+      "generos": [
+        "Ação",
+        "Casual",
+        "Indie",
+        "Esportes"
+      ],
+      "origem": [
+        "mais-vendidos"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 27.49,
+          "precoOriginal": 27.49,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/5037200/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a006e7-621f-71bb-9424-6b820c70a164"
+    },
+    "steam-5252110": {
+      "appId": 5252110,
+      "nome": "Rally Dynasty",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5252110/4452cba26dede210d0e4c7b793838d626d4f99de/header.jpg?t=1795546078",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Um gerenciador de rali de 1973 até hoje. Comande uma equipe familiar: contrate pilotos, compre carros, escolha os pneus e pague cada conta na moeda da época. Quando um piloto se aposenta ou morre, um herdeiro assume a equipe. Não oficial e sem licença. Jogo em inglês.",
+      "generos": [
+        "Indie",
+        "Corrida",
+        "Simulação",
+        "Esportes",
+        "Estratégia"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 47.99,
+          "precoOriginal": 47.99,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/5252110/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a0f402-d9b3-72cb-a245-61ef08db85ed"
+    },
+    "steam-5516980": {
+      "appId": 5516980,
+      "nome": "Tidy Up: Bricks n Blocks",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5516980/3f3e4572005477fa117fca2306855712b4048e24/header.jpg?t=1795552755",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Thousands of toy bricks are tipped across a cozy toy shop floor. Sort each one onto the shelf for its shape and into the bin for its color, alone or in online co-op for up to 4. Play the 14-room Campaign, or put all 114 shapes on the floor at once in Cozy Mode.",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 11.69,
+          "precoOriginal": 17.99,
+          "desconto": 35,
+          "url": "https://store.steampowered.com/app/5516980/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a188ed-754b-7306-a067-9a02b85e686a"
+    },
+    "steam-5210430": {
+      "appId": 5210430,
+      "nome": "Break the Piñatas",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5210430/5184109f118c5ef4825faefb8738ff7799bf562c/header.jpg?t=1795545257",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Um jogo incremental cujo objetivo é quebrar 1.000 piñatas! Ganhe doces, compre upgrades e desbloqueie habilidades únicas para se tornar o mais forte. Então, vamos parar na última piñata?",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 9.59,
+          "precoOriginal": 11.99,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/5210430/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a09546-a773-7282-b620-87b1bb77456c"
+    },
+    "steam-5534310": {
+      "appId": 5534310,
+      "nome": "Find The Needle: Haystack Hunt",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5534310/50502f86a8fd262a0b142043565729516609164b/header.jpg?t=1795545032",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Cave um palheiro de um milhão de fios de palha, venda o feno e depois construa esteiras e braços robóticos para desmontá-lo. Dez agulhas escondidas dão bônus permanentes. Um jogo aconchegante de fábrica em primeira pessoa.",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 23.36,
+          "precoOriginal": 27.49,
+          "desconto": 15,
+          "url": "https://store.steampowered.com/app/5534310/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a1bd48-c45d-71ca-9048-c95ee41ba855"
+    },
+    "steam-4949800": {
+      "appId": 4949800,
+      "nome": "Click the Faithless",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4949800/7b669ecc33842c5eac954b2c2af183b01a5aba55/header.jpg?t=1795544902",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Um incremental de fantasia sombria sobre castigar hereges escondidos na névoa, resgatar fiéis para o seu culto e juntar fé para melhorar suas runas.",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação",
+        "Estratégia"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 17.99,
+          "precoOriginal": 17.99,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/4949800/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019fcd4a-4fcd-7205-b7fb-b555d94d4a6f"
+    },
+    "steam-3237870": {
+      "appId": 3237870,
+      "nome": "Cloudy with a Chance of Kittens",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3237870/header.jpg?t=1795544711",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Cloudy with a Chance of Kittens is a cozy, Suika-inspired, puzzle game where adorable, dessert-shaped cats fall from the clouds. Unlock power-ups, set up satisfying chains and combos, brave obstacles and cheeky weather twists. Play to relax or compete to leave your pawprint on our leaderboards. 🐈",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação",
+        "Estratégia"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 21.92,
+          "precoOriginal": 25.79,
+          "desconto": 15,
+          "url": "https://store.steampowered.com/app/3237870/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01931dbc-125c-73ef-9dff-6424efb74e34"
+    },
+    "steam-5424370": {
+      "appId": 5424370,
+      "nome": "太阳骑士与邪恶试炼",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5424370/0a9e42cb14d2921d4a1fb83f222400b9fc641470/header.jpg?t=1795543762",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "A single-player action RPG blending pixel art with 3D environments. Explore varied lands, master stamina-based combat, and face altar bosses and twelve demon lords. Forge your build, hatch pet companions, and rest by the campfire on a journey through loss and memory.",
+      "generos": [
+        "Ação",
+        "Aventura",
+        "Casual",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 8.49,
+          "precoOriginal": 8.49,
+          "desconto": 0,
+          "url": "https://store.steampowered.com/app/5424370/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a1642e-87eb-71de-aa76-81a5faafd34d"
+    },
+    "steam-4488990": {
+      "appId": 4488990,
+      "nome": "Carmilla : Crimson Moon",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4488990/fa38aaf6b00a26ed317e7e3421f2ac3c48b4a1ff/header.jpg?t=1795546521",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "A dark yuri horror visual novel inspired by a classic gothic novella. When the enigmatic Carmilla arrives, Laura is swept into a fever dream of obsession. Is this stranger the cure for her loneliness or a herald of corruption? And what caused the mysterious deaths of two girls in the nearby village?",
+      "generos": [
+        "Aventura",
+        "Casual"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 30.59,
+          "precoOriginal": 33.99,
+          "desconto": 10,
+          "url": "https://store.steampowered.com/app/4488990/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019ce5ba-73fe-73e8-9036-7876c940a475"
+    },
+    "steam-5391260": {
+      "appId": 5391260,
+      "nome": "Fish It!: Sort the Aquarium Shop",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5391260/88ac954ab61923bdfd26abe56a7f4425ff88b330/header.jpg?t=1795545602",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Fish It!: Sort the Aquarium Shop é um jogo aconchegante onde você devolve mais de 4.100 peixes aos aquários. Encha os tanques, desbloqueie habilidades e aproveite para transformar o caos em uma loja limpa e organizada.",
+      "generos": [
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 19.96,
+          "precoOriginal": 23.49,
+          "desconto": 15,
+          "url": "https://store.steampowered.com/app/5391260/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a12b6d-1511-7211-b785-004781453e79"
+    },
+    "steam-2387740": {
+      "appId": 2387740,
+      "nome": "Light of Atlantis",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2387740/c1fc03a62487c0ab14fbb6b2fca5189c4a004790/header.jpg?t=1795543398",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Explore the depths of the ocean in this 2D-Puzzle-Metroidvania! Control the water levels and switch between various robots to solve the ancient puzzles of Atlantis.",
+      "generos": [
+        "Aventura",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 51.19,
+          "precoOriginal": 63.99,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/2387740/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "018d937f-6feb-70f7-bfdd-48ec0f0c9505"
+    },
+    "steam-4912110": {
+      "appId": 4912110,
+      "nome": "Mayhem Duck Simulator",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4912110/1fd5cc4110115eaefd341b7933d06a2f44bcd321/header.jpg?t=1795543351",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Um simulador de patinhos de borracha baseado em física, relaxante e caótico ao mesmo tempo! Liberte patinhos com superpoderes, cause o caos com fogo de dragão e raios de OVNI ou só relaxe e assista. Criado por um pai, com ideias dos filhos de 4 e 5 anos. 🦆",
+      "generos": [
+        "Ação",
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 6.74,
+          "precoOriginal": 7.49,
+          "desconto": 10,
+          "url": "https://store.steampowered.com/app/4912110/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019f375a-adc8-7381-90d8-962aa8ae74fd"
+    },
+    "steam-4078600": {
+      "appId": 4078600,
+      "nome": "PiPu Party",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078600/1ee4ce8cc495c5443a4804fec4e3d8e50a0bcd5b/header.jpg?t=1795611678",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "PiPu Party é um jogo caótico de ação e quebra-cabeças. Compartilhe uma bolsa de símbolos mágicos para remodelar toda a fase em tempo real. Não existe uma única forma “certa” de jogar. Quebra-cabeças solo, cooperativo para 2 e disputas caóticas para 2–8 jogadores.",
+      "generos": [
+        "Ação",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 23.36,
+          "precoOriginal": 27.49,
+          "desconto": 15,
+          "url": "https://store.steampowered.com/app/4078600/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "0199e622-4c09-73f6-a694-06e3f1dced90"
+    },
+    "steam-4737240": {
+      "appId": 4737240,
+      "nome": "Stevedore",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4737240/45ac96388797bd96b8b013c4bf33135ff5ccaa23/header.jpg?t=1795543211",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "No more job in the city. Managed to find one in the middle of nowhere. Stevedore. Crane worker. It feels off, but you need money. Stevedore is a short industrial horror game where you take a role of a crane worker. Lift containers, load ships and complete your contract. What could go wrong?",
+      "generos": [
         "Aventura",
         "Indie",
         "Simulação"
@@ -3450,19 +3281,158 @@
       "origem": [
         "lancamento"
       ],
-      "vistoEm": "2026-11-23T20:50:01.070Z",
+      "vistoEm": "2026-11-24T19:54:05.572Z",
       "ofertas": [
         {
           "loja": "steam",
-          "preco": 50.04,
-          "precoOriginal": 50.04,
-          "desconto": 0,
-          "url": "https://store.steampowered.com/app/5542020/",
+          "preco": 6.36,
+          "precoOriginal": 7.95,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/4737240/",
           "fonte": "steam"
         }
       ],
-      "atualizadoEm": "2026-11-24T19:54:05.572Z",
-      "itadId": "01a1a7d3-a04c-73a6-a819-d645525564b8"
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019ed084-c767-70f0-8f46-3002036d9b26"
+    },
+    "steam-5219370": {
+      "appId": 5219370,
+      "nome": "Wreck the Deck",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5219370/a09a30865f6967f035b33863b96394223cfc29d2/header.jpg?t=1795543129",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Take control of a powerful pirate cannon and turn everything on deck into flying debris! Shoot cannonballs, destroy objects, trigger devastating shockwaves, and collect cash to unlock powerful upgrades. The more you wreck, the stronger your cannon becomes.",
+      "generos": [
+        "Casual",
+        "Indie"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 11.59,
+          "precoOriginal": 14.49,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/5219370/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a0a67e-dd34-7176-aa21-4b0f46718c29"
+    },
+    "steam-5472080": {
+      "appId": 5472080,
+      "nome": "SHRED A BILLION",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5472080/4584864fda356b4d391b69cc2c0ea73bc286db3d/header.jpg?t=1795542942",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "SHRED A BILLION é um jogo incremental em primeira pessoa sobre uma montanha de dinheiro! Pegue notas com as mãos, recolha com um balde, suba de nível e alimente o triturador com um bilhão de dólares. Só faltam 999.999.999 notas!",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 19.59,
+          "precoOriginal": 24.49,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/5472080/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a162ad-efa3-730a-aa9a-9e56d7da2119"
+    },
+    "steam-4748830": {
+      "appId": 4748830,
+      "nome": "D.A.M.N!",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4748830/ae1e414c3959c72157ed5291b55dc3834a1b34a7/header.jpg?t=1795542938",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Outplay your friends with cards instead of out-rolling them! In a cheerful race to the finish: help your partner, get in your rivals' way, combo, knock out, freeze, use ults... Collect awards, compare stats. Solo, in a team, with bots, hot-seat, cross-play online or offline — no limits!",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Estratégia"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 41.64,
+          "precoOriginal": 48.99,
+          "desconto": 15,
+          "url": "https://store.steampowered.com/app/4748830/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "018d937f-228a-73a1-aa88-5a7a1caf3e6c"
+    },
+    "steam-5527800": {
+      "appId": 5527800,
+      "nome": "No Asteroids",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5527800/d62c870790fcce767edd856ce3e7e6df2a9b1395/header.jpg?t=1795542925",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Um asteroide vai atingir a Terra em 90 dias. O governo abriu uma licitação, e apareceu um único mineiro com sua picareta. Não quer dinheiro: o asteroide se paga sozinho. Cave 5.000.000 m³ sozinho ou em cooperativo online para até 8. Venda o minério e compre canhões que atiram enquanto você cava.",
+      "generos": [
+        "Casual",
+        "Indie",
+        "Simulação"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 21.99,
+          "precoOriginal": 27.49,
+          "desconto": 20,
+          "url": "https://store.steampowered.com/app/5527800/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "01a193fa-7ec8-710f-8dd8-cec7becd7bce"
+    },
+    "steam-4685950": {
+      "appId": 4685950,
+      "nome": "Incremental Ants",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4685950/7d3ea699009fb4ce9c48c8fa9e2f54e2402c8bd3/header.jpg?t=1795542350",
+      "lancamento": "24/nov./2026",
+      "descricaoSteam": "Hatch ants. Explore parks. Steal picnic baskets. Incremental Ants is a game about growing an ant colony. Gather food using a variety of ants, upgrade their skills, unlock new species, and expand into territory where no ant has gone before.",
+      "generos": [
+        "Casual",
+        "Simulação",
+        "Estratégia"
+      ],
+      "origem": [
+        "lancamento"
+      ],
+      "vistoEm": "2026-11-24T19:54:05.572Z",
+      "ofertas": [
+        {
+          "loja": "steam",
+          "preco": 12.31,
+          "precoOriginal": 14.49,
+          "desconto": 15,
+          "url": "https://store.steampowered.com/app/4685950/",
+          "fonte": "steam"
+        }
+      ],
+      "atualizadoEm": "2026-11-25T18:57:31.865Z",
+      "itadId": "019e8dd6-b4ea-7272-a921-5538587b33c5"
     }
   },
   "promocoesSteam": [
@@ -3497,6 +3467,16 @@
       "url": "https://store.steampowered.com/app/1222140/"
     },
     {
+      "appId": 1086940,
+      "nome": "Baldur's Gate 3",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+      "preco": 139.99,
+      "precoOriginal": 199.99,
+      "desconto": 30,
+      "terminaEm": "2026-11-30T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/1086940/"
+    },
+    {
       "appId": 3768760,
       "nome": "007 First Light",
       "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/be65391533f072e79699be70ef2d47b7b2ac57ee/header_alt_assets_5.jpg?t=1795019577",
@@ -3507,14 +3487,14 @@
       "url": "https://store.steampowered.com/app/3768760/"
     },
     {
-      "appId": 1086940,
-      "nome": "Baldur's Gate 3",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
-      "preco": 139.99,
-      "precoOriginal": 199.99,
-      "desconto": 30,
-      "terminaEm": "2026-11-30T18:00:00.000Z",
-      "url": "https://store.steampowered.com/app/1086940/"
+      "appId": 1593500,
+      "nome": "God of War",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1763059412",
+      "preco": 79.96,
+      "precoOriginal": 199.9,
+      "desconto": 60,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/1593500/"
     },
     {
       "appId": 1426210,
@@ -3537,34 +3517,24 @@
       "url": "https://store.steampowered.com/app/1817070/"
     },
     {
-      "appId": 990080,
-      "nome": "Hogwarts Legacy",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg?t=1790708992",
-      "preco": 24.99,
-      "precoOriginal": 249.99,
-      "desconto": 90,
-      "terminaEm": "2026-12-07T18:00:00.000Z",
-      "url": "https://store.steampowered.com/app/990080/"
-    },
-    {
-      "appId": 1593500,
-      "nome": "God of War",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1763059412",
-      "preco": 79.96,
+      "appId": 2183900,
+      "nome": "Warhammer 40,000: Space Marine 2",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/header.jpg?t=1790874369",
+      "preco": 49.97,
       "precoOriginal": 199.9,
-      "desconto": 60,
-      "terminaEm": "2026-12-01T18:00:00.000Z",
-      "url": "https://store.steampowered.com/app/1593500/"
+      "desconto": 75,
+      "terminaEm": "2026-12-04T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/2183900/"
     },
     {
-      "appId": 570940,
-      "nome": "DARK SOULS™: REMASTERED",
-      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570940/header.jpg?t=1778518110",
-      "preco": 77.45,
-      "precoOriginal": 154.9,
-      "desconto": 50,
-      "terminaEm": "2026-12-07T18:00:00.000Z",
-      "url": "https://store.steampowered.com/app/570940/"
+      "appId": 2531310,
+      "nome": "The Last of Us™ Parte II Remastered",
+      "capa": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2531310/header.jpg?t=1750959180",
+      "preco": 133.93,
+      "precoOriginal": 199.9,
+      "desconto": 33,
+      "terminaEm": "2026-12-01T18:00:00.000Z",
+      "url": "https://store.steampowered.com/app/2531310/"
     }
   ],
   "erros": []
